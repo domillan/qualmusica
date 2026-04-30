@@ -285,7 +285,7 @@
             font-size: 0.95rem;
             line-height: 1.6;
             color: var(--text-main);
-            white-space: pre-wrap; /* Mantém as quebras de linha */
+            white-space: pre-wrap;
             animation: slideUp 0.3s ease-out forwards;
         }
 
@@ -419,6 +419,16 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        
+        /* Animação suave para exibir o botão da letra quando ela carregar */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-out forwards;
+        }
     </style>
 </head>
 <body>
@@ -527,7 +537,7 @@
             </div>
 
             <div class="main-actions" id="main-actions">
-                <button id="btn-show-lyrics" class="secondary-btn" style="display: none;" onclick="toggleLyrics()">Conferir Letra</button>
+                <button id="btn-show-lyrics" class="secondary-btn fade-in" style="display: none;" onclick="toggleLyrics()">Conferir Letra</button>
                 <button id="btn-show-answer" class="primary-btn" onclick="showAnswer()">Ver Resposta</button>
             </div>
 
@@ -654,28 +664,39 @@
             return null;
         }
 
-        // Busca letras na API do lrclib.net
-        async function searchLyrics(song) {
+        // Busca letras em segundo plano de forma assíncrona com timeout de 10s
+        async function fetchAndDisplayLyrics(song) {
             try {
-                // Remove partes entre parênteses para aumentar a precisão na busca
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+
                 let cleanTitle = song.title.replace(/\(.*\)/g, '').trim();
                 const url = `https://lrclib.net/api/search?track_name=${encodeURIComponent(cleanTitle)}&artist_name=${encodeURIComponent(song.artist)}`;
                 
-                const res = await fetch(url);
-                if (!res.ok) return null;
+                const res = await fetch(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
+                
+                if (!res.ok) return;
                 
                 const data = await res.json();
                 if (data && data.length > 0) {
-                    // Pega o primeiro resultado que tenha plainLyrics disponível
                     const trackWithLyrics = data.find(t => t.plainLyrics);
-                    if (trackWithLyrics) {
-                        return trackWithLyrics.plainLyrics;
+                    
+                    // Garante que o usuário ainda está na mesma música e a tela de resposta não abriu
+                    if (trackWithLyrics && currentSong && currentSong.id === song.id && currentSong.origin === song.origin) {
+                        currentSong.lyrics = trackWithLyrics.plainLyrics;
+                        lyricsContainer.textContent = currentSong.lyrics;
+                        
+                        // Só exibe o botão se a tela de resposta ainda não estiver visível
+                        if (answerSection.style.display !== 'block') {
+                            btnShowLyrics.style.display = 'block';
+                        }
                     }
                 }
             } catch (e) {
-                console.warn("Erro ao buscar letra da música:", e);
+                // Erro silencioso (timeout ou falha na rede), jogo segue normalmente
+                console.warn("Busca de letra abortada (timeout) ou falhou:", e);
             }
-            return null;
         }
 
         async function initGame() {
@@ -757,10 +778,11 @@
             currentSong.previewUrl = itunesData.previewUrl;
             currentSong.coverUrl = itunesData.artworkUrl100 ? itunesData.artworkUrl100.replace('100x100', '400x400') : '';
 
-            // Tenta buscar a letra simultaneamente e anexa à música atual
-            currentSong.lyrics = await searchLyrics(currentSong);
-
+            // Configura e exibe a interface principal sem esperar pela letra
             setupGameUI();
+
+            // Inicia a busca da letra em segundo plano
+            fetchAndDisplayLyrics(currentSong);
         }
 
         function setupGameUI() {
@@ -783,12 +805,6 @@
             audioEl.className = 'audio-player';
             audioContainer.appendChild(audioEl);
 
-            // Verifica se achou letra para habilitar o botão
-            if (currentSong.lyrics) {
-                btnShowLyrics.style.display = 'block';
-                lyricsContainer.textContent = currentSong.lyrics;
-            }
-
             // Resposta Oculta
             document.getElementById('answer-cover').src = currentSong.coverUrl || 'https://via.placeholder.com/400x400?text=Sem+Capa';
             document.getElementById('answer-title').textContent = currentSong.title;
@@ -810,9 +826,9 @@
         }
 
         function showAnswer() {
-            mainActions.style.display = 'none'; // Esconde os dois botões (Ver resposta e Letra)
+            mainActions.style.display = 'none'; // Esconde os botões principais
             lyricsContainer.style.display = 'none'; // Esconde a letra se estiver aberta
-            answerSection.style.display = 'block';
+            answerSection.style.display = 'block'; // Mostra a resposta
         }
 
         function registerSongSession(song) {
