@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Música?</title>
+    <style>
+        :root {
+            --primary-color: #2b2d42;
+            --secondary-color: #8d99ae;
+            --accent-color: #ef233c;
+            --success-color: #2a9d8f;
+            --background: #edf2f4;
+            --text-color: #2b2d42;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .header-buttons button {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 0.5rem 1rem;
+            margin-left: 0.5rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .header-buttons button:hover {
+            background-color: white;
+            color: var(--primary-color);
+        }
+
+        main {
+            flex-grow: 1;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        /* Setup Screen */
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group h3 {
+            margin-top: 0;
+            border-bottom: 2px solid var(--background);
+            padding-bottom: 0.5rem;
+        }
+
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1px));
+            gap: 1rem;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+
+        button.primary-btn {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+        }
+
+        button.primary-btn:hover {
+            background-color: #d90429;
+        }
+
+        /* Game Screen */
+        #game-screen {
+            display: none;
+            text-align: center;
+        }
+
+        .song-clues {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .audio-player {
+            margin: 2rem 0;
+            width: 100%;
+        }
+
+        .answer-section {
+            display: none;
+            margin-top: 2rem;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cover-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            object-fit: cover;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn-correct {
+            background-color: var(--success-color);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn-wrong {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* History */
+        .history-section {
+            background: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .history-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .history-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--background);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .history-list li:last-child {
+            border-bottom: none;
+        }
+
+        .tag {
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: white;
+            font-weight: bold;
+        }
+        .tag.br { background-color: #009c3b; }
+        .tag.int { background-color: #003399; }
+        .tag.acertou { background-color: var(--success-color); }
+        .tag.errou { background-color: var(--accent-color); }
+
+        .loader {
+            display: none;
+            margin: 2rem auto;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--accent-color);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎶 Qual é a Música?</h1>
+        <div class="header-buttons">
+            <button onclick="resetGame()">Reiniciar Jogo</button>
+            <button onclick="clearSession()">Apagar Sessão</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Tela de Configuração -->
+        <div id="setup-screen" class="card">
+            <h2>Configurações do Jogo</h2>
+            
+            <div class="filter-group">
+                <h3>Origem</h3>
+                <div class="checkbox-grid">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="origin-br" value="br" checked> Nacional
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="origin-int" value="int" checked> Internacional
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Décadas</h3>
+                <div class="checkbox-grid">
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="70" checked> Anos 70</label>
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="80" checked> Anos 80</label>
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="90" checked> Anos 90</label>
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="00" checked> Anos 2000</label>
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="10" checked> Anos 2010</label>
+                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="20" checked> Anos 2020</label>
+                </div>
+            </div>
+
+            <button class="primary-btn" onclick="initGame()">Iniciar Jogo</button>
+        </div>
+
+        <div id="loader" class="loader"></div>
+
+        <!-- Tela do Jogo -->
+        <div id="game-screen" class="card">
+            <div class="song-clues">
+                <span id="clue-year">Ano: --</span>
+                <span id="clue-genre">Estilo: --</span>
+                <span id="clue-streams">Streams: --</span>
+            </div>
+
+            <div id="audio-container">
+                <!-- O elemento audio será injetado aqui -->
+            </div>
+
+            <button id="btn-show-answer" class="primary-btn" style="margin-top: 1rem;" onclick="showAnswer()">Ver Resposta</button>
+
+            <div id="answer-section" class="answer-section">
+                <img id="answer-cover" class="cover-img" src="" alt="Capa da música">
+                <h2 id="answer-title">Título da Música</h2>
+                <h3 id="answer-artist">Artista</h3>
+                
+                <div class="action-buttons">
+                    <button class="btn-correct" onclick="registerResult(true)">Acertou</button>
+                    <button class="btn-wrong" onclick="registerResult(false)">Errou</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Histórico -->
+        <div class="history-section">
+            <h3>Histórico da Partida</h3>
+            <ul id="history-list" class="history-list">
+                <!-- Histórico será injetado aqui -->
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        // Estado do Jogo
+        let playlist = [];
+        let currentSong = null;
+        let gameHistory = [];
+        
+        // Elementos da UI
+        const setupScreen = document.getElementById('setup-screen');
+        const gameScreen = document.getElementById('game-screen');
+        const loader = document.getElementById('loader');
+        const answerSection = document.getElementById('answer-section');
+        const btnShowAnswer = document.getElementById('btn-show-answer');
+
+        // Inicialização e Leitura de JSONs
+        async function fetchDatabases() {
+            try {
+                // Se os arquivos não existirem no ambiente local durante o teste, 
+                // eles precisam estar na mesma raiz.
+                const resBr = await fetch('brasil600.json').catch(() => null);
+                const resInt = await fetch('internacional600.json').catch(() => null);
+                
+                let brData = resBr && resBr.ok ? await resBr.json() : [];
+                let intData = resInt && resInt.ok ? await resInt.json() : [];
+
+                // Adiciona flag de origem
+                brData = brData.map(song => ({ ...song, origin: 'br' }));
+                intData = intData.map(song => ({ ...song, origin: 'int' }));
+
+                return { brData, intData };
+            } catch (error) {
+                console.error("Erro ao carregar arquivos JSON:", error);
+                alert("Não foi possível carregar as listas de música. Certifique-se de que brasil600.json e internacional600.json existem.");
+                return { brData: [], intData: [] };
+            }
+        }
+
+        // Verifica a década da música
+        function matchDecade(year, selectedDecades) {
+            const y = parseInt(year);
+            if (isNaN(y)) return false;
+            
+            for (let dec of selectedDecades) {
+                const decadeStart = dec === '00' ? 2000 : (dec === '10' ? 2010 : (dec === '20' ? 2020 : 1900 + parseInt(dec)));
+                if (y >= decadeStart && y < decadeStart + 10) return true;
+            }
+            return false;
+        }
+
+        // Embaralha o array (Fisher-Yates)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Busca na API do iTunes seguindo os requisitos
+        async function searchItunes(song) {
+            // Busca 1: Title + Artist (Limit 1)
+            const term1 = encodeURIComponent(`${song.title} ${song.artist}`);
+            try {
+                const res1 = await fetch(`https://itunes.apple.com/search?term=${term1}&entity=song&limit=1`);
+                const data1 = await res1.json();
+                
+                if (data1.results.length > 0) {
+                    const track = data1.results[0];
+                    const isTrackRemixOrCover = /cover|remix/i.test(track.trackName);
+                    const isOriginalRemix = /remix/i.test(song.title);
+                    
+                    if (!isTrackRemixOrCover || isOriginalRemix) {
+                        return track;
+                    }
+                }
+            } catch (e) {
+                console.warn("Erro na primeira busca do iTunes:", e);
+            }
+
+            // Busca 2: Title (Limit 5) com verificação de artista similar
+            const term2 = encodeURIComponent(song.title);
+            try {
+                const res2 = await fetch(`https://itunes.apple.com/search?term=${term2}&entity=song&limit=5`);
+                const data2 = await res2.json();
+                
+                for (let track of data2.results) {
+                    const artistA = track.artistName.toLowerCase().trim();
+                    const artistB = song.artist.toLowerCase().trim();
+                    
+                    // Verifica se um nome contém o outro (match similar)
+                    if (artistA.includes(artistB) || artistB.includes(artistA)) {
+                        const isTrackRemixOrCover = /cover|remix/i.test(track.trackName);
+                        const isOriginalRemix = /remix/i.test(song.title);
+                        
+                        if (!isTrackRemixOrCover || isOriginalRemix) {
+                            return track;
+                        }
+                    }
+                }
+            } catch (e) {
+                console.warn("Erro na segunda busca do iTunes:", e);
+            }
+
+            return null; // Não encontrou a música que atenda aos critérios
+        }
+
+        // Inicializa o jogo e filtra a playlist
+        async function initGame() {
+            const useBr = document.getElementById('origin-br').checked;
+            const useInt = document.getElementById('origin-int').checked;
+            
+            const decadeCheckboxes = document.querySelectorAll('.decade-filter:checked');
+            const selectedDecades = Array.from(decadeCheckboxes).map(cb => cb.value);
+
+            if (!useBr && !useInt) {
+                alert("Selecione pelo menos uma origem (Nacional ou Internacional).");
+                return;
+            }
+            if (selectedDecades.length === 0) {
+                alert("Selecione pelo menos uma década.");
+                return;
+            }
+
+            setupScreen.style.display = 'none';
+            loader.style.display = 'block';
+
+            const { brData, intData } = await fetchDatabases();
+            let combinedData = [];
+            
+            if (useBr) combinedData = combinedData.concat(brData);
+            if (useInt) combinedData = combinedData.concat(intData);
+
+            // Carrega IDs já tocados da Session
+            const playedIds = JSON.parse(sessionStorage.getItem('playedSongs') || '[]');
+
+            // Filtra por década e remove os que já foram vistos na session
+            let filteredData = combinedData.filter(song => {
+                const isPlayed = playedIds.includes(song.id);
+                const isCorrectDecade = matchDecade(song.year, selectedDecades);
+                return !isPlayed && isCorrectDecade;
+            });
+
+            if (filteredData.length === 0) {
+                alert("Nenhuma música nova encontrada com esses filtros! Reinicie a sessão ou mude os filtros.");
+                resetGame();
+                return;
+            }
+
+            playlist = shuffleArray(filteredData);
+            nextSong();
+        }
+
+        // Carrega a próxima música e tenta buscar na API
+        async function nextSong() {
+            if (playlist.length === 0) {
+                alert("As músicas da sua seleção acabaram!");
+                resetGame();
+                return;
+            }
+
+            loader.style.display = 'block';
+            gameScreen.style.display = 'none';
+            answerSection.style.display = 'none';
+            btnShowAnswer.style.display = 'block';
+            document.getElementById('audio-container').innerHTML = ''; // Limpa o áudio anterior
+
+            currentSong = playlist.pop();
+            
+            const itunesData = await searchItunes(currentSong);
+
+            if (!itunesData || !itunesData.previewUrl) {
+                // Se não encontrou ou não tem preview, pula pra próxima
+                console.log(`Música não encontrada no iTunes: ${currentSong.title} - Pular.`);
+                nextSong();
+                return;
+            }
+
+            // Anexa os dados do itunes na música atual
+            currentSong.previewUrl = itunesData.previewUrl;
+            // Usa artwork100x100 ou maior, trocando a string
+            currentSong.coverUrl = itunesData.artworkUrl100 ? itunesData.artworkUrl100.replace('100x100', '400x400') : '';
+
+            setupGameUI();
+        }
+
+        function setupGameUI() {
+            loader.style.display = 'none';
+            gameScreen.style.display = 'block';
+
+            // Povoa as pistas
+            document.getElementById('clue-year').textContent = `Ano: ${currentSong.year || 'N/D'}`;
+            document.getElementById('clue-genre').textContent = `Estilo: ${currentSong.genre || 'N/D'}`;
+            // Formata streams (ex: 1000000 -> 1.000.000)
+            const formattedStreams = currentSong.streams ? Number(currentSong.streams).toLocaleString('pt-BR') : 'N/D';
+            document.getElementById('clue-streams').textContent = `Streams: ${formattedStreams}`;
+
+            // Cria e injeta o elemento de áudio
+            const audioContainer = document.getElementById('audio-container');
+            const audioEl = document.createElement('audio');
+            audioEl.src = currentSong.previewUrl;
+            audioEl.controls = true;
+            audioEl.autoplay = true; // Auto-play permitido já que o usuário interagiu com "Iniciar"
+            audioEl.className = 'audio-player';
+            audioContainer.appendChild(audioEl);
+
+            // Reseta a área de resposta
+            document.getElementById('answer-cover').src = currentSong.coverUrl || 'https://via.placeholder.com/400x400?text=Sem+Capa';
+            document.getElementById('answer-title').textContent = currentSong.title;
+            document.getElementById('answer-artist').textContent = currentSong.artist;
+            
+            // Registra a música no SessionStorage agora que ela foi exibida/tocada
+            registerSongSession(currentSong.id);
+        }
+
+        function showAnswer() {
+            btnShowAnswer.style.display = 'none';
+            answerSection.style.display = 'block';
+        }
+
+        function registerSongSession(id) {
+            let playedIds = JSON.parse(sessionStorage.getItem('playedSongs') || '[]');
+            if (!playedIds.includes(id)) {
+                playedIds.push(id);
+                sessionStorage.setItem('playedSongs', JSON.stringify(playedIds));
+            }
+        }
+
+        function registerResult(correct) {
+            // Salva no histórico local
+            gameHistory.unshift({
+                title: currentSong.title,
+                artist: currentSong.artist,
+                year: currentSong.year,
+                origin: currentSong.origin,
+                correct: correct
+            });
+            renderHistory();
+            
+            // Vai para próxima
+            nextSong();
+        }
+
+        function renderHistory() {
+            const list = document.getElementById('history-list');
+            list.innerHTML = '';
+
+            gameHistory.forEach(item => {
+                const li = document.createElement('li');
+                
+                const originTag = item.origin === 'br' ? '<span class="tag br">BR</span>' : '<span class="tag int">INT</span>';
+                const resultTag = item.correct ? '<span class="tag acertou">Acertou</span>' : '<span class="tag errou">Errou</span>';
+
+                li.innerHTML = `
+                    <div>
+                        ${originTag} <strong>${item.title}</strong> - ${item.artist} (${item.year || '-'})
+                    </div>
+                    <div>
+                        ${resultTag}
+                    </div>
+                `;
+                list.appendChild(li);
+            });
+        }
+
+        function resetGame() {
+            // Apaga histórico de tela, volta pro menu, mantém session intacta
+            gameHistory = [];
+            renderHistory();
+            
+            gameScreen.style.display = 'none';
+            loader.style.display = 'none';
+            setupScreen.style.display = 'block';
+            
+            // Pausa música se houver
+            const audioContainer = document.getElementById('audio-container');
+            if (audioContainer.querySelector('audio')) {
+                audioContainer.querySelector('audio').pause();
+            }
+        }
+
+        function clearSession() {
+            if (confirm('Tem certeza que deseja apagar o progresso da sessão? Músicas tocadas voltarão a aparecer.')) {
+                sessionStorage.removeItem('playedSongs');
+                resetGame();
+            }
+        }
+    </script>
+</body>
+</html>

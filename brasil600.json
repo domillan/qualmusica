@@ -1,0 +1,4802 @@
+[
+  {
+    "id": 1,
+    "title": "Ovelha Negra",
+    "artist": "Rita Lee",
+    "year": 1975,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 2,
+    "title": "Moça",
+    "artist": "Wando",
+    "year": 1975,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 3,
+    "title": "Além do Horizonte",
+    "artist": "Roberto Carlos",
+    "year": 1975,
+    "streams": "62 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 4,
+    "title": "O Mar Serenou",
+    "artist": "Clara Nunes",
+    "year": 1975,
+    "streams": "28 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 5,
+    "title": "Gostava Tanto de Você",
+    "artist": "Tim Maia",
+    "year": 1975,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 6,
+    "title": "Azul",
+    "artist": "Gal Costa",
+    "year": 1975,
+    "streams": "23 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 7,
+    "title": "Pavão Mysteriozo",
+    "artist": "Ednardo",
+    "year": 1975,
+    "streams": "14 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 8,
+    "title": "Na Rua, Na Chuva, Na Fazenda",
+    "artist": "Hyldon",
+    "year": 1975,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 9,
+    "title": "Charlie Brown",
+    "artist": "Benito Di Paula",
+    "year": 1975,
+    "streams": "25 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 10,
+    "title": "Filho da Bahia",
+    "artist": "Fafá de Belém",
+    "year": 1975,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 11,
+    "title": "Poxa",
+    "artist": "Gilson de Souza",
+    "year": 1975,
+    "streams": "19 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 12,
+    "title": "Secretária da Beira do Cais",
+    "artist": "Cesar Sampaio",
+    "year": 1975,
+    "streams": "11 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 13,
+    "title": "Argumento",
+    "artist": "Paulinho da Viola",
+    "year": 1975,
+    "streams": "15 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 14,
+    "title": "Você Não Passa de Uma Mulher",
+    "artist": "Martinho da Vila",
+    "year": 1975,
+    "streams": "10 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 15,
+    "title": "O Ouro e a Madeira",
+    "artist": "Conjunto Nosso Samba",
+    "year": 1975,
+    "streams": "8 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 16,
+    "title": "Na Sombra de Uma Árvore",
+    "artist": "Hyldon",
+    "year": 1975,
+    "streams": "24 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 17,
+    "title": "Nó na Madeira",
+    "artist": "João Nogueira",
+    "year": 1975,
+    "streams": "13 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 18,
+    "title": "Beijo Partido",
+    "artist": "Milton Nascimento",
+    "year": 1975,
+    "streams": "9 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 19,
+    "title": "Agora Só Falta Você",
+    "artist": "Rita Lee",
+    "year": 1975,
+    "streams": "32 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 20,
+    "title": "Juízo Final",
+    "artist": "Clara Nunes",
+    "year": 1975,
+    "streams": "21 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 21,
+    "title": "Enamorada do Sambão",
+    "artist": "Beth Carvalho",
+    "year": 1975,
+    "streams": "7 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 22,
+    "title": "Modinha Para Gabriela",
+    "artist": "Gal Costa",
+    "year": 1975,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 23,
+    "title": "Emoriô",
+    "artist": "Fafá de Belém",
+    "year": 1975,
+    "streams": "14 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 24,
+    "title": "Dentro de Mim Mora Um Anjo",
+    "artist": "Sueli Costa",
+    "year": 1975,
+    "streams": "6 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 25,
+    "title": "Linha do Horizonte",
+    "artist": "Azymuth",
+    "year": 1975,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 26,
+    "title": "Terceiro Ato",
+    "artist": "Antonio Carlos & Jocafi",
+    "year": 1975,
+    "streams": "5 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 27,
+    "title": "A Sombra do Teu Sorriso",
+    "artist": "Moacyr Franco",
+    "year": 1975,
+    "streams": "4 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 28,
+    "title": "As Dores do Mundo",
+    "artist": "Hyldon",
+    "year": 1975,
+    "streams": "18 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 29,
+    "title": "Cuca Legal (Há Há Há)",
+    "artist": "Chico Batera",
+    "year": 1975,
+    "streams": "3 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 30,
+    "title": "Mulher Brasileira",
+    "artist": "Benito Di Paula",
+    "year": 1975,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 31,
+    "title": "Folia de Reis",
+    "artist": "Baiano & Os Novos Caetanos",
+    "year": 1975,
+    "streams": "5 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 32,
+    "title": "Não Deixe o Samba Morrer",
+    "artist": "Alcione",
+    "year": 1975,
+    "streams": "82 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 33,
+    "title": "A Rita",
+    "artist": "Chico Buarque",
+    "year": 1975,
+    "streams": "41 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 34,
+    "title": "Fé Cega, Faca Amolada",
+    "artist": "Milton Nascimento",
+    "year": 1975,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 35,
+    "title": "Pecado Capital",
+    "artist": "Paulinho da Viola",
+    "year": 1975,
+    "streams": "12 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 36,
+    "title": "Como Nossos Pais",
+    "artist": "Elis Regina",
+    "year": 1976,
+    "streams": "54 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 37,
+    "title": "Flor de Lis",
+    "artist": "Djavan",
+    "year": 1976,
+    "streams": "72 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 38,
+    "title": "Meu Mundo e Nada Mais",
+    "artist": "Guilherme Arantes",
+    "year": 1976,
+    "streams": "41 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 39,
+    "title": "Preciso Me Encontrar",
+    "artist": "Cartola",
+    "year": 1976,
+    "streams": "58 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 40,
+    "title": "Juventude Transviada",
+    "artist": "Luiz Melodia",
+    "year": 1976,
+    "streams": "32 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 41,
+    "title": "Fato Consumado",
+    "artist": "Djavan",
+    "year": 1976,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 42,
+    "title": "As Rosas Não Falam",
+    "artist": "Cartola",
+    "year": 1976,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 43,
+    "title": "O Mundo é um Moinho",
+    "artist": "Cartola",
+    "year": 1976,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 44,
+    "title": "A Lua e Eu",
+    "artist": "Cassiano",
+    "year": 1976,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 45,
+    "title": "Amigo",
+    "artist": "Roberto Carlos",
+    "year": 1977,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 46,
+    "title": "João e Maria",
+    "artist": "Chico Buarque & Nara Leão",
+    "year": 1977,
+    "streams": "39 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 47,
+    "title": "Tigresa",
+    "artist": "Gal Costa",
+    "year": 1977,
+    "streams": "18 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 48,
+    "title": "Romaria",
+    "artist": "Elis Regina",
+    "year": 1977,
+    "streams": "22 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 49,
+    "title": "Maria Fumaça",
+    "artist": "Banda Black Rio",
+    "year": 1977,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 50,
+    "title": "Sossego",
+    "artist": "Tim Maia",
+    "year": 1978,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 51,
+    "title": "Chão de Giz",
+    "artist": "Zé Ramalho",
+    "year": 1978,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 52,
+    "title": "Cálice",
+    "artist": "Chico Buarque & Milton Nascimento",
+    "year": 1978,
+    "streams": "34 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 53,
+    "title": "Sampa",
+    "artist": "Caetano Veloso",
+    "year": 1978,
+    "streams": "48 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 54,
+    "title": "Força Estranha",
+    "artist": "Gal Costa",
+    "year": 1978,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 55,
+    "title": "Maria, Maria",
+    "artist": "Milton Nascimento",
+    "year": 1978,
+    "streams": "55 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 56,
+    "title": "O Bêbado e a Equilibrista",
+    "artist": "Elis Regina",
+    "year": 1979,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 57,
+    "title": "Mania de Você",
+    "artist": "Rita Lee",
+    "year": 1979,
+    "streams": "68 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 58,
+    "title": "Menino do Rio",
+    "artist": "Baby do Brasil",
+    "year": 1979,
+    "streams": "27 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 59,
+    "title": "Gostoso Veneno",
+    "artist": "Alcione",
+    "year": 1979,
+    "streams": "15 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 60,
+    "title": "Feira de Mangaio",
+    "artist": "Clara Nunes",
+    "year": 1979,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 61,
+    "title": "Lança Perfume",
+    "artist": "Rita Lee",
+    "year": 1980,
+    "streams": "62 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 62,
+    "title": "Balancê",
+    "artist": "Gal Costa",
+    "year": 1980,
+    "streams": "18 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 63,
+    "title": "Sapato Velho",
+    "artist": "Roupa Nova",
+    "year": 1981,
+    "streams": "45 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 64,
+    "title": "Faltando um Pedaço",
+    "artist": "Djavan",
+    "year": 1981,
+    "streams": "55 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 65,
+    "title": "Planeta Água",
+    "artist": "Guilherme Arantes",
+    "year": 1981,
+    "streams": "42 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 66,
+    "title": "Nos Bailes da Vida",
+    "artist": "Milton Nascimento",
+    "year": 1981,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 67,
+    "title": "Caçador de Mim",
+    "artist": "Milton Nascimento",
+    "year": 1981,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 68,
+    "title": "Canção de Verão",
+    "artist": "Roupa Nova",
+    "year": 1981,
+    "streams": "48 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 69,
+    "title": "Palco",
+    "artist": "Gilberto Gil",
+    "year": 1981,
+    "streams": "37 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 70,
+    "title": "Você Não Soube Me Amar",
+    "artist": "Blitz",
+    "year": 1982,
+    "streams": "32 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 71,
+    "title": "Muito Estranho",
+    "artist": "Dalto",
+    "year": 1982,
+    "streams": "28 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 72,
+    "title": "Morena Tropicana",
+    "artist": "Alceu Valença",
+    "year": 1982,
+    "streams": "92 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 73,
+    "title": "Tempos Modernos",
+    "artist": "Lulu Santos",
+    "year": 1982,
+    "streams": "82 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 74,
+    "title": "Drão",
+    "artist": "Gilberto Gil",
+    "year": 1982,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 75,
+    "title": "Rock da Cachorra",
+    "artist": "Eduardo Dussek",
+    "year": 1982,
+    "streams": "15 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 76,
+    "title": "Garota Dourada",
+    "artist": "Rádio Táxi",
+    "year": 1982,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 77,
+    "title": "Superfantástico",
+    "artist": "Turma do Balão Mágico",
+    "year": 1982,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 78,
+    "title": "Solidão",
+    "artist": "Sandra de Sá",
+    "year": 1982,
+    "streams": "25 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 79,
+    "title": "Açaí",
+    "artist": "Djavan",
+    "year": 1982,
+    "streams": "48 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 80,
+    "title": "Samurai",
+    "artist": "Djavan",
+    "year": 1982,
+    "streams": "62 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 81,
+    "title": "Esquinas",
+    "artist": "Djavan",
+    "year": 1982,
+    "streams": "41 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 82,
+    "title": "Sina",
+    "artist": "Djavan",
+    "year": 1982,
+    "streams": "68 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 83,
+    "title": "Coisas de Casal",
+    "artist": "Rádio Táxi",
+    "year": 1982,
+    "streams": "14 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 84,
+    "title": "O Melhor Vai Começar",
+    "artist": "Guilherme Arantes",
+    "year": 1982,
+    "streams": "15 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 85,
+    "title": "Fio de Cabelo",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1982,
+    "streams": "68 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 86,
+    "title": "Menina Veneno",
+    "artist": "Ritchie",
+    "year": 1983,
+    "streams": "75 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 87,
+    "title": "Anunciação",
+    "artist": "Alceu Valença",
+    "year": 1983,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 88,
+    "title": "Como Uma Onda",
+    "artist": "Lulu Santos",
+    "year": 1983,
+    "streams": "112 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 89,
+    "title": "Vital e Sua Moto",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1983,
+    "streams": "41 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 90,
+    "title": "Pro Dia Nascer Feliz",
+    "artist": "Barão Vermelho",
+    "year": 1983,
+    "streams": "62 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 91,
+    "title": "Descobridor dos Sete Mares",
+    "artist": "Tim Maia",
+    "year": 1983,
+    "streams": "98 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 92,
+    "title": "Aquarela",
+    "artist": "Toquinho",
+    "year": 1983,
+    "streams": "105 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 93,
+    "title": "Pintura Íntima",
+    "artist": "Kid Abelha",
+    "year": 1983,
+    "streams": "52 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 94,
+    "title": "Inútil",
+    "artist": "Ultraje a Rigor",
+    "year": 1983,
+    "streams": "42 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 95,
+    "title": "Fixação",
+    "artist": "Kid Abelha",
+    "year": 1983,
+    "streams": "32 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 96,
+    "title": "Pelado",
+    "artist": "Ultraje a Rigor",
+    "year": 1983,
+    "streams": "22 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 97,
+    "title": "Eva",
+    "artist": "Rádio Táxi",
+    "year": 1983,
+    "streams": "68 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 98,
+    "title": "A Vida Tem Dessas Coisas",
+    "artist": "Ritchie",
+    "year": 1983,
+    "streams": "24 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 99,
+    "title": "Pelo Interfone",
+    "artist": "Ritchie",
+    "year": 1983,
+    "streams": "19 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 100,
+    "title": "Noite do Prazer",
+    "artist": "Brylho",
+    "year": 1983,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 101,
+    "title": "Coração de Estudante",
+    "artist": "Milton Nascimento",
+    "year": 1983,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 102,
+    "title": "Sonífera Ilha",
+    "artist": "Titãs",
+    "year": 1984,
+    "streams": "55 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 103,
+    "title": "Vamos Fugir",
+    "artist": "Gilberto Gil",
+    "year": 1984,
+    "streams": "48 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 104,
+    "title": "Bete Balanço",
+    "artist": "Barão Vermelho",
+    "year": 1984,
+    "streams": "58 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 105,
+    "title": "Me Chama",
+    "artist": "Lobão",
+    "year": 1984,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 106,
+    "title": "Lindo Lago do Amor",
+    "artist": "Gonzaguinha",
+    "year": 1984,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 107,
+    "title": "Como Eu Quero",
+    "artist": "Kid Abelha",
+    "year": 1984,
+    "streams": "88 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 108,
+    "title": "Óculos",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1984,
+    "streams": "55 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 109,
+    "title": "Rebelde Sem Causa",
+    "artist": "Ultraje a Rigor",
+    "year": 1984,
+    "streams": "18 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 110,
+    "title": "Tão Bem",
+    "artist": "Lulu Santos",
+    "year": 1984,
+    "streams": "51 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 111,
+    "title": "Certas Coisas",
+    "artist": "Lulu Santos",
+    "year": 1984,
+    "streams": "67 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 112,
+    "title": "Meu Erro",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1984,
+    "streams": "110 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 113,
+    "title": "Fullgás",
+    "artist": "Marina Lima",
+    "year": 1984,
+    "streams": "45 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 114,
+    "title": "Serão Extra",
+    "artist": "Dr. Silvana & Cia",
+    "year": 1984,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 115,
+    "title": "Marvin",
+    "artist": "Titãs",
+    "year": 1984,
+    "streams": "48 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 116,
+    "title": "Maior Abandonado",
+    "artist": "Barão Vermelho",
+    "year": 1984,
+    "streams": "42 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 117,
+    "title": "Podres Poderes",
+    "artist": "Caetano Veloso",
+    "year": 1984,
+    "streams": "28 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 118,
+    "title": "He-Man",
+    "artist": "Trem da Alegria",
+    "year": 1984,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 119,
+    "title": "Rapunzel",
+    "artist": "Daniela Mercury",
+    "year": 1984,
+    "streams": "33 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 120,
+    "title": "Lindo Lago do Amor",
+    "artist": "Gonzaguinha",
+    "year": 1984,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 121,
+    "title": "Será",
+    "artist": "Legião Urbana",
+    "year": 1985,
+    "streams": "214 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 122,
+    "title": "Revoluções por Minuto",
+    "artist": "RPM",
+    "year": 1985,
+    "streams": "32 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 123,
+    "title": "Rádio Pirata",
+    "artist": "RPM",
+    "year": 1985,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 124,
+    "title": "Olhar 43",
+    "artist": "RPM",
+    "year": 1985,
+    "streams": "38 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 125,
+    "title": "Codinome Beija-Flor",
+    "artist": "Cazuza",
+    "year": 1985,
+    "streams": "62 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 126,
+    "title": "Exagerado",
+    "artist": "Cazuza",
+    "year": 1985,
+    "streams": "88 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 127,
+    "title": "Ainda É Cedo",
+    "artist": "Legião Urbana",
+    "year": 1985,
+    "streams": "94 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 128,
+    "title": "Fricote",
+    "artist": "Luiz Caldas",
+    "year": 1985,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 129,
+    "title": "Sandra Rosa Madalena",
+    "artist": "Sidney Magal",
+    "year": 1985,
+    "streams": "32 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 130,
+    "title": "Dona",
+    "artist": "Roupa Nova",
+    "year": 1985,
+    "streams": "88 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 131,
+    "title": "Whisky a Go Go",
+    "artist": "Roupa Nova",
+    "year": 1985,
+    "streams": "110 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 132,
+    "title": "Sobradinho",
+    "artist": "Sá & Guarabyra",
+    "year": 1985,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 133,
+    "title": "Primeiros Erros",
+    "artist": "Capital Inicial",
+    "year": 1985,
+    "streams": "109 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 134,
+    "title": "Toda Menina Baiana",
+    "artist": "Gilberto Gil",
+    "year": 1985,
+    "streams": "37 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 135,
+    "title": "Tempo Perdido",
+    "artist": "Legião Urbana",
+    "year": 1986,
+    "streams": "393 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 136,
+    "title": "Alagados",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1986,
+    "streams": "58 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 137,
+    "title": "Eduardo e Mônica",
+    "artist": "Legião Urbana",
+    "year": 1986,
+    "streams": "177 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 138,
+    "title": "Quase Sem Querer",
+    "artist": "Legião Urbana",
+    "year": 1986,
+    "streams": "115 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 139,
+    "title": "Música Urbana",
+    "artist": "Capital Inicial",
+    "year": 1986,
+    "streams": "31 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 140,
+    "title": "Fátima",
+    "artist": "Capital Inicial",
+    "year": 1986,
+    "streams": "42 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 141,
+    "title": "Homem Primata",
+    "artist": "Titãs",
+    "year": 1986,
+    "streams": "32 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 142,
+    "title": "Polícia",
+    "artist": "Titãs",
+    "year": 1986,
+    "streams": "29 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 143,
+    "title": "Bichos Escrotos",
+    "artist": "Titãs",
+    "year": 1986,
+    "streams": "41 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 144,
+    "title": "Pra Dizer Adeus",
+    "artist": "Titãs",
+    "year": 1986,
+    "streams": "38 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 145,
+    "title": "Família",
+    "artist": "Titãs",
+    "year": 1986,
+    "streams": "25 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 146,
+    "title": "London, London",
+    "artist": "RPM",
+    "year": 1986,
+    "streams": "19 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 147,
+    "title": "Toda Forma de Poder",
+    "artist": "Engenheiros do Hawaii",
+    "year": 1986,
+    "streams": "28 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 148,
+    "title": "Que País é Este",
+    "artist": "Legião Urbana",
+    "year": 1987,
+    "streams": "78 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 149,
+    "title": "Faroeste Caboclo",
+    "artist": "Legião Urbana",
+    "year": 1987,
+    "streams": "103 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 150,
+    "title": "Infinita Highway",
+    "artist": "Engenheiros do Hawaii",
+    "year": 1987,
+    "streams": "62 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 151,
+    "title": "Comida",
+    "artist": "Titãs",
+    "year": 1987,
+    "streams": "28 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 152,
+    "title": "Camila, Camila",
+    "artist": "Nenhum de Nós",
+    "year": 1987,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 153,
+    "title": "Um Dia, Um Adeus",
+    "artist": "Guilherme Arantes",
+    "year": 1987,
+    "streams": "31 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 154,
+    "title": "Madagascar Olodum",
+    "artist": "Banda Reflexus",
+    "year": 1987,
+    "streams": "14 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 155,
+    "title": "Faraó",
+    "artist": "Margareth Menezes",
+    "year": 1987,
+    "streams": "18 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 156,
+    "title": "Inimigo Rei",
+    "artist": "Gilberto Gil",
+    "year": 1987,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 157,
+    "title": "Terra de Gigantes",
+    "artist": "Engenheiros do Hawaii",
+    "year": 1987,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 158,
+    "title": "Realiçe",
+    "artist": "Gilberto Gil",
+    "year": 1987,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 159,
+    "title": "O Amor e o Poder",
+    "artist": "Rosana",
+    "year": 1987,
+    "streams": "25 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 160,
+    "title": "Kátia Flávia",
+    "artist": "Fausto Fawcett",
+    "year": 1987,
+    "streams": "8 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 161,
+    "title": "Ideologia",
+    "artist": "Cazuza",
+    "year": 1988,
+    "streams": "42 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 162,
+    "title": "Faz Parte do Meu Show",
+    "artist": "Cazuza",
+    "year": 1988,
+    "streams": "85 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 163,
+    "title": "O Tempo Não Para",
+    "artist": "Cazuza",
+    "year": 1988,
+    "streams": "72 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 164,
+    "title": "Vou de Táxi",
+    "artist": "Angélica",
+    "year": 1988,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 165,
+    "title": "Brasil",
+    "artist": "Cazuza",
+    "year": 1988,
+    "streams": "41 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 166,
+    "title": "Ilariê",
+    "artist": "Xuxa",
+    "year": 1988,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 167,
+    "title": "Brincar de Índio",
+    "artist": "Xuxa",
+    "year": 1988,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 168,
+    "title": "Pais e Filhos",
+    "artist": "Legião Urbana",
+    "year": 1989,
+    "streams": "181 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 169,
+    "title": "Bem Que se Quis",
+    "artist": "Marisa Monte",
+    "year": 1989,
+    "streams": "95 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 170,
+    "title": "O Poeta Está Vivo",
+    "artist": "Barão Vermelho",
+    "year": 1989,
+    "streams": "41 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 171,
+    "title": "Lanterna dos Afogados",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1989,
+    "streams": "134 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 172,
+    "title": "Flores",
+    "artist": "Titãs",
+    "year": 1989,
+    "streams": "35 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 173,
+    "title": "O Astronauta de Mármore",
+    "artist": "Nenhum de Nós",
+    "year": 1989,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 174,
+    "title": "Oceano",
+    "artist": "Djavan",
+    "year": 1989,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 175,
+    "title": "Lambada",
+    "artist": "Kaoma",
+    "year": 1989,
+    "streams": "70 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 176,
+    "title": "Reconvexo",
+    "artist": "Maria Bethânia",
+    "year": 1989,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 177,
+    "title": "Toda Cor",
+    "artist": "Marina Lima",
+    "year": 1989,
+    "streams": "12 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 178,
+    "title": "Socorro",
+    "artist": "Marina Lima",
+    "year": 1989,
+    "streams": "11 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 179,
+    "title": "Oceano",
+    "artist": "Djavan",
+    "year": 1989,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 180,
+    "title": "Burguesia",
+    "artist": "Cazuza",
+    "year": 1989,
+    "streams": "12 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 181,
+    "title": "Evidências",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1990,
+    "streams": "157 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 182,
+    "title": "Pense em Mim",
+    "artist": "Leandro & Leonardo",
+    "year": 1990,
+    "streams": "85 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 183,
+    "title": "Naquela Estação",
+    "artist": "Adriana Calcanhotto",
+    "year": 1990,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 184,
+    "title": "Me Chama Que Eu Vou",
+    "artist": "Sidney Magal",
+    "year": 1990,
+    "streams": "10 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 185,
+    "title": "Lua de Cristal",
+    "artist": "Xuxa",
+    "year": 1990,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 186,
+    "title": "Sonho por Sonho",
+    "artist": "Leandro & Leonardo",
+    "year": 1990,
+    "streams": "18 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 187,
+    "title": "Coração Vazio",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1990,
+    "streams": "9 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 188,
+    "title": "Nuvem de Lágrimas",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1990,
+    "streams": "11 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 189,
+    "title": "O Papa é Pop",
+    "artist": "Engenheiros do Hawaii",
+    "year": 1990,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 190,
+    "title": "Zé do Caroço",
+    "artist": "Leci Brandão",
+    "year": 1990,
+    "streams": "22 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 191,
+    "title": "Nada Como um Dia após o Outro Dia",
+    "artist": "Racionais MC's",
+    "year": 1990,
+    "streams": "11 Milhões",
+    "genre": "Rap"
+  },
+  {
+    "id": 192,
+    "title": "Pobre Paulista",
+    "artist": "Ira!",
+    "year": 1990,
+    "streams": "15 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 193,
+    "title": "Onde Estiver",
+    "artist": "NX Zero (Hits Heritage)",
+    "year": 1990,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 194,
+    "title": "É o Amor",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1991,
+    "streams": "92 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 195,
+    "title": "Borbulhas de Amor",
+    "artist": "Fagner",
+    "year": 1991,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 196,
+    "title": "Não Aprendi Dizer Adeus",
+    "artist": "Leandro & Leonardo",
+    "year": 1991,
+    "streams": "35 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 197,
+    "title": "Tendo a Lua",
+    "artist": "Os Paralamas do Sucesso",
+    "year": 1991,
+    "streams": "22 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 198,
+    "title": "Swing da Cor",
+    "artist": "Daniela Mercury",
+    "year": 1991,
+    "streams": "15 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 199,
+    "title": "Baianidade Nagô",
+    "artist": "Banda Mel",
+    "year": 1991,
+    "streams": "35 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 200,
+    "title": "Não Olhe Assim",
+    "artist": "Leandro & Leonardo",
+    "year": 1991,
+    "streams": "12 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 201,
+    "title": "Paz na Cama",
+    "artist": "Leandro & Leonardo",
+    "year": 1991,
+    "streams": "15 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 202,
+    "title": "À Francesa",
+    "artist": "Marina Lima",
+    "year": 1991,
+    "streams": "32 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 203,
+    "title": "Vento Ventania",
+    "artist": "Biquini Cavadão",
+    "year": 1991,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 204,
+    "title": "O Canto da Cidade",
+    "artist": "Daniela Mercury",
+    "year": 1992,
+    "streams": "85 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 205,
+    "title": "Brincar de Ser Feliz",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1992,
+    "streams": "31 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 206,
+    "title": "Nossa Gente",
+    "artist": "Olodum",
+    "year": 1992,
+    "streams": "22 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 207,
+    "title": "Eu Te Devoro",
+    "artist": "Djavan",
+    "year": 1992,
+    "streams": "98 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 208,
+    "title": "Cheia de Manias",
+    "artist": "Raça Negra",
+    "year": 1992,
+    "streams": "115 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 209,
+    "title": "Estou Mal",
+    "artist": "Raça Negra",
+    "year": 1992,
+    "streams": "22 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 210,
+    "title": "Faz Mais Uma Vez Comigo",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1992,
+    "streams": "25 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 211,
+    "title": "Cigana",
+    "artist": "Raça Negra",
+    "year": 1993,
+    "streams": "68 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 212,
+    "title": "Que Se Chama Amor",
+    "artist": "Só Pra Contrariar",
+    "year": 1993,
+    "streams": "58 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 213,
+    "title": "Saudade Bandida",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1993,
+    "streams": "18 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 214,
+    "title": "All For Love",
+    "artist": "Bryan Adams (Remake Heritage BR)",
+    "year": 1993,
+    "streams": "480 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 215,
+    "title": "Da Lama ao Caos",
+    "artist": "Chico Science & Nação Zumbi",
+    "year": 1994,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 216,
+    "title": "Página de Amigos",
+    "artist": "Chitãozinho & Xororó",
+    "year": 1994,
+    "streams": "32 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 217,
+    "title": "Malandragem",
+    "artist": "Cássia Eller",
+    "year": 1994,
+    "streams": "145 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 218,
+    "title": "E.C.T.",
+    "artist": "Cássia Eller",
+    "year": 1994,
+    "streams": "38 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 219,
+    "title": "Jackie Tequila",
+    "artist": "Skank",
+    "year": 1994,
+    "streams": "62 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 220,
+    "title": "Esmola",
+    "artist": "Skank",
+    "year": 1994,
+    "streams": "15 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 221,
+    "title": "Pacato Cidadão",
+    "artist": "Skank",
+    "year": 1994,
+    "streams": "38 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 222,
+    "title": "Catedral",
+    "artist": "Zélia Duncan",
+    "year": 1994,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 223,
+    "title": "É Tarde Demais",
+    "artist": "Raça Negra",
+    "year": 1994,
+    "streams": "85 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 224,
+    "title": "Inaraí",
+    "artist": "Katinguelê",
+    "year": 1994,
+    "streams": "45 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 225,
+    "title": "No Compasso do Criador",
+    "artist": "Katinguelê",
+    "year": 1994,
+    "streams": "38 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 226,
+    "title": "Cilada",
+    "artist": "Grupo Molejo",
+    "year": 1994,
+    "streams": "52 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 227,
+    "title": "Caçamba",
+    "artist": "Grupo Molejo",
+    "year": 1994,
+    "streams": "31 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 228,
+    "title": "Agamamou",
+    "artist": "Art Popular",
+    "year": 1994,
+    "streams": "42 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 229,
+    "title": "Temporal",
+    "artist": "Art Popular",
+    "year": 1994,
+    "streams": "28 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 230,
+    "title": "Essa Tal Liberdade",
+    "artist": "Só Pra Contrariar",
+    "year": 1994,
+    "streams": "65 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 231,
+    "title": "Domingo",
+    "artist": "Só Pra Contrariar",
+    "year": 1994,
+    "streams": "32 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 232,
+    "title": "Como um Anjo",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1994,
+    "streams": "31 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 233,
+    "title": "Você Vai Ver",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1994,
+    "streams": "42 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 234,
+    "title": "Vem Dançar o Mestiço",
+    "artist": "Leandro Lehart",
+    "year": 1994,
+    "streams": "5 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 235,
+    "title": "Catedral",
+    "artist": "Zélia Duncan",
+    "year": 1994,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 236,
+    "title": "Sábado à Noite",
+    "artist": "Cidade Negra",
+    "year": 1994,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 237,
+    "title": "Aonde Você Mora",
+    "artist": "Cidade Negra",
+    "year": 1994,
+    "streams": "48 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 238,
+    "title": "Pensamento",
+    "artist": "Cidade Negra",
+    "year": 1994,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 239,
+    "title": "Jeito Sexy",
+    "artist": "Fat Family",
+    "year": 1994,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 240,
+    "title": "Boneca de Fogo",
+    "artist": "As Sublimes",
+    "year": 1994,
+    "streams": "450 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 241,
+    "title": "Com Você",
+    "artist": "Sandy & Junior",
+    "year": 1994,
+    "streams": "15 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 242,
+    "title": "Pelados em Santos",
+    "artist": "Mamonas Assassinas",
+    "year": 1995,
+    "streams": "120 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 243,
+    "title": "Vira-Vira",
+    "artist": "Mamonas Assassinas",
+    "year": 1995,
+    "streams": "85 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 244,
+    "title": "É o Tchan",
+    "artist": "É o Tchan",
+    "year": 1995,
+    "streams": "45 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 245,
+    "title": "Essa Tal Liberdade",
+    "artist": "Só Pra Contrariar",
+    "year": 1995,
+    "streams": "65 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 246,
+    "title": "Garota Nacional",
+    "artist": "Skank",
+    "year": 1996,
+    "streams": "115 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 247,
+    "title": "É Uma Partida de Futebol",
+    "artist": "Skank",
+    "year": 1996,
+    "streams": "92 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 248,
+    "title": "A Dança do Bumbum",
+    "artist": "É o Tchan",
+    "year": 1996,
+    "streams": "58 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 249,
+    "title": "Milla",
+    "artist": "Netinho",
+    "year": 1996,
+    "streams": "52 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 250,
+    "title": "O Erê",
+    "artist": "Cidade Negra",
+    "year": 1996,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 251,
+    "title": "Conquista",
+    "artist": "Claudinho & Buchecha",
+    "year": 1996,
+    "streams": "35 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 252,
+    "title": "Diário de um Detento",
+    "artist": "Racionais MC's",
+    "year": 1997,
+    "streams": "52 Milhões",
+    "genre": "Rap"
+  },
+  {
+    "id": 253,
+    "title": "Firmamento",
+    "artist": "Cidade Negra",
+    "year": 1997,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 254,
+    "title": "Quero Te Encontrar",
+    "artist": "Claudinho & Buchecha",
+    "year": 1997,
+    "streams": "48 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 255,
+    "title": "Era Uma Vez",
+    "artist": "Sandy & Junior",
+    "year": 1997,
+    "streams": "35 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 256,
+    "title": "Beijo é Bom",
+    "artist": "Sandy & Junior",
+    "year": 1997,
+    "streams": "12 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 257,
+    "title": "Requebra",
+    "artist": "Olodum",
+    "year": 1997,
+    "streams": "10 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 258,
+    "title": "Liberar Geral",
+    "artist": "Terra Samba",
+    "year": 1997,
+    "streams": "12 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 259,
+    "title": "Sozinho",
+    "artist": "Caetano Veloso",
+    "year": 1998,
+    "streams": "134 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 260,
+    "title": "Me Apaixonei Pela Pessoa Errada",
+    "artist": "Exaltasamba",
+    "year": 1998,
+    "streams": "82 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 261,
+    "title": "Mal Acostumada",
+    "artist": "Ara Ketu",
+    "year": 1998,
+    "streams": "41 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 262,
+    "title": "Pela Vida Inteira",
+    "artist": "Kiloucura",
+    "year": 1998,
+    "streams": "18 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 263,
+    "title": "Deus Me Livre",
+    "artist": "Raça Negra",
+    "year": 1998,
+    "streams": "32 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 264,
+    "title": "Fácil",
+    "artist": "Jota Quest",
+    "year": 1998,
+    "streams": "72 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 265,
+    "title": "Bem Querer",
+    "artist": "Maurício Manieri",
+    "year": 1998,
+    "streams": "48 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 266,
+    "title": "Primavera (Vai Chuva)",
+    "artist": "Maurício Manieri",
+    "year": 1998,
+    "streams": "21 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 267,
+    "title": "Dois Corações e Uma História",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1998,
+    "streams": "42 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 268,
+    "title": "No Fundo do Coração",
+    "artist": "Sandy & Junior",
+    "year": 1998,
+    "streams": "18 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 269,
+    "title": "Carrinho de Mão",
+    "artist": "Terra Samba",
+    "year": 1998,
+    "streams": "8 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 270,
+    "title": "Anna Júlia",
+    "artist": "Los Hermanos",
+    "year": 1999,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 271,
+    "title": "Mulher de Fases",
+    "artist": "Raimundos",
+    "year": 1999,
+    "streams": "147 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 272,
+    "title": "Minha Razão de Viver",
+    "artist": "Ara Ketu",
+    "year": 1999,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 273,
+    "title": "Meu Casamento",
+    "artist": "Kiloucura",
+    "year": 1999,
+    "streams": "12 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 274,
+    "title": "Dandá",
+    "artist": "Karametade",
+    "year": 1999,
+    "streams": "9 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 275,
+    "title": "Nunca Vou Deixar Você",
+    "artist": "Karametade",
+    "year": 1999,
+    "streams": "24 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 276,
+    "title": "Mel na Minha Boca",
+    "artist": "Karametade",
+    "year": 1999,
+    "streams": "15 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 277,
+    "title": "Mina de Fé",
+    "artist": "Os Morenos",
+    "year": 1999,
+    "streams": "11 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 278,
+    "title": "Quando a Gente Ama",
+    "artist": "Os Travessos",
+    "year": 1999,
+    "streams": "28 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 279,
+    "title": "Tô Te Filmando (Sorria)",
+    "artist": "Os Travessos",
+    "year": 1999,
+    "streams": "58 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 280,
+    "title": "Sai da Minha Aba",
+    "artist": "Só Pra Contrariar",
+    "year": 1999,
+    "streams": "42 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 281,
+    "title": "Interfone",
+    "artist": "Só Pra Contrariar",
+    "year": 1999,
+    "streams": "19 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 282,
+    "title": "Machuca Demais",
+    "artist": "Só Pra Contrariar",
+    "year": 1999,
+    "streams": "12 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 283,
+    "title": "O Vento",
+    "artist": "Jota Quest",
+    "year": 1999,
+    "streams": "25 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 284,
+    "title": "Sempre Assim",
+    "artist": "Jota Quest",
+    "year": 1999,
+    "streams": "15 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 285,
+    "title": "Minha Menina",
+    "artist": "Maurício Manieri",
+    "year": 1999,
+    "streams": "11 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 286,
+    "title": "Tô Fazendo Falta",
+    "artist": "Joanna",
+    "year": 1999,
+    "streams": "8 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 287,
+    "title": "Pare",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1999,
+    "streams": "35 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 288,
+    "title": "Será que Foi Saudade",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1999,
+    "streams": "18 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 289,
+    "title": "Pior é Te Perder",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 1999,
+    "streams": "14 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 290,
+    "title": "Xereta",
+    "artist": "Claudinho & Buchecha",
+    "year": 1999,
+    "streams": "11 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 291,
+    "title": "Indecisão",
+    "artist": "Netinho",
+    "year": 1999,
+    "streams": "15 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 292,
+    "title": "120... 150... 200 Km por Hora",
+    "artist": "Leonardo",
+    "year": 1999,
+    "streams": "22 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 293,
+    "title": "Mentira que Virou Paixão",
+    "artist": "Leonardo",
+    "year": 1999,
+    "streams": "31 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 294,
+    "title": "Mano",
+    "artist": "Leonardo",
+    "year": 1999,
+    "streams": "11 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 295,
+    "title": "Boto pra Remexer",
+    "artist": "Leonardo",
+    "year": 1999,
+    "streams": "14 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 296,
+    "title": "Imortal",
+    "artist": "Sandy & Junior",
+    "year": 1999,
+    "streams": "25 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 297,
+    "title": "A Mais Pedida",
+    "artist": "Raimundos",
+    "year": 1999,
+    "streams": "25 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 298,
+    "title": "Xibom Bombom",
+    "artist": "As Meninas",
+    "year": 1999,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 299,
+    "title": "O Segundo Sol",
+    "artist": "Cássia Eller",
+    "year": 1999,
+    "streams": "112 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 300,
+    "title": "Mulher de Fases",
+    "artist": "Raimundos",
+    "year": 1999,
+    "streams": "147 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 301,
+    "title": "Se Eu Não Te Amasse Tanto Assim",
+    "artist": "Ivete Sangalo",
+    "year": 2000,
+    "streams": "92 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 302,
+    "title": "Anna Júlia",
+    "artist": "Los Hermanos",
+    "year": 2000,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 303,
+    "title": "Primeiros Erros (Chove) - Ao Vivo",
+    "artist": "Capital Inicial",
+    "year": 2000,
+    "streams": "109 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 304,
+    "title": "Tô Te Filmando (Sorria)",
+    "artist": "Os Travessos",
+    "year": 2000,
+    "streams": "58 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 305,
+    "title": "Morango do Nordeste",
+    "artist": "Karametade",
+    "year": 2000,
+    "streams": "44 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 306,
+    "title": "Deixaria Tudo",
+    "artist": "Leonardo",
+    "year": 2000,
+    "streams": "48 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 307,
+    "title": "Alô",
+    "artist": "Chitãozinho & Xororó",
+    "year": 2000,
+    "streams": "39 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 308,
+    "title": "Te Levar",
+    "artist": "Charlie Brown Jr.",
+    "year": 2000,
+    "streams": "75 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 309,
+    "title": "Perdi Você",
+    "artist": "Twister",
+    "year": 2000,
+    "streams": "31 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 310,
+    "title": "Um Anjo do Céu",
+    "artist": "Maskavo",
+    "year": 2000,
+    "streams": "105 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 311,
+    "title": "Tropa de Elite",
+    "artist": "Tihuana",
+    "year": 2000,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 312,
+    "title": "Assim Que Se Faz",
+    "artist": "Luciana Mello",
+    "year": 2000,
+    "streams": "50 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 313,
+    "title": "A Cera",
+    "artist": "O Surto",
+    "year": 2000,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 314,
+    "title": "Quem de Nós Dois",
+    "artist": "Ana Carolina",
+    "year": 2001,
+    "streams": "110 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 315,
+    "title": "Malandragem (Acústico)",
+    "artist": "Cássia Eller",
+    "year": 2001,
+    "streams": "145 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 316,
+    "title": "Festa",
+    "artist": "Ivete Sangalo",
+    "year": 2001,
+    "streams": "88 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 317,
+    "title": "Cachorrinho",
+    "artist": "Kelly Key",
+    "year": 2001,
+    "streams": "52 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 318,
+    "title": "Baba",
+    "artist": "Kelly Key",
+    "year": 2001,
+    "streams": "48 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 319,
+    "title": "Epitáfio",
+    "artist": "Titãs",
+    "year": 2001,
+    "streams": "152 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 320,
+    "title": "Amor Pra Recomeçar",
+    "artist": "Frejat",
+    "year": 2001,
+    "streams": "82 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 321,
+    "title": "Só Hoje",
+    "artist": "Jota Quest",
+    "year": 2001,
+    "streams": "112 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 322,
+    "title": "Ragatanga",
+    "artist": "Rouge",
+    "year": 2002,
+    "streams": "108 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 323,
+    "title": "Velha Infância",
+    "artist": "Tribalistas",
+    "year": 2002,
+    "streams": "215 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 324,
+    "title": "Já Sei Namorar",
+    "artist": "Tribalistas",
+    "year": 2002,
+    "streams": "178 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 325,
+    "title": "Deixa a Vida Me Levar",
+    "artist": "Zeca Pagodinho",
+    "year": 2002,
+    "streams": "82 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 326,
+    "title": "Carla",
+    "artist": "LS Jack",
+    "year": 2002,
+    "streams": "67 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 327,
+    "title": "Toque de Mágica",
+    "artist": "Pedro & Thiago",
+    "year": 2002,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 328,
+    "title": "Deixa Acontecer",
+    "artist": "Grupo Revelação",
+    "year": 2002,
+    "streams": "115 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 329,
+    "title": "A Cada Dez Palavras",
+    "artist": "KLB",
+    "year": 2002,
+    "streams": "40 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 330,
+    "title": "Fico Assim Sem Você",
+    "artist": "Claudinho & Buchecha",
+    "year": 2002,
+    "streams": "110 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 331,
+    "title": "À Sua Maneira",
+    "artist": "Capital Inicial",
+    "year": 2002,
+    "streams": "105 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 332,
+    "title": "Tô Nem Aí",
+    "artist": "Luka",
+    "year": 2003,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 333,
+    "title": "Amor Maior",
+    "artist": "Jota Quest",
+    "year": 2003,
+    "streams": "98 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 334,
+    "title": "Do Seu Lado",
+    "artist": "Jota Quest",
+    "year": 2003,
+    "streams": "75 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 335,
+    "title": "Admirável Chip Novo",
+    "artist": "Pitty",
+    "year": 2003,
+    "streams": "91 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 336,
+    "title": "Máscara",
+    "artist": "Pitty",
+    "year": 2003,
+    "streams": "72 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 337,
+    "title": "Equalize",
+    "artist": "Pitty",
+    "year": 2003,
+    "streams": "124 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 338,
+    "title": "Musa do Verão",
+    "artist": "Felipe Dylon",
+    "year": 2003,
+    "streams": "42 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 339,
+    "title": "Prometida",
+    "artist": "Br'oz",
+    "year": 2003,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 340,
+    "title": "Porta Aberta",
+    "artist": "Luka",
+    "year": 2003,
+    "streams": "29 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 341,
+    "title": "Apenas Mais Uma de Amor",
+    "artist": "Lulu Santos",
+    "year": 2003,
+    "streams": "88 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 342,
+    "title": "Pra Sempre",
+    "artist": "Roberto Carlos",
+    "year": 2003,
+    "streams": "41 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 343,
+    "title": "Encostar na Tua",
+    "artist": "Ana Carolina",
+    "year": 2003,
+    "streams": "63 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 344,
+    "title": "O Show Tem Que Continuar",
+    "artist": "Arlindo Cruz",
+    "year": 2003,
+    "streams": "55 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 345,
+    "title": "Dois Rios",
+    "artist": "Skank",
+    "year": 2003,
+    "streams": "68 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 346,
+    "title": "Noites de um Verão Qualquer",
+    "artist": "Skank",
+    "year": 2003,
+    "streams": "49 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 347,
+    "title": "Sinais de Fogo",
+    "artist": "Preta Gil",
+    "year": 2003,
+    "streams": "36 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 348,
+    "title": "Cara Valente",
+    "artist": "Maria Rita",
+    "year": 2003,
+    "streams": "78 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 349,
+    "title": "Tempos Modernos",
+    "artist": "Lulu Santos",
+    "year": 2003,
+    "streams": "78 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 350,
+    "title": "Vou Deixar",
+    "artist": "Skank",
+    "year": 2004,
+    "streams": "112 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 351,
+    "title": "Vamos Fugir",
+    "artist": "Skank",
+    "year": 2004,
+    "streams": "128 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 352,
+    "title": "Por Onde Andei",
+    "artist": "Nando Reis",
+    "year": 2004,
+    "streams": "135 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 353,
+    "title": "Flor do Reggae",
+    "artist": "Ivete Sangalo",
+    "year": 2004,
+    "streams": "45 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 354,
+    "title": "Você Me Vira a Cabeça",
+    "artist": "Alcione",
+    "year": 2004,
+    "streams": "52 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 355,
+    "title": "Desenho de Deus",
+    "artist": "Armandinho",
+    "year": 2004,
+    "streams": "92 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 356,
+    "title": "Quer Casar Comigo?",
+    "artist": "Netinho de Paula",
+    "year": 2004,
+    "streams": "38 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 357,
+    "title": "Tarde Vazia",
+    "artist": "Ira!",
+    "year": 2004,
+    "streams": "45 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 358,
+    "title": "Eu Quero Sempre Mais",
+    "artist": "Ira! ft. Pitty",
+    "year": 2004,
+    "streams": "62 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 359,
+    "title": "Me Namora",
+    "artist": "Edu Ribeiro",
+    "year": 2004,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 360,
+    "title": "Natiruts Reggae Power",
+    "artist": "Natiruts",
+    "year": 2004,
+    "streams": "145 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 361,
+    "title": "Um Minuto para o Fim do Mundo",
+    "artist": "CPM 22",
+    "year": 2005,
+    "streams": "115 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 362,
+    "title": "Na Sua Estante",
+    "artist": "Pitty",
+    "year": 2005,
+    "streams": "154 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 363,
+    "title": "Sinônimos",
+    "artist": "Zé Ramalho",
+    "year": 2005,
+    "streams": "162 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 364,
+    "title": "Fui Eu",
+    "artist": "Zezé Di Camargo & Luciano",
+    "year": 2005,
+    "streams": "45 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 365,
+    "title": "Você Sempre Será",
+    "artist": "Marjorie Estiano",
+    "year": 2005,
+    "streams": "72 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 366,
+    "title": "Festa no Apê",
+    "artist": "Latino",
+    "year": 2005,
+    "streams": "68 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 367,
+    "title": "Choram as Rosas",
+    "artist": "Bruno & Marrone",
+    "year": 2005,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 368,
+    "title": "Me Olha nos Olhos",
+    "artist": "Sorriso Maroto",
+    "year": 2005,
+    "streams": "92 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 369,
+    "title": "Céu da Boca",
+    "artist": "Ivete Sangalo",
+    "year": 2005,
+    "streams": "65 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 370,
+    "title": "Os Amantes",
+    "artist": "Daniel",
+    "year": 2005,
+    "streams": "42 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 371,
+    "title": "Dias de Luta, Dias de Glória",
+    "artist": "Charlie Brown Jr.",
+    "year": 2005,
+    "streams": "237 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 372,
+    "title": "Ela Vai Voltar",
+    "artist": "Charlie Brown Jr.",
+    "year": 2005,
+    "streams": "145 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 373,
+    "title": "Senhor do Tempo",
+    "artist": "Charlie Brown Jr.",
+    "year": 2005,
+    "streams": "112 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 374,
+    "title": "Berimbau Metalizado",
+    "artist": "Ivete Sangalo",
+    "year": 2006,
+    "streams": "62 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 375,
+    "title": "Me Namora",
+    "artist": "Edu Ribeiro",
+    "year": 2006,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 376,
+    "title": "Ela Só Pensa em Beijar",
+    "artist": "MC Leozinho",
+    "year": 2006,
+    "streams": "115 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 377,
+    "title": "Abri os Olhos",
+    "artist": "Sandy & Junior",
+    "year": 2006,
+    "streams": "45 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 378,
+    "title": "Além de Mim",
+    "artist": "NX Zero",
+    "year": 2006,
+    "streams": "78 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 379,
+    "title": "Razões e Emoções",
+    "artist": "NX Zero",
+    "year": 2007,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 380,
+    "title": "Fada",
+    "artist": "Victor & Leo",
+    "year": 2007,
+    "streams": "92 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 381,
+    "title": "Amigo Apaixonado",
+    "artist": "Victor & Leo",
+    "year": 2007,
+    "streams": "82 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 382,
+    "title": "Livre Pra Voar",
+    "artist": "Exaltasamba",
+    "year": 2007,
+    "streams": "108 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 383,
+    "title": "Insegurança",
+    "artist": "Pixote",
+    "year": 2007,
+    "streams": "108 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 384,
+    "title": "Pontes Indestrutíveis",
+    "artist": "Charlie Brown Jr.",
+    "year": 2007,
+    "streams": "135 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 385,
+    "title": "Paraíso Proibido",
+    "artist": "Strike",
+    "year": 2007,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 386,
+    "title": "Coisas Que Eu Sei",
+    "artist": "Danni Carlos",
+    "year": 2007,
+    "streams": "92 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 387,
+    "title": "Querendo Te Amar",
+    "artist": "Jorge & Mateus",
+    "year": 2007,
+    "streams": "82 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 388,
+    "title": "Cedo ou Tarde",
+    "artist": "NX Zero",
+    "year": 2008,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 389,
+    "title": "Boa Sorte / Good Luck",
+    "artist": "Vanessa da Mata",
+    "year": 2008,
+    "streams": "175 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 390,
+    "title": "Mina do Condomínio",
+    "artist": "Seu Jorge",
+    "year": 2008,
+    "streams": "98 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 391,
+    "title": "Borboletas",
+    "artist": "Victor & Leo",
+    "year": 2008,
+    "streams": "135 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 392,
+    "title": "Tem Que Ser Você",
+    "artist": "Victor & Leo",
+    "year": 2008,
+    "streams": "88 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 393,
+    "title": "Pela Última Vez",
+    "artist": "NX Zero",
+    "year": 2008,
+    "streams": "75 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 394,
+    "title": "Amado",
+    "artist": "Vanessa da Mata",
+    "year": 2008,
+    "streams": "94 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 395,
+    "title": "Exttravasa",
+    "artist": "Claudia Leitte",
+    "year": 2008,
+    "streams": "62 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 396,
+    "title": "Burguesinha",
+    "artist": "Seu Jorge",
+    "year": 2008,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 397,
+    "title": "Pássaros",
+    "artist": "Claudia Leitte",
+    "year": 2008,
+    "streams": "48 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 398,
+    "title": "Pode Chorar",
+    "artist": "Jorge & Mateus",
+    "year": 2008,
+    "streams": "148 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 399,
+    "title": "Sem Ar",
+    "artist": "D'Black",
+    "year": 2008,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 400,
+    "title": "1 Minuto",
+    "artist": "D'Black",
+    "year": 2008,
+    "streams": "58 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 401,
+    "title": "Sutilmente",
+    "artist": "Skank",
+    "year": 2008,
+    "streams": "156 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 402,
+    "title": "Ainda Gosto Dela",
+    "artist": "Skank",
+    "year": 2008,
+    "streams": "95 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 403,
+    "title": "Não é Proibido",
+    "artist": "Marisa Monte",
+    "year": 2008,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 404,
+    "title": "Beleza Pura",
+    "artist": "Skank",
+    "year": 2008,
+    "streams": "65 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 405,
+    "title": "Versos Simples",
+    "artist": "Chimarruts",
+    "year": 2008,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 406,
+    "title": "Desabafo",
+    "artist": "Marcelo D2",
+    "year": 2008,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 407,
+    "title": "Meteoro",
+    "artist": "Luan Santana",
+    "year": 2009,
+    "streams": "105 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 408,
+    "title": "Você Não Sabe o Que É Amor",
+    "artist": "Luan Santana",
+    "year": 2009,
+    "streams": "85 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 409,
+    "title": "Shimbalaiê",
+    "artist": "Maria Gadú",
+    "year": 2009,
+    "streams": "134 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 410,
+    "title": "Valeu",
+    "artist": "Exaltasamba",
+    "year": 2009,
+    "streams": "110 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 411,
+    "title": "Paga Pau",
+    "artist": "Fernando & Sorocaba",
+    "year": 2009,
+    "streams": "88 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 412,
+    "title": "Me adora",
+    "artist": "Pitty",
+    "year": 2009,
+    "streams": "128 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 413,
+    "title": "Cartas pra você",
+    "artist": "NX Zero",
+    "year": 2009,
+    "streams": "72 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 414,
+    "title": "Sorridentes",
+    "artist": "Sorriso Maroto",
+    "year": 2009,
+    "streams": "68 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 415,
+    "title": "Chove Chove",
+    "artist": "Jorge & Mateus",
+    "year": 2009,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 416,
+    "title": "Vou Fazer Pirraça",
+    "artist": "Jorge & Mateus",
+    "year": 2009,
+    "streams": "88 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 417,
+    "title": "De Tanto Te Querer",
+    "artist": "Jorge & Mateus",
+    "year": 2009,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 418,
+    "title": "Voa Beija-flor",
+    "artist": "Jorge & Mateus",
+    "year": 2009,
+    "streams": "122 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 419,
+    "title": "Sinais",
+    "artist": "Luan Santana",
+    "year": 2009,
+    "streams": "95 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 420,
+    "title": "Madri",
+    "artist": "Fernando & Sorocaba",
+    "year": 2010,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 421,
+    "title": "Fugidinha",
+    "artist": "Michel Teló",
+    "year": 2010,
+    "streams": "105 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 422,
+    "title": "Só os Loucos Sabem",
+    "artist": "Charlie Brown Jr.",
+    "year": 2010,
+    "streams": "255 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 423,
+    "title": "Amo Noite e Dia",
+    "artist": "Jorge & Mateus",
+    "year": 2010,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 424,
+    "title": "Acelera Aê",
+    "artist": "Ivete Sangalo",
+    "year": 2010,
+    "streams": "88 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 425,
+    "title": "Pássaro de Fogo",
+    "artist": "Paula Fernandes",
+    "year": 2010,
+    "streams": "110 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 426,
+    "title": "Inventor dos Amores",
+    "artist": "Gusttavo Lima",
+    "year": 2010,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 427,
+    "title": "Tá Vendo Aquela Lua",
+    "artist": "Exaltasamba",
+    "year": 2010,
+    "streams": "142 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 428,
+    "title": "Viver Sem Ti",
+    "artist": "Exaltasamba",
+    "year": 2010,
+    "streams": "95 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 429,
+    "title": "Ai Se Eu Te Pego",
+    "artist": "Michel Teló",
+    "year": 2011,
+    "streams": "215 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 430,
+    "title": "Balada (Tchê Tcherere)",
+    "artist": "Gusttavo Lima",
+    "year": 2011,
+    "streams": "302 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 431,
+    "title": "Amar Não É Pecado",
+    "artist": "Luan Santana",
+    "year": 2011,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 432,
+    "title": "Pra Você",
+    "artist": "Paula Fernandes",
+    "year": 2011,
+    "streams": "118 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 433,
+    "title": "Oração",
+    "artist": "A Banda Mais Bonita da Cidade",
+    "year": 2011,
+    "streams": "105 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 434,
+    "title": "Céu Azul",
+    "artist": "Charlie Brown Jr.",
+    "year": 2011,
+    "streams": "195 Milhões",
+    "genre": "Rock"
+  },
+  {
+    "id": 435,
+    "title": "Não Existe Amor em SP",
+    "artist": "Criolo",
+    "year": 2011,
+    "streams": "92 Milhões",
+    "genre": "Rap"
+  },
+  {
+    "id": 436,
+    "title": "Onde Estiver",
+    "artist": "NX Zero",
+    "year": 2011,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 437,
+    "title": "Camaro Amarelo",
+    "artist": "Munhoz & Mariano",
+    "year": 2012,
+    "streams": "82 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 438,
+    "title": "Humilde Residência",
+    "artist": "Michel Teló",
+    "year": 2012,
+    "streams": "92 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 439,
+    "title": "Vagalumes",
+    "artist": "Pollo ft. Ivo Mozart",
+    "year": 2012,
+    "streams": "118 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 440,
+    "title": "Gatinha Assanhada",
+    "artist": "Gusttavo Lima",
+    "year": 2012,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 441,
+    "title": "Lê Lê Lê",
+    "artist": "João Neto & Frederico",
+    "year": 2012,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 442,
+    "title": "Sou o Cara pra Você",
+    "artist": "Thiaguinho",
+    "year": 2012,
+    "streams": "112 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 443,
+    "title": "O Que É Que Tem?",
+    "artist": "Jorge & Mateus",
+    "year": 2012,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 444,
+    "title": "Flor",
+    "artist": "Jorge & Mateus",
+    "year": 2012,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 445,
+    "title": "Esse Cara Sou Eu",
+    "artist": "Roberto Carlos",
+    "year": 2012,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 446,
+    "title": "Vida de Empreguete",
+    "artist": "Empreguetes",
+    "year": 2012,
+    "streams": "38 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 447,
+    "title": "Ex Mai Love",
+    "artist": "Gaby Amarantos",
+    "year": 2012,
+    "streams": "45 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 448,
+    "title": "Assim Você Mata o Papai",
+    "artist": "Sorriso Maroto",
+    "year": 2012,
+    "streams": "82 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 449,
+    "title": "Show das Poderosas",
+    "artist": "Anitta",
+    "year": 2013,
+    "streams": "56 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 450,
+    "title": "Zen",
+    "artist": "Anitta",
+    "year": 2013,
+    "streams": "149 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 451,
+    "title": "Te Esperando",
+    "artist": "Luan Santana",
+    "year": 2013,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 452,
+    "title": "Vidro Fumê",
+    "artist": "Bruno & Marrone",
+    "year": 2013,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 453,
+    "title": "Amor de Chocolate",
+    "artist": "Naldo Benny",
+    "year": 2013,
+    "streams": "65 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 454,
+    "title": "Na Linha do Tempo",
+    "artist": "Victor & Leo",
+    "year": 2013,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 455,
+    "title": "Maus Bocados",
+    "artist": "Cristiano Araújo",
+    "year": 2013,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 456,
+    "title": "Mente Pra Mim",
+    "artist": "Cristiano Araújo",
+    "year": 2013,
+    "streams": "82 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 457,
+    "title": "Caso Indefinido",
+    "artist": "Cristiano Araújo",
+    "year": 2013,
+    "streams": "98 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 458,
+    "title": "Sogrão Caprichou",
+    "artist": "Luan Santana",
+    "year": 2013,
+    "streams": "85 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 459,
+    "title": "Piradinha",
+    "artist": "Gabriel Valim",
+    "year": 2013,
+    "streams": "52 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 460,
+    "title": "Jeito Carinhoso",
+    "artist": "Jads & Jadson",
+    "year": 2013,
+    "streams": "88 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 461,
+    "title": "Beijinho no Ombro",
+    "artist": "Valesca Popozuda",
+    "year": 2013,
+    "streams": "82 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 462,
+    "title": "Domingo de Manhã",
+    "artist": "Marcos & Belutti",
+    "year": 2014,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 463,
+    "title": "Até Você Voltar",
+    "artist": "Henrique & Juliano",
+    "year": 2014,
+    "streams": "145 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 464,
+    "title": "Cuida Bem Dela",
+    "artist": "Henrique & Juliano",
+    "year": 2014,
+    "streams": "162 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 465,
+    "title": "Blá Blá Blá",
+    "artist": "Anitta",
+    "year": 2014,
+    "streams": "103 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 466,
+    "title": "Ritmo Perfeito",
+    "artist": "Anitta",
+    "year": 2014,
+    "streams": "27 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 467,
+    "title": "Tudo Que Você Quiser",
+    "artist": "Luan Santana",
+    "year": 2014,
+    "streams": "105 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 468,
+    "title": "Recaídas",
+    "artist": "Henrique & Juliano",
+    "year": 2014,
+    "streams": "135 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 469,
+    "title": "Logo Eu",
+    "artist": "Jorge & Mateus",
+    "year": 2014,
+    "streams": "148 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 470,
+    "title": "Calma",
+    "artist": "Jorge & Mateus",
+    "year": 2014,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 471,
+    "title": "Mozão",
+    "artist": "Lucas Lucco",
+    "year": 2014,
+    "streams": "118 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 472,
+    "title": "11 Vidas",
+    "artist": "Lucas Lucco",
+    "year": 2014,
+    "streams": "92 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 473,
+    "title": "Destino",
+    "artist": "Lucas Lucco",
+    "year": 2014,
+    "streams": "85 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 474,
+    "title": "Cê Topa",
+    "artist": "Luan Santana",
+    "year": 2014,
+    "streams": "108 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 475,
+    "title": "Tanto Faz",
+    "artist": "Luan Santana",
+    "year": 2014,
+    "streams": "75 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 476,
+    "title": "Guerra Fria",
+    "artist": "Sorriso Maroto",
+    "year": 2014,
+    "streams": "112 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 477,
+    "title": "Hoje",
+    "artist": "Ludmilla",
+    "year": 2014,
+    "streams": "108 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 478,
+    "title": "Sem Você a Vida é Tão Sem Graça",
+    "artist": "Thiaguinho",
+    "year": 2014,
+    "streams": "75 Milhões",
+    "genre": "Pagode"
+  },
+  {
+    "id": 479,
+    "title": "Lepo Lepo",
+    "artist": "Psirico",
+    "year": 2014,
+    "streams": "112 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 480,
+    "title": "Onde Nasce o Sol",
+    "artist": "Bruninho & Davi",
+    "year": 2014,
+    "streams": "45 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 481,
+    "title": "Flor e o Beija-Flor",
+    "artist": "Henrique & Juliano",
+    "year": 2015,
+    "streams": "213 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 482,
+    "title": "Bang",
+    "artist": "Anitta",
+    "year": 2015,
+    "streams": "116 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 483,
+    "title": "Aquele 1%",
+    "artist": "Marcos & Belutti",
+    "year": 2015,
+    "streams": "110 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 484,
+    "title": "Escreve Aí",
+    "artist": "Luan Santana",
+    "year": 2015,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 485,
+    "title": "Suíte 14",
+    "artist": "Henrique & Diego",
+    "year": 2015,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 486,
+    "title": "Mudando de Assunto",
+    "artist": "Henrique & Juliano",
+    "year": 2015,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 487,
+    "title": "Infiel",
+    "artist": "Marília Mendonça",
+    "year": 2016,
+    "streams": "224 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 488,
+    "title": "Sosseguei",
+    "artist": "Jorge & Mateus",
+    "year": 2016,
+    "streams": "156 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 489,
+    "title": "Medo Bobo",
+    "artist": "Maiara & Maraisa",
+    "year": 2016,
+    "streams": "163 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 490,
+    "title": "50 Reais",
+    "artist": "Naiara Azevedo",
+    "year": 2016,
+    "streams": "155 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 491,
+    "title": "Eu Sei de Cor",
+    "artist": "Marília Mendonça",
+    "year": 2016,
+    "streams": "167 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 492,
+    "title": "Seu Polícia",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2016,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 493,
+    "title": "Sonha Comigo",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2016,
+    "streams": "88 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 494,
+    "title": "0,1",
+    "artist": "Maiara & Maraisa",
+    "year": 2016,
+    "streams": "92 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 495,
+    "title": "Sim ou Não",
+    "artist": "Anitta",
+    "year": 2016,
+    "streams": "149 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 496,
+    "title": "Louca de Saudade",
+    "artist": "Jorge & Mateus",
+    "year": 2016,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 497,
+    "title": "Hear Me Now",
+    "artist": "Alok",
+    "year": 2017,
+    "streams": "690 Milhões",
+    "genre": "Eletrônica"
+  },
+  {
+    "id": 498,
+    "title": "Deixe Me Ir",
+    "artist": "1Kilo",
+    "year": 2017,
+    "streams": "215 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 499,
+    "title": "Vai Malandra",
+    "artist": "Anitta",
+    "year": 2017,
+    "streams": "307 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 500,
+    "title": "Pesadão",
+    "artist": "IZA",
+    "year": 2017,
+    "streams": "115 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 501,
+    "title": "K.O.",
+    "artist": "Pabllo Vittar",
+    "year": 2017,
+    "streams": "112 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 502,
+    "title": "Amante Não Tem Lar",
+    "artist": "Marília Mendonça",
+    "year": 2017,
+    "streams": "168 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 503,
+    "title": "De Quem É a Culpa?",
+    "artist": "Marília Mendonça",
+    "year": 2017,
+    "streams": "221 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 504,
+    "title": "Sorte Que Cê Beija Bem",
+    "artist": "Maiara & Maraisa",
+    "year": 2017,
+    "streams": "64 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 505,
+    "title": "Paradinha",
+    "artist": "Anitta",
+    "year": 2017,
+    "streams": "149 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 506,
+    "title": "Downtown",
+    "artist": "Anitta",
+    "year": 2017,
+    "streams": "981 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 507,
+    "title": "Malbec",
+    "artist": "Henrique & Diego",
+    "year": 2017,
+    "streams": "35 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 508,
+    "title": "Regime Fechado",
+    "artist": "Simone & Simaria",
+    "year": 2017,
+    "streams": "56 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 509,
+    "title": "Loka",
+    "artist": "Simone & Simaria",
+    "year": 2017,
+    "streams": "113 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 510,
+    "title": "Acordando o Prédio",
+    "artist": "Luan Santana",
+    "year": 2017,
+    "streams": "73 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 511,
+    "title": "Bum Bum Tam Tam",
+    "artist": "MC Fioti",
+    "year": 2017,
+    "streams": "1,5 Bilhão",
+    "genre": "Funk"
+  },
+  {
+    "id": 512,
+    "title": "Propaganda",
+    "artist": "Jorge & Mateus",
+    "year": 2018,
+    "streams": "154 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 513,
+    "title": "Largado às Traças",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2018,
+    "streams": "135 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 514,
+    "title": "Apelido Carinhoso",
+    "artist": "Gusttavo Lima",
+    "year": 2018,
+    "streams": "213 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 515,
+    "title": "Dona de Mim",
+    "artist": "IZA",
+    "year": 2018,
+    "streams": "217 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 516,
+    "title": "Ciumeira",
+    "artist": "Marília Mendonça",
+    "year": 2018,
+    "streams": "296 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 517,
+    "title": "Bem Pior Que Eu",
+    "artist": "Marília Mendonça",
+    "year": 2018,
+    "streams": "216 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 518,
+    "title": "Atrasadinha",
+    "artist": "Felipe Araújo",
+    "year": 2018,
+    "streams": "134 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 519,
+    "title": "Estranho",
+    "artist": "Marília Mendonça",
+    "year": 2018,
+    "streams": "136 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 520,
+    "title": "Sem Sal",
+    "artist": "Marília Mendonça",
+    "year": 2018,
+    "streams": "187 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 521,
+    "title": "Notificação Preferida",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2018,
+    "streams": "227 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 522,
+    "title": "Status que Eu Não Queria",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2018,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 523,
+    "title": "Meu Abrigo",
+    "artist": "Melim",
+    "year": 2018,
+    "streams": "193 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 524,
+    "title": "Ouvi Dizer",
+    "artist": "Melim",
+    "year": 2018,
+    "streams": "115 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 525,
+    "title": "Dona Maria",
+    "artist": "Thiago Brava",
+    "year": 2018,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 526,
+    "title": "Anti-Amor",
+    "artist": "Gustavo Mioto",
+    "year": 2018,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 527,
+    "title": "Solteiro Não Trai",
+    "artist": "Gustavo Mioto",
+    "year": 2018,
+    "streams": "108 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 528,
+    "title": "Parado no Bailão",
+    "artist": "MC Gury",
+    "year": 2018,
+    "streams": "215 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 529,
+    "title": "Todo Mundo Vai Sofrer",
+    "artist": "Marília Mendonça",
+    "year": 2019,
+    "streams": "238 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 530,
+    "title": "Supera",
+    "artist": "Marília Mendonça",
+    "year": 2019,
+    "streams": "353 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 531,
+    "title": "Bebi Liguei",
+    "artist": "Marília Mendonça",
+    "year": 2019,
+    "streams": "300 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 532,
+    "title": "Onda Diferente",
+    "artist": "Anitta",
+    "year": 2019,
+    "streams": "110 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 533,
+    "title": "Brisa",
+    "artist": "IZA",
+    "year": 2019,
+    "streams": "82 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 534,
+    "title": "Gelo",
+    "artist": "Melim",
+    "year": 2019,
+    "streams": "110 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 535,
+    "title": "Cem Mil",
+    "artist": "Gusttavo Lima",
+    "year": 2019,
+    "streams": "176 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 536,
+    "title": "A Gente Fez Amor",
+    "artist": "Gusttavo Lima",
+    "year": 2019,
+    "streams": "238 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 537,
+    "title": "Milu",
+    "artist": "Gusttavo Lima",
+    "year": 2019,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 538,
+    "title": "Tijolão",
+    "artist": "Jorge & Mateus",
+    "year": 2019,
+    "streams": "159 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 539,
+    "title": "Lençol Dobrado",
+    "artist": "João Gustavo e Murilo",
+    "year": 2019,
+    "streams": "191 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 540,
+    "title": "Jenifer",
+    "artist": "Gabriel Diniz",
+    "year": 2019,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 541,
+    "title": "Recairei",
+    "artist": "Barões da Pisadinha",
+    "year": 2020,
+    "streams": "189 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 542,
+    "title": "Liberdade Provisória",
+    "artist": "Henrique & Juliano",
+    "year": 2020,
+    "streams": "278 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 543,
+    "title": "Meu Pedaço de Pecado",
+    "artist": "João Gomes",
+    "year": 2021,
+    "streams": "228 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 544,
+    "title": "Batom de Cereja",
+    "artist": "Israel & Rodolffo",
+    "year": 2021,
+    "streams": "208 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 545,
+    "title": "Arranhão",
+    "artist": "Henrique & Juliano",
+    "year": 2021,
+    "streams": "308 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 546,
+    "title": "A Maior Saudade",
+    "artist": "Henrique & Juliano",
+    "year": 2021,
+    "streams": "216 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 547,
+    "title": "Ficha Limpa",
+    "artist": "Gusttavo Lima",
+    "year": 2021,
+    "streams": "259 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 548,
+    "title": "Eu Tenho a Senha",
+    "artist": "João Gomes",
+    "year": 2021,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 549,
+    "title": "Facas",
+    "artist": "Diego & Victor Hugo",
+    "year": 2021,
+    "streams": "599 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 550,
+    "title": "Desbloqueado",
+    "artist": "Diego & Victor Hugo",
+    "year": 2021,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 551,
+    "title": "Morena",
+    "artist": "Luan Santana",
+    "year": 2021,
+    "streams": "138 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 552,
+    "title": "Mal Feito",
+    "artist": "Hugo & Guilherme",
+    "year": 2022,
+    "streams": "284 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 553,
+    "title": "Bombonzinho",
+    "artist": "Israel & Rodolffo ft. Ana Castela",
+    "year": 2022,
+    "streams": "312 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 554,
+    "title": "Gosta de Rua",
+    "artist": "Felipe & Rodrigo",
+    "year": 2022,
+    "streams": "275 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 555,
+    "title": "Haja Colírio",
+    "artist": "Guilherme & Benuto",
+    "year": 2022,
+    "streams": "258 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 556,
+    "title": "Casei Com a Putaria",
+    "artist": "MC Paiva ZS",
+    "year": 2022,
+    "streams": "215 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 557,
+    "title": "Pipoco",
+    "artist": "Ana Castela",
+    "year": 2022,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 558,
+    "title": "Termina Comigo Antes",
+    "artist": "Gusttavo Lima",
+    "year": 2022,
+    "streams": "242 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 559,
+    "title": "Bloqueado",
+    "artist": "Gusttavo Lima",
+    "year": 2022,
+    "streams": "259 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 560,
+    "title": "Dengo",
+    "artist": "João Gomes",
+    "year": 2022,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 561,
+    "title": "Coração Cigano",
+    "artist": "Luan Santana",
+    "year": 2022,
+    "streams": "112 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 562,
+    "title": "Malvada",
+    "artist": "Zé Felipe",
+    "year": 2022,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 563,
+    "title": "Bandido",
+    "artist": "Zé Felipe",
+    "year": 2022,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 564,
+    "title": "Roça em Mim",
+    "artist": "Zé Felipe",
+    "year": 2022,
+    "streams": "108 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 565,
+    "title": "Envolver",
+    "artist": "Anitta",
+    "year": 2022,
+    "streams": "761 Milhões",
+    "genre": "Pop"
+  },
+  {
+    "id": 566,
+    "title": "Leão",
+    "artist": "Marília Mendonça",
+    "year": 2023,
+    "streams": "525 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 567,
+    "title": "Nosso Quadro",
+    "artist": "Ana Castela",
+    "year": 2023,
+    "streams": "401 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 568,
+    "title": "Erro Gostoso",
+    "artist": "Simone Mendes",
+    "year": 2023,
+    "streams": "403 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 569,
+    "title": "Traumatizei",
+    "artist": "Henrique & Juliano",
+    "year": 2023,
+    "streams": "286 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 570,
+    "title": "Seu Brilho Sumiu",
+    "artist": "Israel & Rodolffo",
+    "year": 2023,
+    "streams": "260 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 571,
+    "title": "Duas Três",
+    "artist": "Guilherme & Benuto",
+    "year": 2023,
+    "streams": "271 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 572,
+    "title": "Fui Mlk",
+    "artist": "Nilo",
+    "year": 2023,
+    "streams": "256 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 573,
+    "title": "Novo Balanço",
+    "artist": "Veigh",
+    "year": 2023,
+    "streams": "255 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 574,
+    "title": "Barbie",
+    "artist": "MC Tuto",
+    "year": 2023,
+    "streams": "244 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 575,
+    "title": "Tá OK",
+    "artist": "DENNIS ft. Kevin o Chris",
+    "year": 2023,
+    "streams": "261 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 576,
+    "title": "Faz um Vuk Vuk",
+    "artist": "MC Kevin o Chris",
+    "year": 2023,
+    "streams": "213 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 577,
+    "title": "Solteiro Forçado",
+    "artist": "Ana Castela",
+    "year": 2023,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 578,
+    "title": "Dona de Mim",
+    "artist": "Ana Castela",
+    "year": 2023,
+    "streams": "217 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 579,
+    "title": "Oi Balde",
+    "artist": "Zé Neto & Cristiano",
+    "year": 2023,
+    "streams": "275 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 580,
+    "title": "Canudinho",
+    "artist": "Gusttavo Lima",
+    "year": 2023,
+    "streams": "214 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 581,
+    "title": "Meio Termo",
+    "artist": "Luan Santana",
+    "year": 2023,
+    "streams": "115 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 582,
+    "title": "Lapada Dela",
+    "artist": "Menos É Mais",
+    "year": 2024,
+    "streams": "473 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 583,
+    "title": "Mtg Quem Não Quer Sou Eu",
+    "artist": "DJ Topo",
+    "year": 2024,
+    "streams": "143 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 584,
+    "title": "P do Pecado",
+    "artist": "Menos É Mais",
+    "year": 2025,
+    "streams": "401 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 585,
+    "title": "Coração Partido",
+    "artist": "Menos É Mais",
+    "year": 2025,
+    "streams": "427 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 586,
+    "title": "Tubarões",
+    "artist": "Diego & Victor Hugo",
+    "year": 2025,
+    "streams": "380 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 587,
+    "title": "Última Saudade",
+    "artist": "Henrique & Juliano",
+    "year": 2025,
+    "streams": "391 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 588,
+    "title": "Posso Até Não Te Dar Flores",
+    "artist": "DJ Japa NK",
+    "year": 2025,
+    "streams": "324 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 589,
+    "title": "Apaga Apaga Apaga",
+    "artist": "Danilo e Davi",
+    "year": 2025,
+    "streams": "304 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 590,
+    "title": "Ilusão De Ótica",
+    "artist": "Matheus & Kauan",
+    "year": 2025,
+    "streams": "229 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 591,
+    "title": "Última Noite",
+    "artist": "Léo Foguete",
+    "year": 2025,
+    "streams": "221 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 592,
+    "title": "Ama Um Maloqueiro",
+    "artist": "Rafa e Junior",
+    "year": 2025,
+    "streams": "211 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 593,
+    "title": "Baqueado",
+    "artist": "Ícaro & Gilmar",
+    "year": 2025,
+    "streams": "205 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 594,
+    "title": "Cópia Proibida",
+    "artist": "Léo Foguete",
+    "year": 2025,
+    "streams": "242 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 595,
+    "title": "Famosinha",
+    "artist": "DJ Caio Vieira",
+    "year": 2025,
+    "streams": "251 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 596,
+    "title": "Oh Garota Eu Quero Você Só Pra Mim",
+    "artist": "Oruam",
+    "year": 2025,
+    "streams": "115 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 597,
+    "title": "Saudade Burra",
+    "artist": "Lauana Prado",
+    "year": 2025,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 598,
+    "title": "Mtg Na Imaginação",
+    "artist": "DJ Topo",
+    "year": 2025,
+    "streams": "115 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 599,
+    "title": "Me Ama ou Me Larga",
+    "artist": "Simone Mendes",
+    "year": 2025,
+    "streams": "112 Milhões",
+    "genre": "MPB"
+  },
+  {
+    "id": 600,
+    "title": "Sei Que Tu Me Odeia",
+    "artist": "Anitta",
+    "year": 2025,
+    "streams": "129 Milhões",
+    "genre": "Pop"
+  }
+]
