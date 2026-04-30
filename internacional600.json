@@ -137,11 +137,11 @@
   },
   {
     "id": 18,
-    "title": "Rhinestone Cowboy",
-    "artist": "Glen Campbell",
-    "year": 1975,
-    "streams": "290 Milhões",
-    "genre": "Country"
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970,
+    "streams": "930 Milhões",
+    "genre": "Rock"
   },
   {
     "id": 19,
@@ -157,7 +157,7 @@
     "artist": "America",
     "year": 1975,
     "streams": "470 Milhões",
-    "genre": "Folk"
+    "genre": "Rock"
   },
   {
     "id": 21,
@@ -1261,7 +1261,7 @@
     "artist": "Tracy Chapman",
     "year": 1988,
     "streams": "1,23 Bilhão",
-    "genre": "Folk"
+    "genre": "Rock"
   },
   {
     "id": 159,
@@ -2173,7 +2173,7 @@
     "artist": "Blur",
     "year": 1997,
     "streams": "1,24 Bilhão",
-    "genre": "Folk"
+    "genre": "Rock"
   },
   {
     "id": 273,
