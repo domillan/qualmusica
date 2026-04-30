@@ -138,7 +138,6 @@
             user-select: none;
         }
 
-        /* CSS do Botão Switch (Slider) */
         .switch {
             position: relative;
             display: inline-block;
@@ -182,7 +181,8 @@
             transform: translateX(22px);
         }
 
-        button.primary-btn {
+        /* Botões Principais */
+        .primary-btn {
             background-color: var(--primary);
             color: white;
             border: none;
@@ -197,9 +197,34 @@
             margin-top: 1rem;
         }
 
-        button.primary-btn:hover {
+        .primary-btn:hover {
             background-color: var(--primary-hover);
             transform: translateY(-2px);
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 1.2rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 800;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            margin-top: 1rem;
+        }
+
+        .secondary-btn:hover {
+            background-color: #EEF2FF;
+            transform: translateY(-2px);
+        }
+
+        .main-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
         }
 
         /* Game Screen */
@@ -240,16 +265,44 @@
         }
 
         .audio-player {
-            margin: 1.5rem 0 2.5rem 0;
+            margin: 1.5rem 0 1.5rem 0;
             width: 100%;
             height: 50px;
             border-radius: 25px;
+        }
+
+        /* Lyrics Section */
+        .lyrics-container {
+            display: none;
+            margin-top: 1.5rem;
+            padding: 1.5rem;
+            background: #F9FAFB;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            max-height: 250px;
+            overflow-y: auto;
+            text-align: center;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-main);
+            white-space: pre-wrap; /* Mantém as quebras de linha */
+            animation: slideUp 0.3s ease-out forwards;
+        }
+
+        .lyrics-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        .lyrics-container::-webkit-scrollbar-thumb {
+            background-color: #CBD5E1;
+            border-radius: 4px;
         }
 
         .answer-section {
             display: none;
             margin-top: 2rem;
             animation: slideUp 0.4s ease-out forwards;
+            border-top: 2px dashed var(--border);
+            padding-top: 2rem;
         }
 
         @keyframes slideUp {
@@ -473,7 +526,12 @@
                 <!-- O elemento audio será injetado aqui -->
             </div>
 
-            <button id="btn-show-answer" class="primary-btn" onclick="showAnswer()">Ver Resposta</button>
+            <div class="main-actions" id="main-actions">
+                <button id="btn-show-lyrics" class="secondary-btn" style="display: none;" onclick="toggleLyrics()">Conferir Letra</button>
+                <button id="btn-show-answer" class="primary-btn" onclick="showAnswer()">Ver Resposta</button>
+            </div>
+
+            <div id="lyrics-container" class="lyrics-container"></div>
 
             <div id="answer-section" class="answer-section">
                 <img id="answer-cover" class="cover-img" src="" alt="Capa da música">
@@ -501,13 +559,17 @@
         let playlist = [];
         let currentSong = null;
         let gameHistory = [];
+        let lyricsVisible = false;
         
         // Elementos da UI
         const setupScreen = document.getElementById('setup-screen');
         const gameScreen = document.getElementById('game-screen');
         const loader = document.getElementById('loader');
+        const mainActions = document.getElementById('main-actions');
         const answerSection = document.getElementById('answer-section');
         const btnShowAnswer = document.getElementById('btn-show-answer');
+        const btnShowLyrics = document.getElementById('btn-show-lyrics');
+        const lyricsContainer = document.getElementById('lyrics-container');
 
         // Inicialização e Leitura de JSONs
         async function fetchDatabases() {
@@ -592,6 +654,30 @@
             return null;
         }
 
+        // Busca letras na API do lrclib.net
+        async function searchLyrics(song) {
+            try {
+                // Remove partes entre parênteses para aumentar a precisão na busca
+                let cleanTitle = song.title.replace(/\(.*\)/g, '').trim();
+                const url = `https://lrclib.net/api/search?track_name=${encodeURIComponent(cleanTitle)}&artist_name=${encodeURIComponent(song.artist)}`;
+                
+                const res = await fetch(url);
+                if (!res.ok) return null;
+                
+                const data = await res.json();
+                if (data && data.length > 0) {
+                    // Pega o primeiro resultado que tenha plainLyrics disponível
+                    const trackWithLyrics = data.find(t => t.plainLyrics);
+                    if (trackWithLyrics) {
+                        return trackWithLyrics.plainLyrics;
+                    }
+                }
+            } catch (e) {
+                console.warn("Erro ao buscar letra da música:", e);
+            }
+            return null;
+        }
+
         async function initGame() {
             const useBr = document.getElementById('origin-br').checked;
             const useInt = document.getElementById('origin-int').checked;
@@ -647,7 +733,15 @@
             loader.style.display = 'block';
             gameScreen.style.display = 'none';
             answerSection.style.display = 'none';
-            btnShowAnswer.style.display = 'block';
+            mainActions.style.display = 'flex';
+            
+            // Reseta a área de letras
+            btnShowLyrics.style.display = 'none';
+            lyricsContainer.style.display = 'none';
+            lyricsContainer.textContent = '';
+            lyricsVisible = false;
+            btnShowLyrics.textContent = "Conferir Letra";
+
             document.getElementById('audio-container').innerHTML = '';
 
             currentSong = playlist.pop();
@@ -663,6 +757,9 @@
             currentSong.previewUrl = itunesData.previewUrl;
             currentSong.coverUrl = itunesData.artworkUrl100 ? itunesData.artworkUrl100.replace('100x100', '400x400') : '';
 
+            // Tenta buscar a letra simultaneamente e anexa à música atual
+            currentSong.lyrics = await searchLyrics(currentSong);
+
             setupGameUI();
         }
 
@@ -670,10 +767,9 @@
             loader.style.display = 'none';
             gameScreen.style.display = 'block';
 
-            // Povoa as pistas (A origem/ID fica na linha de cima separada)
+            // Pistas
             const originText = currentSong.origin === 'br' ? 'Nacional' : 'Internacional';
             document.getElementById('clue-origin-id').textContent = `${originText}#${currentSong.id}`;
-            
             document.getElementById('clue-year').textContent = `Ano: ${currentSong.year || 'N/D'}`;
             document.getElementById('clue-genre').textContent = `Estilo: ${currentSong.genre || 'N/D'}`;
             document.getElementById('clue-streams').textContent = `Reproduções: ${currentSong.streams || 'N/D'}`;
@@ -687,7 +783,13 @@
             audioEl.className = 'audio-player';
             audioContainer.appendChild(audioEl);
 
-            // Resposta
+            // Verifica se achou letra para habilitar o botão
+            if (currentSong.lyrics) {
+                btnShowLyrics.style.display = 'block';
+                lyricsContainer.textContent = currentSong.lyrics;
+            }
+
+            // Resposta Oculta
             document.getElementById('answer-cover').src = currentSong.coverUrl || 'https://via.placeholder.com/400x400?text=Sem+Capa';
             document.getElementById('answer-title').textContent = currentSong.title;
             document.getElementById('answer-artist').textContent = currentSong.artist;
@@ -696,8 +798,20 @@
             registerSongSession(currentSong);
         }
 
+        function toggleLyrics() {
+            lyricsVisible = !lyricsVisible;
+            if (lyricsVisible) {
+                lyricsContainer.style.display = 'block';
+                btnShowLyrics.textContent = "Ocultar Letra";
+            } else {
+                lyricsContainer.style.display = 'none';
+                btnShowLyrics.textContent = "Conferir Letra";
+            }
+        }
+
         function showAnswer() {
-            btnShowAnswer.style.display = 'none';
+            mainActions.style.display = 'none'; // Esconde os dois botões (Ver resposta e Letra)
+            lyricsContainer.style.display = 'none'; // Esconde a letra se estiver aberta
             answerSection.style.display = 'block';
         }
 
