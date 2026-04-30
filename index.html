@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qual é a Música?</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
         :root {
-            --primary-color: #2b2d42;
-            --secondary-color: #8d99ae;
-            --accent-color: #ef233c;
-            --success-color: #2a9d8f;
-            --background: #edf2f4;
-            --text-color: #2b2d42;
+            --primary: #4F46E5; /* Indigo */
+            --primary-hover: #4338CA;
+            --accent: #F43F5E; /* Rose */
+            --accent-hover: #E11D48;
+            --success: #10B981; /* Emerald */
+            --success-hover: #059669;
+            --bg: #F3F4F6;
+            --card-bg: #FFFFFF;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+            --border: #E5E7EB;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--background);
-            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
             margin: 0;
             padding: 0;
             display: flex;
@@ -26,33 +33,38 @@
         }
 
         header {
-            background-color: var(--primary-color);
+            background: linear-gradient(135deg, var(--primary), #7C3AED);
             color: white;
-            padding: 1rem 2rem;
+            padding: 1.2rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
             margin: 0;
             font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
         }
 
         .header-buttons button {
-            background-color: transparent;
+            background-color: rgba(255, 255, 255, 0.1);
             color: white;
-            border: 1px solid white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 0.5rem 1rem;
             margin-left: 0.5rem;
             cursor: pointer;
-            border-radius: 4px;
-            transition: all 0.3s;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.2s;
+            backdrop-filter: blur(4px);
         }
 
         .header-buttons button:hover {
             background-color: white;
-            color: var(--primary-color);
+            color: var(--primary);
         }
 
         main {
@@ -65,51 +77,95 @@
         }
 
         .card {
-            background: white;
+            background: var(--card-bg);
             padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+        }
+
+        /* Setup Screen - Modernizado */
+        #setup-screen h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: var(--text-main);
+            text-align: center;
             margin-bottom: 2rem;
         }
 
-        /* Setup Screen */
         .filter-group {
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
         }
 
         .filter-group h3 {
             margin-top: 0;
-            border-bottom: 2px solid var(--background);
-            padding-bottom: 0.5rem;
+            font-size: 1rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
         }
 
         .checkbox-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1px));
-            gap: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
         }
 
-        .checkbox-label {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+        /* Checkboxes transformados em botões modernos */
+        .custom-checkbox {
             cursor: pointer;
+            user-select: none;
+            flex: 1 1 calc(33.333% - 0.8rem);
+            min-width: 120px;
+        }
+
+        .custom-checkbox input {
+            display: none;
+        }
+
+        .custom-checkbox span {
+            display: block;
+            padding: 0.8rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+            background-color: #F9FAFB;
+        }
+
+        .custom-checkbox input:checked + span {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.3);
+        }
+
+        .custom-checkbox:hover span {
+            border-color: var(--primary);
         }
 
         button.primary-btn {
-            background-color: var(--accent-color);
+            background-color: var(--primary);
             color: white;
             border: none;
-            padding: 1rem 2rem;
+            padding: 1.2rem 2rem;
             font-size: 1.1rem;
-            border-radius: 4px;
+            font-weight: 800;
+            border-radius: 10px;
             cursor: pointer;
             width: 100%;
-            transition: background 0.3s;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.4);
+            margin-top: 1rem;
         }
 
         button.primary-btn:hover {
-            background-color: #d90429;
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
         }
 
         /* Game Screen */
@@ -120,71 +176,106 @@
 
         .song-clues {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            gap: 2rem;
-            margin-bottom: 1.5rem;
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: var(--secondary-color);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .clue-badge {
+            background-color: var(--bg);
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            font-weight: 600;
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+
+        .clue-badge.highlight {
+            background-color: #EEF2FF;
+            color: var(--primary);
+            border-color: #C7D2FE;
         }
 
         .audio-player {
-            margin: 2rem 0;
+            margin: 1.5rem 0 2.5rem 0;
             width: 100%;
+            height: 50px;
+            border-radius: 25px;
         }
 
         .answer-section {
             display: none;
             margin-top: 2rem;
-            animation: fadeIn 0.5s;
+            animation: slideUp 0.4s ease-out forwards;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         .cover-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 220px;
+            height: 220px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2);
             object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        #answer-title {
+            margin: 0.5rem 0 0.2rem 0;
+            font-size: 1.6rem;
+            font-weight: 800;
+        }
+
+        #answer-artist {
+            margin: 0 0 1.5rem 0;
+            color: var(--text-muted);
+            font-weight: 600;
         }
 
         .action-buttons {
             display: flex;
             justify-content: center;
             gap: 1rem;
-            margin-top: 1.5rem;
         }
 
-        .btn-correct {
-            background-color: var(--success-color);
+        .btn-correct, .btn-wrong {
             color: white;
             border: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
+            padding: 1rem 2rem;
+            border-radius: 8px;
             cursor: pointer;
-            font-weight: bold;
+            font-weight: 800;
+            font-size: 1rem;
+            flex: 1;
+            max-width: 200px;
+            transition: all 0.2s;
         }
 
-        .btn-wrong {
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-        }
+        .btn-correct { background-color: var(--success); }
+        .btn-correct:hover { background-color: var(--success-hover); transform: translateY(-2px); }
+
+        .btn-wrong { background-color: var(--accent); }
+        .btn-wrong:hover { background-color: var(--accent-hover); transform: translateY(-2px); }
 
         /* History */
         .history-section {
-            background: white;
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background: var(--card-bg);
+            padding: 1.5rem 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .history-section h3 {
+            margin-top: 0;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--bg);
+            padding-bottom: 0.8rem;
         }
 
         .history-list {
@@ -194,8 +285,8 @@
         }
 
         .history-list li {
-            padding: 0.8rem 0;
-            border-bottom: 1px solid var(--background);
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -206,25 +297,27 @@
         }
 
         .tag {
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.8rem;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
             color: white;
-            font-weight: bold;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-right: 0.5rem;
         }
-        .tag.br { background-color: #009c3b; }
-        .tag.int { background-color: #003399; }
-        .tag.acertou { background-color: var(--success-color); }
-        .tag.errou { background-color: var(--accent-color); }
+        .tag.br { background-color: #10B981; }
+        .tag.int { background-color: #3B82F6; }
+        .tag.acertou { background-color: var(--success); }
+        .tag.errou { background-color: var(--accent); }
 
         .loader {
             display: none;
-            margin: 2rem auto;
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid var(--accent-color);
+            margin: 3rem auto;
+            border: 4px solid var(--border);
+            border-top: 4px solid var(--primary);
             border-radius: 50%;
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             animation: spin 1s linear infinite;
         }
 
@@ -252,11 +345,13 @@
             <div class="filter-group">
                 <h3>Origem</h3>
                 <div class="checkbox-grid">
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="origin-br" value="br" checked> Nacional
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="origin-br" value="br" checked>
+                        <span>🇧🇷 Nacional</span>
                     </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="origin-int" value="int" checked> Internacional
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="origin-int" value="int" checked>
+                        <span>🌎 Internacional</span>
                     </label>
                 </div>
             </div>
@@ -264,12 +359,12 @@
             <div class="filter-group">
                 <h3>Décadas</h3>
                 <div class="checkbox-grid">
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="70" checked> Anos 70</label>
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="80" checked> Anos 80</label>
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="90" checked> Anos 90</label>
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="00" checked> Anos 2000</label>
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="10" checked> Anos 2010</label>
-                    <label class="checkbox-label"><input type="checkbox" class="decade-filter" value="20" checked> Anos 2020</label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="70" checked><span>Anos 70</span></label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="80" checked><span>Anos 80</span></label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="90" checked><span>Anos 90</span></label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="00" checked><span>Anos 2000</span></label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="10" checked><span>Anos 2010</span></label>
+                    <label class="custom-checkbox"><input type="checkbox" class="decade-filter" value="20" checked><span>Anos 2020</span></label>
                 </div>
             </div>
 
@@ -281,16 +376,17 @@
         <!-- Tela do Jogo -->
         <div id="game-screen" class="card">
             <div class="song-clues">
-                <span id="clue-year">Ano: --</span>
-                <span id="clue-genre">Estilo: --</span>
-                <span id="clue-streams">Streams: --</span>
+                <span id="clue-origin-id" class="clue-badge highlight">--</span>
+                <span id="clue-year" class="clue-badge">Ano: --</span>
+                <span id="clue-genre" class="clue-badge">Estilo: --</span>
+                <span id="clue-streams" class="clue-badge">Reproduções: --</span>
             </div>
 
             <div id="audio-container">
                 <!-- O elemento audio será injetado aqui -->
             </div>
 
-            <button id="btn-show-answer" class="primary-btn" style="margin-top: 1rem;" onclick="showAnswer()">Ver Resposta</button>
+            <button id="btn-show-answer" class="primary-btn" onclick="showAnswer()">Ver Resposta</button>
 
             <div id="answer-section" class="answer-section">
                 <img id="answer-cover" class="cover-img" src="" alt="Capa da música">
@@ -329,27 +425,23 @@
         // Inicialização e Leitura de JSONs
         async function fetchDatabases() {
             try {
-                // Se os arquivos não existirem no ambiente local durante o teste, 
-                // eles precisam estar na mesma raiz.
                 const resBr = await fetch('brasil600.json').catch(() => null);
                 const resInt = await fetch('internacional600.json').catch(() => null);
                 
                 let brData = resBr && resBr.ok ? await resBr.json() : [];
                 let intData = resInt && resInt.ok ? await resInt.json() : [];
 
-                // Adiciona flag de origem
                 brData = brData.map(song => ({ ...song, origin: 'br' }));
                 intData = intData.map(song => ({ ...song, origin: 'int' }));
 
                 return { brData, intData };
             } catch (error) {
                 console.error("Erro ao carregar arquivos JSON:", error);
-                alert("Não foi possível carregar as listas de música. Certifique-se de que brasil600.json e internacional600.json existem.");
+                alert("Não foi possível carregar as listas de música. Certifique-se de que brasil600.json e internacional600.json existem no servidor local.");
                 return { brData: [], intData: [] };
             }
         }
 
-        // Verifica a década da música
         function matchDecade(year, selectedDecades) {
             const y = parseInt(year);
             if (isNaN(y)) return false;
@@ -361,7 +453,6 @@
             return false;
         }
 
-        // Embaralha o array (Fisher-Yates)
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -370,9 +461,7 @@
             return array;
         }
 
-        // Busca na API do iTunes seguindo os requisitos
         async function searchItunes(song) {
-            // Busca 1: Title + Artist (Limit 1)
             const term1 = encodeURIComponent(`${song.title} ${song.artist}`);
             try {
                 const res1 = await fetch(`https://itunes.apple.com/search?term=${term1}&entity=song&limit=1`);
@@ -388,10 +477,9 @@
                     }
                 }
             } catch (e) {
-                console.warn("Erro na primeira busca do iTunes:", e);
+                console.warn("Erro na primeira busca:", e);
             }
 
-            // Busca 2: Title (Limit 5) com verificação de artista similar
             const term2 = encodeURIComponent(song.title);
             try {
                 const res2 = await fetch(`https://itunes.apple.com/search?term=${term2}&entity=song&limit=5`);
@@ -401,7 +489,6 @@
                     const artistA = track.artistName.toLowerCase().trim();
                     const artistB = song.artist.toLowerCase().trim();
                     
-                    // Verifica se um nome contém o outro (match similar)
                     if (artistA.includes(artistB) || artistB.includes(artistA)) {
                         const isTrackRemixOrCover = /cover|remix/i.test(track.trackName);
                         const isOriginalRemix = /remix/i.test(song.title);
@@ -412,13 +499,12 @@
                     }
                 }
             } catch (e) {
-                console.warn("Erro na segunda busca do iTunes:", e);
+                console.warn("Erro na segunda busca:", e);
             }
 
-            return null; // Não encontrou a música que atenda aos critérios
+            return null;
         }
 
-        // Inicializa o jogo e filtra a playlist
         async function initGame() {
             const useBr = document.getElementById('origin-br').checked;
             const useInt = document.getElementById('origin-int').checked;
@@ -444,13 +530,14 @@
             if (useBr) combinedData = combinedData.concat(brData);
             if (useInt) combinedData = combinedData.concat(intData);
 
-            // Carrega IDs já tocados da Session
             const playedIds = JSON.parse(sessionStorage.getItem('playedSongs') || '[]');
 
-            // Filtra por década e remove os que já foram vistos na session
             let filteredData = combinedData.filter(song => {
-                const isPlayed = playedIds.includes(song.id);
+                // Combina origem e ID para criar uma chave única (ex: "br-35" ou "int-35")
+                const uniqueId = `${song.origin}-${song.id}`;
+                const isPlayed = playedIds.includes(uniqueId);
                 const isCorrectDecade = matchDecade(song.year, selectedDecades);
+                
                 return !isPlayed && isCorrectDecade;
             });
 
@@ -464,7 +551,6 @@
             nextSong();
         }
 
-        // Carrega a próxima música e tenta buscar na API
         async function nextSong() {
             if (playlist.length === 0) {
                 alert("As músicas da sua seleção acabaram!");
@@ -476,22 +562,19 @@
             gameScreen.style.display = 'none';
             answerSection.style.display = 'none';
             btnShowAnswer.style.display = 'block';
-            document.getElementById('audio-container').innerHTML = ''; // Limpa o áudio anterior
+            document.getElementById('audio-container').innerHTML = '';
 
             currentSong = playlist.pop();
             
             const itunesData = await searchItunes(currentSong);
 
             if (!itunesData || !itunesData.previewUrl) {
-                // Se não encontrou ou não tem preview, pula pra próxima
-                console.log(`Música não encontrada no iTunes: ${currentSong.title} - Pular.`);
+                console.log(`Música não encontrada/sem preview: ${currentSong.title} - Pular.`);
                 nextSong();
                 return;
             }
 
-            // Anexa os dados do itunes na música atual
             currentSong.previewUrl = itunesData.previewUrl;
-            // Usa artwork100x100 ou maior, trocando a string
             currentSong.coverUrl = itunesData.artworkUrl100 ? itunesData.artworkUrl100.replace('100x100', '400x400') : '';
 
             setupGameUI();
@@ -502,28 +585,29 @@
             gameScreen.style.display = 'block';
 
             // Povoa as pistas
+            const originText = currentSong.origin === 'br' ? 'Nacional' : 'Internacional';
+            document.getElementById('clue-origin-id').textContent = `${originText}#${currentSong.id}`;
             document.getElementById('clue-year').textContent = `Ano: ${currentSong.year || 'N/D'}`;
             document.getElementById('clue-genre').textContent = `Estilo: ${currentSong.genre || 'N/D'}`;
-            // Formata streams (ex: 1000000 -> 1.000.000)
-            const formattedStreams = currentSong.streams ? Number(currentSong.streams).toLocaleString('pt-BR') : 'N/D';
-            document.getElementById('clue-streams').textContent = `Streams: ${formattedStreams}`;
+            // Mantém "Reproduções" como string original sem conversão matemática
+            document.getElementById('clue-streams').textContent = `Reproduções: ${currentSong.streams || 'N/D'}`;
 
-            // Cria e injeta o elemento de áudio
+            // Áudio
             const audioContainer = document.getElementById('audio-container');
             const audioEl = document.createElement('audio');
             audioEl.src = currentSong.previewUrl;
             audioEl.controls = true;
-            audioEl.autoplay = true; // Auto-play permitido já que o usuário interagiu com "Iniciar"
+            audioEl.autoplay = true; 
             audioEl.className = 'audio-player';
             audioContainer.appendChild(audioEl);
 
-            // Reseta a área de resposta
+            // Resposta
             document.getElementById('answer-cover').src = currentSong.coverUrl || 'https://via.placeholder.com/400x400?text=Sem+Capa';
             document.getElementById('answer-title').textContent = currentSong.title;
             document.getElementById('answer-artist').textContent = currentSong.artist;
             
-            // Registra a música no SessionStorage agora que ela foi exibida/tocada
-            registerSongSession(currentSong.id);
+            // Registra a música no SessionStorage usando a chave única (origin-id)
+            registerSongSession(currentSong);
         }
 
         function showAnswer() {
@@ -531,26 +615,26 @@
             answerSection.style.display = 'block';
         }
 
-        function registerSongSession(id) {
+        function registerSongSession(song) {
+            const uniqueId = `${song.origin}-${song.id}`;
             let playedIds = JSON.parse(sessionStorage.getItem('playedSongs') || '[]');
-            if (!playedIds.includes(id)) {
-                playedIds.push(id);
+            
+            if (!playedIds.includes(uniqueId)) {
+                playedIds.push(uniqueId);
                 sessionStorage.setItem('playedSongs', JSON.stringify(playedIds));
             }
         }
 
         function registerResult(correct) {
-            // Salva no histórico local
             gameHistory.unshift({
                 title: currentSong.title,
                 artist: currentSong.artist,
                 year: currentSong.year,
                 origin: currentSong.origin,
+                id: currentSong.id,
                 correct: correct
             });
             renderHistory();
-            
-            // Vai para próxima
             nextSong();
         }
 
@@ -565,8 +649,8 @@
                 const resultTag = item.correct ? '<span class="tag acertou">Acertou</span>' : '<span class="tag errou">Errou</span>';
 
                 li.innerHTML = `
-                    <div>
-                        ${originTag} <strong>${item.title}</strong> - ${item.artist} (${item.year || '-'})
+                    <div style="display:flex; align-items:center;">
+                        ${originTag} <strong>${item.title}</strong> &nbsp;- ${item.artist} (${item.year || '-'})
                     </div>
                     <div>
                         ${resultTag}
@@ -577,7 +661,6 @@
         }
 
         function resetGame() {
-            // Apaga histórico de tela, volta pro menu, mantém session intacta
             gameHistory = [];
             renderHistory();
             
@@ -585,7 +668,6 @@
             loader.style.display = 'none';
             setupScreen.style.display = 'block';
             
-            // Pausa música se houver
             const audioContainer = document.getElementById('audio-container');
             if (audioContainer.querySelector('audio')) {
                 audioContainer.querySelector('audio').pause();
@@ -593,7 +675,7 @@
         }
 
         function clearSession() {
-            if (confirm('Tem certeza que deseja apagar o progresso da sessão? Músicas tocadas voltarão a aparecer.')) {
+            if (confirm('Tem certeza que deseja apagar o progresso da sessão? Todas as músicas tocadas voltarão a aparecer.')) {
                 sessionStorage.removeItem('playedSongs');
                 resetGame();
             }
