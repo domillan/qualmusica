@@ -85,7 +85,7 @@
             border: 1px solid var(--border);
         }
 
-        /* Setup Screen - Switches Modernos */
+        /* Setup Screen */
         #setup-screen h2 {
             margin-top: 0;
             font-size: 1.8rem;
@@ -136,13 +136,65 @@
             font-weight: 600;
             color: var(--text-main);
             user-select: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-right: 10px;
         }
 
+        /* Collapse Customizado */
+        .custom-collapse {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 0;
+            margin-bottom: 2.5rem;
+            overflow: hidden;
+        }
+
+        .custom-collapse summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 1rem 1.5rem;
+            background-color: #F9FAFB;
+            font-weight: 800;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            user-select: none;
+            list-style: none;
+        }
+
+        .custom-collapse summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .custom-collapse summary .icon {
+            transition: transform 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .custom-collapse[open] summary {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .custom-collapse[open] summary .icon {
+            transform: rotate(180deg);
+        }
+
+        .collapse-content {
+            padding: 1.5rem;
+        }
+
+        /* Switches */
         .switch {
             position: relative;
             display: inline-block;
             width: 48px;
             height: 26px;
+            flex-shrink: 0;
         }
 
         .switch input {
@@ -289,13 +341,8 @@
             animation: slideUp 0.3s ease-out forwards;
         }
 
-        .lyrics-container::-webkit-scrollbar {
-            width: 8px;
-        }
-        .lyrics-container::-webkit-scrollbar-thumb {
-            background-color: #CBD5E1;
-            border-radius: 4px;
-        }
+        .lyrics-container::-webkit-scrollbar { width: 8px; }
+        .lyrics-container::-webkit-scrollbar-thumb { background-color: #CBD5E1; border-radius: 4px; }
 
         .answer-section {
             display: none;
@@ -420,7 +467,6 @@
             100% { transform: rotate(360deg); }
         }
         
-        /* Animação suave para exibir o botão da letra quando ela carregar */
         @keyframes fadeIn {
             from { opacity: 0; transform: scale(0.9); }
             to { opacity: 1; transform: scale(1); }
@@ -469,50 +515,26 @@
             <div class="filter-group">
                 <h3>Décadas</h3>
                 <div class="toggle-grid">
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 70</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="70" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 80</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="80" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 90</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="90" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 2000</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="00" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 2010</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="10" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">Anos 2020</span>
-                        <div class="switch">
-                            <input type="checkbox" class="decade-filter" value="20" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 70</span><div class="switch"><input type="checkbox" class="decade-filter" value="70" checked><span class="slider"></span></div></label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 80</span><div class="switch"><input type="checkbox" class="decade-filter" value="80" checked><span class="slider"></span></div></label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 90</span><div class="switch"><input type="checkbox" class="decade-filter" value="90" checked><span class="slider"></span></div></label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 2000</span><div class="switch"><input type="checkbox" class="decade-filter" value="00" checked><span class="slider"></span></div></label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 2010</span><div class="switch"><input type="checkbox" class="decade-filter" value="10" checked><span class="slider"></span></div></label>
+                    <label class="toggle-label"><span class="toggle-text">Anos 2020</span><div class="switch"><input type="checkbox" class="decade-filter" value="20" checked><span class="slider"></span></div></label>
                 </div>
             </div>
+
+            <!-- Filtro de Estilos (Collapse) -->
+            <details class="custom-collapse">
+                <summary>
+                    Estilos Musicais (Filtro) <span class="icon">▼</span>
+                </summary>
+                <div class="collapse-content">
+                    <div class="toggle-grid" id="genre-grid">
+                        <p style="grid-column: 1/-1; text-align: center; color: var(--text-muted);">Carregando estilos...</p>
+                    </div>
+                </div>
+            </details>
 
             <button class="primary-btn" onclick="initGame()">Iniciar Jogo</button>
         </div>
@@ -566,6 +588,7 @@
 
     <script>
         // Estado do Jogo
+        let globalDb = { brData: [], intData: [] };
         let playlist = [];
         let currentSong = null;
         let gameHistory = [];
@@ -580,8 +603,14 @@
         const btnShowAnswer = document.getElementById('btn-show-answer');
         const btnShowLyrics = document.getElementById('btn-show-lyrics');
         const lyricsContainer = document.getElementById('lyrics-container');
+        const genreGrid = document.getElementById('genre-grid');
 
-        // Inicialização e Leitura de JSONs
+        // Carrega os dados assim que a tela abre para montar os estilos
+        window.addEventListener('DOMContentLoaded', async () => {
+            globalDb = await fetchDatabases();
+            populateGenres();
+        });
+
         async function fetchDatabases() {
             try {
                 const resBr = await fetch('brasil600.json').catch(() => null);
@@ -596,9 +625,32 @@
                 return { brData, intData };
             } catch (error) {
                 console.error("Erro ao carregar arquivos JSON:", error);
-                alert("Não foi possível carregar as listas de música.");
                 return { brData: [], intData: [] };
             }
+        }
+
+        function populateGenres() {
+            const genres = new Set();
+            globalDb.brData.forEach(s => s.genre && genres.add(s.genre));
+            globalDb.intData.forEach(s => s.genre && genres.add(s.genre));
+            
+            if (genres.size === 0) {
+                genreGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">Nenhum estilo encontrado.</p>';
+                return;
+            }
+
+            genreGrid.innerHTML = '';
+            Array.from(genres).sort().forEach(genre => {
+                genreGrid.innerHTML += `
+                    <label class="toggle-label">
+                        <span class="toggle-text">${genre}</span>
+                        <div class="switch">
+                            <input type="checkbox" class="genre-filter" value="${genre}" checked>
+                            <span class="slider"></span>
+                        </div>
+                    </label>
+                `;
+            });
         }
 
         function matchDecade(year, selectedDecades) {
@@ -631,9 +683,7 @@
                     const isTrackRemixOrCover = /cover|remix/i.test(track.trackName);
                     const isOriginalRemix = /remix/i.test(song.title);
                     
-                    if (!isTrackRemixOrCover || isOriginalRemix) {
-                        return track;
-                    }
+                    if (!isTrackRemixOrCover || isOriginalRemix) return track;
                 }
             } catch (e) {
                 console.warn("Erro na primeira busca:", e);
@@ -652,9 +702,7 @@
                         const isTrackRemixOrCover = /cover|remix/i.test(track.trackName);
                         const isOriginalRemix = /remix/i.test(song.title);
                         
-                        if (!isTrackRemixOrCover || isOriginalRemix) {
-                            return track;
-                        }
+                        if (!isTrackRemixOrCover || isOriginalRemix) return track;
                     }
                 }
             } catch (e) {
@@ -664,11 +712,10 @@
             return null;
         }
 
-        // Busca letras em segundo plano de forma assíncrona com timeout de 10s
         async function fetchAndDisplayLyrics(song) {
             try {
                 const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+                const timeoutId = setTimeout(() => controller.abort(), 10000); 
 
                 let cleanTitle = song.title.replace(/\(.*\)/g, '').trim();
                 const url = `https://lrclib.net/api/search?track_name=${encodeURIComponent(cleanTitle)}&artist_name=${encodeURIComponent(song.artist)}`;
@@ -682,29 +729,34 @@
                 if (data && data.length > 0) {
                     const trackWithLyrics = data.find(t => t.plainLyrics);
                     
-                    // Garante que o usuário ainda está na mesma música e a tela de resposta não abriu
                     if (trackWithLyrics && currentSong && currentSong.id === song.id && currentSong.origin === song.origin) {
                         currentSong.lyrics = trackWithLyrics.plainLyrics;
                         lyricsContainer.textContent = currentSong.lyrics;
                         
-                        // Só exibe o botão se a tela de resposta ainda não estiver visível
                         if (answerSection.style.display !== 'block') {
                             btnShowLyrics.style.display = 'block';
                         }
                     }
                 }
             } catch (e) {
-                // Erro silencioso (timeout ou falha na rede), jogo segue normalmente
                 console.warn("Busca de letra abortada (timeout) ou falhou:", e);
             }
         }
 
         async function initGame() {
+            // Em caso de lentidão, garante que a DB foi carregada
+            if (globalDb.brData.length === 0 && globalDb.intData.length === 0) {
+                globalDb = await fetchDatabases();
+            }
+
             const useBr = document.getElementById('origin-br').checked;
             const useInt = document.getElementById('origin-int').checked;
             
             const decadeCheckboxes = document.querySelectorAll('.decade-filter:checked');
             const selectedDecades = Array.from(decadeCheckboxes).map(cb => cb.value);
+
+            const genreCheckboxes = document.querySelectorAll('.genre-filter:checked');
+            const selectedGenres = Array.from(genreCheckboxes).map(cb => cb.value);
 
             if (!useBr && !useInt) {
                 alert("Selecione pelo menos uma origem (Nacional ou Internacional).");
@@ -714,15 +766,17 @@
                 alert("Selecione pelo menos uma década.");
                 return;
             }
+            if (selectedGenres.length === 0) {
+                alert("Selecione pelo menos um estilo musical.");
+                return;
+            }
 
             setupScreen.style.display = 'none';
             loader.style.display = 'block';
 
-            const { brData, intData } = await fetchDatabases();
             let combinedData = [];
-            
-            if (useBr) combinedData = combinedData.concat(brData);
-            if (useInt) combinedData = combinedData.concat(intData);
+            if (useBr) combinedData = combinedData.concat(globalDb.brData);
+            if (useInt) combinedData = combinedData.concat(globalDb.intData);
 
             const playedIds = JSON.parse(sessionStorage.getItem('playedSongs') || '[]');
 
@@ -730,8 +784,9 @@
                 const uniqueId = `${song.origin}-${song.id}`;
                 const isPlayed = playedIds.includes(uniqueId);
                 const isCorrectDecade = matchDecade(song.year, selectedDecades);
+                const isCorrectGenre = selectedGenres.includes(song.genre);
                 
-                return !isPlayed && isCorrectDecade;
+                return !isPlayed && isCorrectDecade && isCorrectGenre;
             });
 
             if (filteredData.length === 0) {
@@ -756,7 +811,6 @@
             answerSection.style.display = 'none';
             mainActions.style.display = 'flex';
             
-            // Reseta a área de letras
             btnShowLyrics.style.display = 'none';
             lyricsContainer.style.display = 'none';
             lyricsContainer.textContent = '';
@@ -770,7 +824,9 @@
             const itunesData = await searchItunes(currentSong);
 
             if (!itunesData || !itunesData.previewUrl) {
-                console.log(`Música não encontrada/sem preview: ${currentSong.title} - Pular.`);
+                console.log(`Música não encontrada/sem preview: ${currentSong.title} - Pular e registrar no session.`);
+                // Salva a música que não foi achada na sessão para não buscar de novo!
+                registerSongSession(currentSong);
                 nextSong();
                 return;
             }
@@ -778,10 +834,7 @@
             currentSong.previewUrl = itunesData.previewUrl;
             currentSong.coverUrl = itunesData.artworkUrl100 ? itunesData.artworkUrl100.replace('100x100', '400x400') : '';
 
-            // Configura e exibe a interface principal sem esperar pela letra
             setupGameUI();
-
-            // Inicia a busca da letra em segundo plano
             fetchAndDisplayLyrics(currentSong);
         }
 
@@ -789,14 +842,12 @@
             loader.style.display = 'none';
             gameScreen.style.display = 'block';
 
-            // Pistas
             const originText = currentSong.origin === 'br' ? 'Nacional' : 'Internacional';
             document.getElementById('clue-origin-id').textContent = `${originText}#${currentSong.id}`;
             document.getElementById('clue-year').textContent = `Ano: ${currentSong.year || 'N/D'}`;
             document.getElementById('clue-genre').textContent = `Estilo: ${currentSong.genre || 'N/D'}`;
             document.getElementById('clue-streams').textContent = `Reproduções: ${currentSong.streams || 'N/D'}`;
 
-            // Áudio
             const audioContainer = document.getElementById('audio-container');
             const audioEl = document.createElement('audio');
             audioEl.src = currentSong.previewUrl;
@@ -805,12 +856,10 @@
             audioEl.className = 'audio-player';
             audioContainer.appendChild(audioEl);
 
-            // Resposta Oculta
             document.getElementById('answer-cover').src = currentSong.coverUrl || 'https://via.placeholder.com/400x400?text=Sem+Capa';
             document.getElementById('answer-title').textContent = currentSong.title;
             document.getElementById('answer-artist').textContent = currentSong.artist;
             
-            // Registra a música no SessionStorage
             registerSongSession(currentSong);
         }
 
@@ -826,9 +875,9 @@
         }
 
         function showAnswer() {
-            mainActions.style.display = 'none'; // Esconde os botões principais
-            lyricsContainer.style.display = 'none'; // Esconde a letra se estiver aberta
-            answerSection.style.display = 'block'; // Mostra a resposta
+            mainActions.style.display = 'none'; 
+            lyricsContainer.style.display = 'none'; 
+            answerSection.style.display = 'block'; 
         }
 
         function registerSongSession(song) {
@@ -891,7 +940,7 @@
         }
 
         function clearSession() {
-            if (confirm('Tem certeza que deseja apagar o progresso da sessão? Todas as músicas tocadas voltarão a aparecer.')) {
+            if (confirm('Tem certeza que deseja apagar o progresso da sessão? Todas as músicas tocadas (e as ignoradas) voltarão a aparecer.')) {
                 sessionStorage.removeItem('playedSongs');
                 resetGame();
             }
