@@ -142,6 +142,32 @@
             margin-right: 10px;
         }
 
+        /* Slider de Reproduções */
+        .slider-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #F9FAFB;
+            border: 1px solid var(--border);
+            padding: 1rem 1.2rem;
+            border-radius: 10px;
+            gap: 1.5rem;
+        }
+
+        .slider-container input[type="range"] {
+            flex-grow: 1;
+            accent-color: var(--primary);
+            cursor: pointer;
+        }
+
+        .slider-value {
+            font-weight: 800;
+            color: var(--primary);
+            min-width: 110px;
+            text-align: right;
+            user-select: none;
+        }
+
         /* Collapse Customizado */
         .custom-collapse {
             background-color: var(--card-bg);
@@ -524,6 +550,15 @@
                 </div>
             </div>
 
+            <!-- Filtro de Reproduções -->
+            <div class="filter-group">
+                <h3>Mínimo de Reproduções</h3>
+                <div class="slider-container">
+                    <input type="range" id="streams-filter" min="2000000" max="2000000000" step="1000000" value="2000000">
+                    <span id="streams-display" class="slider-value">2 Milhões</span>
+                </div>
+            </div>
+
             <!-- Filtro de Estilos (Collapse) -->
             <details class="custom-collapse">
                 <summary>
@@ -604,6 +639,21 @@
         const btnShowLyrics = document.getElementById('btn-show-lyrics');
         const lyricsContainer = document.getElementById('lyrics-container');
         const genreGrid = document.getElementById('genre-grid');
+
+        // Lógica do Slider de Streams
+        const streamsFilter = document.getElementById('streams-filter');
+        const streamsDisplay = document.getElementById('streams-display');
+
+        streamsFilter.addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            if (value >= 1000000000) {
+                const bilhoes = value / 1000000000;
+                streamsDisplay.textContent = bilhoes.toFixed(1).replace('.0', '') + (bilhoes >= 2 ? ' Bilhões' : ' Bilhão');
+            } else {
+                const milhoes = value / 1000000;
+                streamsDisplay.textContent = milhoes.toFixed(0) + ' Milhões';
+            }
+        });
 
         // Carrega os dados assim que a tela abre para montar os estilos
         window.addEventListener('DOMContentLoaded', async () => {
@@ -758,6 +808,8 @@
             const genreCheckboxes = document.querySelectorAll('.genre-filter:checked');
             const selectedGenres = Array.from(genreCheckboxes).map(cb => cb.value);
 
+            const minStreams = parseInt(document.getElementById('streams-filter').value);
+
             if (!useBr && !useInt) {
                 alert("Selecione pelo menos uma origem (Nacional ou Internacional).");
                 return;
@@ -786,7 +838,10 @@
                 const isCorrectDecade = matchDecade(song.year, selectedDecades);
                 const isCorrectGenre = selectedGenres.includes(song.genre);
                 
-                return !isPlayed && isCorrectDecade && isCorrectGenre;
+                // Confere se o número de streams é maior ou igual ao escolhido (se a música não tiver o atributo, tratamos como 0)
+                const hasMinStreams = (song.streamsNumber || 0) >= minStreams;
+                
+                return !isPlayed && isCorrectDecade && isCorrectGenre && hasMinStreams;
             });
 
             if (filteredData.length === 0) {
