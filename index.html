@@ -94,21 +94,6 @@
             margin-bottom: 2rem;
         }
 
-        .filter-group {
-            margin-bottom: 2.5rem;
-        }
-
-        .filter-group h3 {
-            margin-top: 0;
-            font-size: 1rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 0.5rem;
-        }
-
         .toggle-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -174,7 +159,7 @@
             border: 1px solid var(--border);
             border-radius: 10px;
             padding: 0;
-            margin-bottom: 2.5rem;
+            margin-bottom: 1.5rem;
             overflow: hidden;
         }
 
@@ -518,51 +503,65 @@
         <div id="setup-screen" class="card">
             <h2>Configurações do Jogo</h2>
             
-            <div class="filter-group">
-                <h3>Origem</h3>
-                <div class="toggle-grid">
-                    <label class="toggle-label">
-                        <span class="toggle-text">🇧🇷 Nacional</span>
-                        <div class="switch">
-                            <input type="checkbox" id="origin-br" value="br" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
-                    <label class="toggle-label">
-                        <span class="toggle-text">🌎 Internacional</span>
-                        <div class="switch">
-                            <input type="checkbox" id="origin-int" value="int" checked>
-                            <span class="slider"></span>
-                        </div>
-                    </label>
+            <!-- Filtro de Origem (Collapse) -->
+            <details class="custom-collapse" open>
+                <summary>
+                    Origem <span class="icon">▼</span>
+                </summary>
+                <div class="collapse-content">
+                    <div class="toggle-grid">
+                        <label class="toggle-label">
+                            <span class="toggle-text">🇧🇷 Nacional</span>
+                            <div class="switch">
+                                <input type="checkbox" id="origin-br" value="br" checked>
+                                <span class="slider"></span>
+                            </div>
+                        </label>
+                        <label class="toggle-label">
+                            <span class="toggle-text">🌎 Internacional</span>
+                            <div class="switch">
+                                <input type="checkbox" id="origin-int" value="int" checked>
+                                <span class="slider"></span>
+                            </div>
+                        </label>
+                    </div>
                 </div>
-            </div>
+            </details>
 
-            <div class="filter-group">
-                <h3>Décadas</h3>
-                <div class="toggle-grid">
-                    <label class="toggle-label"><span class="toggle-text">Anos 70</span><div class="switch"><input type="checkbox" class="decade-filter" value="70" checked><span class="slider"></span></div></label>
-                    <label class="toggle-label"><span class="toggle-text">Anos 80</span><div class="switch"><input type="checkbox" class="decade-filter" value="80" checked><span class="slider"></span></div></label>
-                    <label class="toggle-label"><span class="toggle-text">Anos 90</span><div class="switch"><input type="checkbox" class="decade-filter" value="90" checked><span class="slider"></span></div></label>
-                    <label class="toggle-label"><span class="toggle-text">Anos 2000</span><div class="switch"><input type="checkbox" class="decade-filter" value="00" checked><span class="slider"></span></div></label>
-                    <label class="toggle-label"><span class="toggle-text">Anos 2010</span><div class="switch"><input type="checkbox" class="decade-filter" value="10" checked><span class="slider"></span></div></label>
-                    <label class="toggle-label"><span class="toggle-text">Anos 2020</span><div class="switch"><input type="checkbox" class="decade-filter" value="20" checked><span class="slider"></span></div></label>
+            <!-- Filtro de Décadas (Collapse) -->
+            <details class="custom-collapse" open>
+                <summary>
+                    Décadas <span class="icon">▼</span>
+                </summary>
+                <div class="collapse-content">
+                    <div class="toggle-grid">
+                        <label class="toggle-label"><span class="toggle-text">Anos 70</span><div class="switch"><input type="checkbox" class="decade-filter" value="70" checked><span class="slider"></span></div></label>
+                        <label class="toggle-label"><span class="toggle-text">Anos 80</span><div class="switch"><input type="checkbox" class="decade-filter" value="80" checked><span class="slider"></span></div></label>
+                        <label class="toggle-label"><span class="toggle-text">Anos 90</span><div class="switch"><input type="checkbox" class="decade-filter" value="90" checked><span class="slider"></span></div></label>
+                        <label class="toggle-label"><span class="toggle-text">Anos 2000</span><div class="switch"><input type="checkbox" class="decade-filter" value="00" checked><span class="slider"></span></div></label>
+                        <label class="toggle-label"><span class="toggle-text">Anos 2010</span><div class="switch"><input type="checkbox" class="decade-filter" value="10" checked><span class="slider"></span></div></label>
+                        <label class="toggle-label"><span class="toggle-text">Anos 2020</span><div class="switch"><input type="checkbox" class="decade-filter" value="20" checked><span class="slider"></span></div></label>
+                    </div>
                 </div>
-            </div>
+            </details>
 
-            <!-- Filtro de Reproduções -->
-            <div class="filter-group">
-                <h3>Mínimo de Reproduções</h3>
-                <div class="slider-container">
-                    <input type="range" id="streams-filter" min="2000000" max="1000000000" step="1000000" value="2000000">
-                    <span id="streams-display" class="slider-value">2 Milhões</span>
+            <!-- Filtro de Reproduções (Collapse) -->
+            <details class="custom-collapse">
+                <summary>
+                    Mínimo de Reproduções <span class="icon">▼</span>
+                </summary>
+                <div class="collapse-content">
+                    <div class="slider-container">
+                        <input type="range" id="streams-filter" min="0" max="2000000000" step="50000000" value="2000000">
+                        <span id="streams-display" class="slider-value">2 Milhões</span>
+                    </div>
                 </div>
-            </div>
+            </details>
 
             <!-- Filtro de Estilos (Collapse) -->
             <details class="custom-collapse">
                 <summary>
-                    Estilos Musicais (Filtro) <span class="icon">▼</span>
+                    Estilos Musicais <span class="icon">▼</span>
                 </summary>
                 <div class="collapse-content">
                     <div class="toggle-grid" id="genre-grid">
