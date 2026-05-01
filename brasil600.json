@@ -840,14 +840,6 @@
     "genre": "Rock"
   },
   {
-    "id": 106,
-    "title": "Lindo Lago do Amor",
-    "artist": "Gonzaguinha",
-    "year": 1984,
-    "streams": "38 Milhões",
-    "genre": "MPB"
-  },
-  {
     "id": 107,
     "title": "Como Eu Quero",
     "artist": "Kid Abelha",
@@ -1384,14 +1376,6 @@
     "genre": "MPB"
   },
   {
-    "id": 174,
-    "title": "Oceano",
-    "artist": "Djavan",
-    "year": 1989,
-    "streams": "112 Milhões",
-    "genre": "MPB"
-  },
-  {
     "id": 175,
     "title": "Lambada",
     "artist": "Kaoma",
@@ -1534,14 +1518,6 @@
     "year": 1990,
     "streams": "15 Milhões",
     "genre": "Rock"
-  },
-  {
-    "id": 193,
-    "title": "Onde Estiver",
-    "artist": "NX Zero (Hits Heritage)",
-    "year": 1990,
-    "streams": "85 Milhões",
-    "genre": "MPB"
   },
   {
     "id": 194,
@@ -1768,14 +1744,6 @@
     "genre": "Pop"
   },
   {
-    "id": 222,
-    "title": "Catedral",
-    "artist": "Zélia Duncan",
-    "year": 1994,
-    "streams": "45 Milhões",
-    "genre": "MPB"
-  },
-  {
     "id": 223,
     "title": "É Tarde Demais",
     "artist": "Raça Negra",
@@ -1829,14 +1797,6 @@
     "artist": "Art Popular",
     "year": 1994,
     "streams": "28 Milhões",
-    "genre": "Pagode"
-  },
-  {
-    "id": 230,
-    "title": "Essa Tal Liberdade",
-    "artist": "Só Pra Contrariar",
-    "year": 1994,
-    "streams": "65 Milhões",
     "genre": "Pagode"
   },
   {
@@ -2152,14 +2112,6 @@
     "genre": "Axé"
   },
   {
-    "id": 270,
-    "title": "Anna Júlia",
-    "artist": "Los Hermanos",
-    "year": 1999,
-    "streams": "115 Milhões",
-    "genre": "MPB"
-  },
-  {
     "id": 271,
     "title": "Mulher de Fases",
     "artist": "Raimundos",
@@ -2392,14 +2344,6 @@
     "genre": "Rock"
   },
   {
-    "id": 300,
-    "title": "Mulher de Fases",
-    "artist": "Raimundos",
-    "year": 1999,
-    "streams": "147 Milhões",
-    "genre": "Rock"
-  },
-  {
     "id": 301,
     "title": "Se Eu Não Te Amasse Tanto Assim",
     "artist": "Ivete Sangalo",
@@ -2422,14 +2366,6 @@
     "year": 2000,
     "streams": "109 Milhões",
     "genre": "Rock"
-  },
-  {
-    "id": 304,
-    "title": "Tô Te Filmando (Sorria)",
-    "artist": "Os Travessos",
-    "year": 2000,
-    "streams": "58 Milhões",
-    "genre": "MPB"
   },
   {
     "id": 305,
@@ -2784,14 +2720,6 @@
     "genre": "MPB"
   },
   {
-    "id": 349,
-    "title": "Tempos Modernos",
-    "artist": "Lulu Santos",
-    "year": 2003,
-    "streams": "78 Milhões",
-    "genre": "Pop"
-  },
-  {
     "id": 350,
     "title": "Vou Deixar",
     "artist": "Skank",
@@ -2896,14 +2824,6 @@
     "genre": "Rock"
   },
   {
-    "id": 363,
-    "title": "Sinônimos",
-    "artist": "Zé Ramalho",
-    "year": 2005,
-    "streams": "162 Milhões",
-    "genre": "MPB"
-  },
-  {
     "id": 364,
     "title": "Fui Eu",
     "artist": "Zezé Di Camargo & Luciano",
@@ -2990,14 +2910,6 @@
     "year": 2006,
     "streams": "62 Milhões",
     "genre": "Axé"
-  },
-  {
-    "id": 375,
-    "title": "Me Namora",
-    "artist": "Edu Ribeiro",
-    "year": 2006,
-    "streams": "115 Milhões",
-    "genre": "MPB"
   },
   {
     "id": 376,
@@ -4798,5 +4710,365 @@
     "year": 2025,
     "streams": "129 Milhões",
     "genre": "Pop"
+  },
+  {
+    "id": 601,
+    "title": "Zona de Perigo",
+    "artist": "Léo Santana",
+    "year": 2023,
+    "streams": "245 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 602,
+    "title": "Sorte Grande (Poeira)",
+    "artist": "Ivete Sangalo",
+    "year": 2003,
+    "streams": "92 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 603,
+    "title": "Arerê",
+    "artist": "Banda Eva (Ivete)",
+    "year": 1997,
+    "streams": "85 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 604,
+    "title": "Perna Bamba",
+    "artist": "Parangolé e Léo Santana",
+    "year": 2024,
+    "streams": "78 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 605,
+    "title": "Beija-Flor",
+    "artist": "Timbalada",
+    "year": 1993,
+    "streams": "60 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 606,
+    "title": "Vem Meu Amor",
+    "artist": "Banda Eva (Ivete)",
+    "year": 1997,
+    "streams": "48 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 607,
+    "title": "É o Tchan (Pau que Nasce Torto)",
+    "artist": "É o Tchan",
+    "year": 1995,
+    "streams": "45 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 608,
+    "title": "Rebolation",
+    "artist": "Parangolé",
+    "year": 2009,
+    "streams": "30 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 609,
+    "title": "Onda Onda (Olha a Onda)",
+    "artist": "Tchakabum",
+    "year": 2001,
+    "streams": "25 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 610,
+    "title": "Ziriguidum",
+    "artist": "Filhos de Jorge",
+    "year": 2012,
+    "streams": "18 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 611,
+    "title": "Bate Lata",
+    "artist": "Banda Beijo",
+    "year": 1998,
+    "streams": "12 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 612,
+    "title": "A Roda",
+    "artist": "Sarajane",
+    "year": 1987,
+    "streams": "7 Milhões",
+    "genre": "Axé"
+  },
+  {
+    "id": 613,
+    "title": "Olha a Explosão",
+    "artist": "MC Kevinho",
+    "year": 2016,
+    "streams": "410 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 614,
+    "title": "Deu Onda",
+    "artist": "MC G15",
+    "year": 2016,
+    "streams": "185 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 615,
+    "title": "País do Futebol",
+    "artist": "MC Guimê (part. Emicida)",
+    "year": 2013,
+    "streams": "115 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 616,
+    "title": "Glamurosa",
+    "artist": "MC Marcinho",
+    "year": 2001,
+    "streams": "95 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 617,
+    "title": "Nosso Sonho",
+    "artist": "Claudinho & Buchecha",
+    "year": 1996,
+    "streams": "88 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 618,
+    "title": "Cerol na Mão",
+    "artist": "Bonde do Tigrão",
+    "year": 2000,
+    "streams": "78 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 619,
+    "title": "Plaquê de 100",
+    "artist": "MC Guimê",
+    "year": 2012,
+    "streams": "75 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 620,
+    "title": "Vou Desafiar Você",
+    "artist": "MC Sapão",
+    "year": 2014,
+    "streams": "72 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 621,
+    "title": "Rap da Felicidade",
+    "artist": "Cidinho & Doca",
+    "year": 1994,
+    "streams": "65 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 622,
+    "title": "Tá Tranquilo, Tá Favorável",
+    "artist": "MC Bin Laden",
+    "year": 2015,
+    "streams": "58 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 623,
+    "title": "Ela é Top",
+    "artist": "MC Bola",
+    "year": 2012,
+    "streams": "55 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 624,
+    "title": "Passinho do Volante",
+    "artist": "MC Federado e os Leleks",
+    "year": 2012,
+    "streams": "48 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 625,
+    "title": "Tremendo Vacilão",
+    "artist": "Perlla",
+    "year": 2006,
+    "streams": "45 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 626,
+    "title": "Dança do Créu",
+    "artist": "MC e DJ Créu",
+    "year": 2007,
+    "streams": "38 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 627,
+    "title": "Rap das Armas",
+    "artist": "Cidinho & Doca",
+    "year": 1994,
+    "streams": "30 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 628,
+    "title": "Égua Pocotó",
+    "artist": "Furacão 2000 / MC Serginho",
+    "year": 2003,
+    "streams": "18 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 629,
+    "title": "Ostentação Fora do Normal",
+    "artist": "MC Daleste",
+    "year": 2012,
+    "streams": "15 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 630,
+    "title": "Um Morto Muito Louco",
+    "artist": "Jack e Chocolate",
+    "year": 2001,
+    "streams": "12 Milhões",
+    "genre": "Funk"
+  },
+  {
+    "id": 631,
+    "title": "Dormi na Praça",
+    "artist": "Bruno & Marrone",
+    "year": 1994,
+    "streams": "132 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 632,
+    "title": "10%",
+    "artist": "Maiara & Maraisa",
+    "year": 2015,
+    "streams": "128 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 633,
+    "title": "Sinônimos",
+    "artist": "Chitãozinho & Xororó e Zé Ramalho",
+    "year": 2004,
+    "streams": "122 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 634,
+    "title": "Boate Azul",
+    "artist": "Joaquim & Manuel",
+    "year": 1985,
+    "streams": "118 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 635,
+    "title": "Telefone Mudo",
+    "artist": "Trio Parada Dura",
+    "year": 1981,
+    "streams": "105 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 636,
+    "title": "Entre Tapas e Beijos",
+    "artist": "Leandro & Leonardo",
+    "year": 1989,
+    "streams": "98 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 637,
+    "title": "Tocando em Frente",
+    "artist": "Almir Sater & Sérgio Reis",
+    "year": 1990,
+    "streams": "92 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 638,
+    "title": "Estou Apaixonado",
+    "artist": "João Paulo & Daniel",
+    "year": 1996,
+    "streams": "88 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 639,
+    "title": "Chora, Me Liga",
+    "artist": "João Bosco & Vinícius",
+    "year": 2009,
+    "streams": "85 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 640,
+    "title": "Ainda Ontem Chorei de Saudade",
+    "artist": "João Mineiro & Marciano",
+    "year": 1986,
+    "streams": "78 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 641,
+    "title": "Ela é Demais",
+    "artist": "Rick & Renner",
+    "year": 1998,
+    "streams": "72 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 642,
+    "title": "Eu Juro",
+    "artist": "Leandro & Leonardo",
+    "year": 1994,
+    "streams": "68 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 643,
+    "title": "Estrada da Vida",
+    "artist": "Milionário & José Rico",
+    "year": 1977,
+    "streams": "65 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 644,
+    "title": "Fuscão Preto",
+    "artist": "Trio Parada Dura",
+    "year": 1981,
+    "streams": "42 Milhões",
+    "genre": "Sertanejo"
+  },
+  {
+    "id": 645,
+    "title": "Panela Velha",
+    "artist": "Sérgio Reis",
+    "year": 1983,
+    "streams": "38 Milhões",
+    "genre": "Sertanejo"
   }
 ]
