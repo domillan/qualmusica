@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processador de Letras de Música</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 24px; margin-bottom: 10px; }
+        p { color: #666; line-height: 1.5; }
+        .control-group {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9fafb;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:disabled { background-color: #ccc; cursor: not-allowed; }
+        button:hover:not(:disabled) { background-color: #0052a3; }
+        #status { font-weight: bold; margin-top: 15px; color: #0066cc; }
+        #downloadBtn { display: none; background-color: #28a745; margin-top: 20px; }
+        #downloadBtn:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+    <h1>Extrator de Palavras-Chave de Músicas</h1>
+    <p>Faça o upload do seu arquivo <strong>internacional600.json</strong>. O sistema buscará as letras, tentará identificar o refrão pela repetição de estrofes e extrairá as 5 palavras mais importantes de cada música.</p>
+
+    <div class="control-group">
+        <input type="file" id="jsonInput" accept=".json">
+        <br><br>
+        <button id="startBtn" disabled>Iniciar Processamento</button>
+    </div>
+
+    <div id="status">Aguardando arquivo...</div>
+    <button id="downloadBtn">Baixar Novo JSON Processado</button>
+
+    <script>
+        const jsonInput = document.getElementById('jsonInput');
+        const startBtn = document.getElementById('startBtn');
+        const statusDiv = document.getElementById('status');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        let songsArray = [];
+        let processedSongs = [];
+
+        // Palavras comuns em inglês e português que devem ser ignoradas
+        const stopWords = new Set(['the','a','an','and','or','but','in','on','at','to','for','of','with','by','is','are','was','were','be','been','it','i','you','he','she','we','they','my','your','his','her','our','their','this','that','do','does','did','can','could','will','would','me','him','us','them','so','if','as','not','no','yes','all','any','oh','yeah','la','na','ooh','ah','que','e','o','a','os','as','de','do','da','um','uma','no','na','com','por','para']);
+
+        // Habilita o botão quando o arquivo é carregado
+        jsonInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    songsArray = JSON.parse(event.target.result);
+                    statusDiv.textContent = `Arquivo carregado! ${songsArray.length} músicas encontradas.`;
+                    startBtn.disabled = false;
+                } catch (err) {
+                    statusDiv.textContent = "Erro ao ler o JSON. Verifique se o formato está correto.";
+                    console.error(err);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // Função de delay para evitar bloqueio da API (Rate Limit 429)
+        const delay = ms => new Promise(res => setTimeout(res, ms));
+
+        // Busca a letra adaptada do seu código
+        async function fetchLyricsForProcessing(song) {
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 8000); 
+
+                let cleanTitle = song.title.replace(/\(.*\)/g, '').trim();
+                const url = `https://lrclib.net/api/search?track_name=${encodeURIComponent(cleanTitle)}&artist_name=${encodeURIComponent(song.artist)}`;
+                
+                const res = await fetch(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
+                
+                if (!res.ok) return null;
+                
+                const data = await res.json();
+                if (data && data.length > 0) {
+                    const trackWithLyrics = data.find(t => t.plainLyrics);
+                    return trackWithLyrics ? trackWithLyrics.plainLyrics : null;
+                }
+                return null;
+            } catch (e) {
+                console.warn(`Busca falhou para: ${song.title}`, e.message);
+                return null;
+            }
+        }
+
+        // Algoritmo heurístico para encontrar o refrão
+        function extractChorus(lyrics) {
+            if (!lyrics) return "";
+            
+            // Divide a letra em estrofes (parágrafos separados por linhas em branco)
+            const stanzas = lyrics.split(/\n\s*\n/);
+            const counts = {};
+            let maxCount = 0;
+            let assumedChorus = stanzas[0]; // Por padrão, pega a primeira se nada repetir
+
+            for (let stanza of stanzas) {
+                let cleanStanza = stanza.trim().toLowerCase();
+                // Ignora partes muito curtas (menos de 20 caracteres)
+                if (cleanStanza.length < 20) continue; 
+                
+                counts[cleanStanza] = (counts[cleanStanza] || 0) + 1;
+                if (counts[cleanStanza] > maxCount) {
+                    maxCount = counts[cleanStanza];
+                    assumedChorus = stanza; // Salva a estrofe original com formatação
+                }
+            }
+            return assumedChorus || lyrics; // Retorna o refrão, ou a letra inteira se falhar
+        }
+
+        // Algoritmo para pegar as 5 palavras mais frequentes
+        function getTop5Words(text) {
+            if (!text) return [];
+            
+            // Pega apenas palavras com 3 letras ou mais, ignorando pontuação
+            const words = text.toLowerCase().match(/\b[a-zçáéíóúãõâêîôû]{3,}\b/g) || []; 
+            const freq = {};
+            
+            for (let w of words) {
+                if (!stopWords.has(w)) {
+                    freq[w] = (freq[w] || 0) + 1;
+                }
+            }
+            
+            // Ordena pela frequência e pega as 5 primeiras
+            return Object.entries(freq)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(entry => entry[0]);
+        }
+
+        // Loop principal de processamento
+        startBtn.addEventListener('click', async () => {
+            startBtn.disabled = true;
+            jsonInput.disabled = true;
+            processedSongs = [];
+
+            for (let i = 0; i < songsArray.length; i++) {
+                const song = songsArray[i];
+                statusDiv.textContent = `Processando (${i + 1}/${songsArray.length}): ${song.title}...`;
+                
+                // Busca a letra
+                const lyrics = await fetchLyricsForProcessing(song);
+                
+                // Identifica o refrão e as palavras
+                const chorus = extractChorus(lyrics);
+                const topWords = getTop5Words(chorus);
+                
+                // Adiciona ao novo array
+                processedSongs.push({
+                    ...song,
+                    top_5_words: topWords
+                });
+
+                // Pausa de 1 segundo entre requisições para não sobrecarregar a API pública
+                await delay(1000); 
+            }
+
+            statusDiv.textContent = `Concluído! ${processedSongs.length} músicas processadas.`;
+            downloadBtn.style.display = 'block';
+        });
+
+        // Geração do arquivo JSON final para Download
+        downloadBtn.addEventListener('click', () => {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(processedSongs, null, 2));
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", "musicas_processadas_palavras.json");
+            document.body.appendChild(downloadAnchorNode);
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        });
+    </script>
+</body>
+</html>
