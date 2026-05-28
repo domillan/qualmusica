@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Música? - Palavras</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #ecf0f1;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .game-container {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .word-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            min-height: 70px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: var(--accent-color);
+        }
+
+        button:active {
+            transform: scale(0.97);
+        }
+
+        .btn-danger {
+            background-color: #e74c3c;
+        }
+
+        .btn-danger:hover {
+            background-color: #c0392b;
+        }
+
+        .song-info {
+            background-color: var(--bg-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none; /* Oculto por padrão */
+            text-align: left;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        .song-info h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .song-info p {
+            margin: 8px 0;
+            font-size: 1.1rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="word-display" id="wordDisplay">Carregando...</div>
+        
+        <div class="controls">
+            <button onclick="skipWord()">Pular</button>
+            <button onclick="revealSong()">Ver Música</button>
+        </div>
+        
+        <div class="song-info" id="songInfo">
+            </div>
+
+        <button class="btn-danger" onclick="clearSession()">Apagar Sessão</button>
+    </div>
+
+    <script>
+        let musicas = [];
+        let currentSong = null;
+
+        // Função para carregar o JSON de forma assíncrona
+        async function loadMusicas() {
+            try {
+                const response = await fetch('musicas.json');
+                musicas = await response.json();
+                loadNextWord();
+            } catch (error) {
+                document.getElementById('wordDisplay').innerText = "Erro ao carregar músicas.";
+                console.error("Certifique-se de que musicas.json está na mesma pasta e rodando via servidor local.", error);
+            }
+        }
+
+        // Validação estrutural: garante que é uma palavra apenas com letras (incluindo acentos) e tamanho mínimo
+        function isValidWord(word) {
+            const wordRegex = /^[a-zA-ZÀ-ÿ]{2,}$/;
+            return wordRegex.test(word.trim());
+        }
+
+        function getPlayedSongs() {
+            return JSON.parse(sessionStorage.getItem('playedSongs')) || [];
+        }
+
+        function setPlayedSong(id) {
+            const played = getPlayedSongs();
+            if (!played.includes(id)) {
+                played.push(id);
+                sessionStorage.setItem('playedSongs', JSON.stringify(played));
+            }
+        }
+
+        function loadNextWord() {
+            // Oculta a caixa de informações da música ao trocar a palavra
+            document.getElementById('songInfo').style.display = 'none';
+
+            const playedSongs = getPlayedSongs();
+            
+            // Filtra as músicas que ainda não foram exibidas na sessão
+            const availableSongs = musicas.filter(song => !playedSongs.includes(song.id));
+
+            if (availableSongs.length === 0) {
+                document.getElementById('wordDisplay').innerText = "FIM DE JOGO!";
+                document.getElementById('wordDisplay').style.fontSize = "2rem";
+                return;
+            }
+
+            // Sorteia uma música
+            const randomIndex = Math.floor(Math.random() * availableSongs.length);
+            currentSong = availableSongs[randomIndex];
+
+            // Pega o campo words, divide pelo ';' e filtra apenas palavras válidas
+            const validWords = currentSong.words.split(';').filter(isValidWord);
+
+            if (validWords.length === 0) {
+                // Se a música não tiver palavras válidas, salva como jogada e pula para a próxima
+                setPlayedSong(currentSong.id);
+                loadNextWord();
+                return;
+            }
+
+            // Sorteia uma das palavras válidas da música
+            const randomWord = validWords[Math.floor(Math.random() * validWords.length)];
+            
+            // Exibe na tela
+            document.getElementById('wordDisplay').innerText = randomWord;
+
+            // Salva o ID na sessão para não repetir
+            setPlayedSong(currentSong.id);
+        }
+
+        function skipWord() {
+            loadNextWord();
+        }
+
+        function revealSong() {
+            if (!currentSong) return;
+
+            const infoDiv = document.getElementById('songInfo');
+            
+            // Formata os dados para exibição
+            infoDiv.innerHTML = `
+                <h3>${currentSong.title}</h3>
+                <p><strong>Artista:</strong> ${currentSong.artist}</p>
+                <p><strong>Ano:</strong> ${currentSong.year}</p>
+                <p><strong>Reproduções:</strong> ${currentSong.streamsNumber.toLocaleString('pt-BR')}</p>
+            `;
+            
+            infoDiv.style.display = 'block';
+        }
+
+        function clearSession() {
+            if(confirm("Tem certeza que deseja apagar o progresso da sessão? As músicas voltarão a se repetir.")) {
+                sessionStorage.removeItem('playedSongs');
+                loadNextWord();
+            }
+        }
+
+        // Inicia a aplicação
+        loadMusicas();
+    </script>
+</body>
+</html>
