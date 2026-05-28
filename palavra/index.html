@@ -20,8 +20,30 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Botão isolado no canto superior direito */
+        .btn-top-corner {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-top-corner:hover {
+            background-color: #c0392b;
         }
 
         .game-container {
@@ -31,7 +53,7 @@
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             text-align: center;
             max-width: 500px;
-            width: 90%;
+            width: 100%;
         }
 
         .word-display {
@@ -42,6 +64,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             min-height: 70px;
+            word-break: break-word;
         }
 
         .controls {
@@ -71,22 +94,14 @@
             transform: scale(0.97);
         }
 
-        .btn-danger {
-            background-color: #e74c3c;
-        }
-
-        .btn-danger:hover {
-            background-color: #c0392b;
-        }
-
         .song-info {
             background-color: var(--bg-color);
             padding: 20px;
             border-radius: 8px;
             margin-top: 20px;
-            display: none; /* Oculto por padrão */
+            display: none;
             text-align: left;
-            animation: fadeIn 0.4s ease-in-out;
+            animation: fadeIn 0.3s ease-in-out;
         }
 
         .song-info h3 {
@@ -101,50 +116,82 @@
             font-size: 1.1rem;
         }
 
+        .history-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .history-section h4 {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .word-badge {
+            display: inline-block;
+            background-color: #bdc3c7;
+            color: #2c3e50;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 4px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
+            from { opacity: 0; transform: translateY(-5px); }
             to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
 
+    <button class="btn-top-corner" onclick="clearSession()">Apagar Sessão</button>
+
     <div class="game-container">
         <div class="word-display" id="wordDisplay">Carregando...</div>
         
         <div class="controls">
             <button onclick="skipWord()">Pular</button>
-            <button onclick="revealSong()">Ver Música</button>
+            <button id="toggleMusicBtn" onclick="toggleMusic()">Ver Música</button>
         </div>
         
         <div class="song-info" id="songInfo">
             </div>
 
-        <button class="btn-danger" onclick="clearSession()">Apagar Sessão</button>
+        <div class="history-section">
+            <h4>Palavras que já apareceram:</h4>
+            <div id="historyList">
+                </div>
+        </div>
     </div>
 
     <script>
         let musicas = [];
         let currentSong = null;
+        let currentWord = "";
 
-        // Função para carregar o JSON de forma assíncrona
         async function loadMusicas() {
             try {
                 const response = await fetch('musicas.json');
                 musicas = await response.json();
+                updateHistoryUI(); // Carrega o histórico visual ao iniciar
                 loadNextWord();
             } catch (error) {
-                document.getElementById('wordDisplay').innerText = "Erro ao carregar músicas.";
-                console.error("Certifique-se de que musicas.json está na mesma pasta e rodando via servidor local.", error);
+                document.getElementById('wordDisplay').innerText = "Erro ao carregar";
+                console.error("Erro ao ler o arquivo JSON.", error);
             }
         }
 
-        // Validação estrutural: garante que é uma palavra apenas com letras (incluindo acentos) e tamanho mínimo
         function isValidWord(word) {
             const wordRegex = /^[a-zA-ZÀ-ÿ]{2,}$/;
             return wordRegex.test(word.trim());
         }
 
+        // --- GERENCIAMENTO DE SESSÃO (Músicas e Palavras) ---
         function getPlayedSongs() {
             return JSON.parse(sessionStorage.getItem('playedSongs')) || [];
         }
@@ -157,13 +204,39 @@
             }
         }
 
+        function getPlayedWords() {
+            return JSON.parse(sessionStorage.getItem('playedWords')) || [];
+        }
+
+        function setPlayedWord(word) {
+            const played = getPlayedWords();
+            if (!played.includes(word)) {
+                played.push(word);
+                sessionStorage.setItem('playedWords', JSON.stringify(played));
+            }
+        }
+        // ----------------------------------------------------
+
+        function updateHistoryUI() {
+            const historyContainer = document.getElementById('historyList');
+            const words = getPlayedWords();
+            
+            if (words.length === 0) {
+                historyContainer.innerHTML = "<span style='color: #7f8c8d; font-size: 0.9rem;'>Nenhuma palavra exibida ainda.</span>";
+                return;
+            }
+
+            historyContainer.innerHTML = words.map(w => `<span class="word-badge">${w}</span>`).join('');
+        }
+
         function loadNextWord() {
-            // Oculta a caixa de informações da música ao trocar a palavra
-            document.getElementById('songInfo').style.display = 'none';
+            // Reseta a interface da música
+            const infoDiv = document.getElementById('songInfo');
+            const toggleBtn = document.getElementById('toggleMusicBtn');
+            infoDiv.style.display = 'none';
+            toggleBtn.innerText = 'Ver Música';
 
             const playedSongs = getPlayedSongs();
-            
-            // Filtra as músicas que ainda não foram exibidas na sessão
             const availableSongs = musicas.filter(song => !playedSongs.includes(song.id));
 
             if (availableSongs.length === 0) {
@@ -172,54 +245,62 @@
                 return;
             }
 
-            // Sorteia uma música
+            // Sorteia a música
             const randomIndex = Math.floor(Math.random() * availableSongs.length);
             currentSong = availableSongs[randomIndex];
 
-            // Pega o campo words, divide pelo ';' e filtra apenas palavras válidas
             const validWords = currentSong.words.split(';').filter(isValidWord);
 
             if (validWords.length === 0) {
-                // Se a música não tiver palavras válidas, salva como jogada e pula para a próxima
                 setPlayedSong(currentSong.id);
                 loadNextWord();
                 return;
             }
 
-            // Sorteia uma das palavras válidas da música
-            const randomWord = validWords[Math.floor(Math.random() * validWords.length)];
+            // Sorteia a palavra
+            currentWord = validWords[Math.floor(Math.random() * validWords.length)];
             
-            // Exibe na tela
-            document.getElementById('wordDisplay').innerText = randomWord;
-
-            // Salva o ID na sessão para não repetir
+            // Atualiza a tela e salva na sessão
+            document.getElementById('wordDisplay').innerText = currentWord;
             setPlayedSong(currentSong.id);
+            setPlayedWord(currentWord);
+            
+            // Atualiza a lista visual inferior
+            updateHistoryUI();
         }
 
         function skipWord() {
             loadNextWord();
         }
 
-        function revealSong() {
+        function toggleMusic() {
             if (!currentSong) return;
 
             const infoDiv = document.getElementById('songInfo');
+            const btn = document.getElementById('toggleMusicBtn');
             
-            // Formata os dados para exibição
-            infoDiv.innerHTML = `
-                <h3>${currentSong.title}</h3>
-                <p><strong>Artista:</strong> ${currentSong.artist}</p>
-                <p><strong>Ano:</strong> ${currentSong.year}</p>
-                <p><strong>Reproduções:</strong> ${currentSong.streamsNumber.toLocaleString('pt-BR')}</p>
-            `;
-            
-            infoDiv.style.display = 'block';
+            // Alterna entre exibir e ocultar
+            if (infoDiv.style.display === 'block') {
+                infoDiv.style.display = 'none';
+                btn.innerText = 'Ver Música';
+            } else {
+                infoDiv.innerHTML = `
+                    <h3>${currentSong.title}</h3>
+                    <p><strong>Artista:</strong> ${currentSong.artist}</p>
+                    <p><strong>Ano:</strong> ${currentSong.year}</p>
+                    <p><strong>Reproduções:</strong> ${currentSong.streamsNumber.toLocaleString('pt-BR')}</p>
+                `;
+                infoDiv.style.display = 'block';
+                btn.innerText = 'Ocultar Música';
+            }
         }
 
         function clearSession() {
-            if(confirm("Tem certeza que deseja apagar o progresso da sessão? As músicas voltarão a se repetir.")) {
+            if(confirm("Tem certeza que deseja apagar o progresso? O jogo será reiniciado.")) {
                 sessionStorage.removeItem('playedSongs');
+                sessionStorage.removeItem('playedWords');
                 loadNextWord();
+                updateHistoryUI();
             }
         }
 
