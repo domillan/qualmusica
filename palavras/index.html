@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Música? - Palavras</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #ecf0f1;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Botão isolado no canto superior direito */
+        .btn-top-corner {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-top-corner:hover {
+            background-color: #c0392b;
+        }
+
+        .game-container {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .word-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            min-height: 70px;
+            word-break: break-word;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: var(--accent-color);
+        }
+
+        button:active {
+            transform: scale(0.97);
+        }
+
+        .history-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .history-section h4 {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .word-badge {
+            display: inline-block;
+            background-color: #bdc3c7;
+            color: #2c3e50;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 4px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="btn-top-corner" onclick="clearSession()">Apagar Sessão</button>
+
+    <div class="game-container">
+        <div class="word-display" id="wordDisplay">Carregando...</div>
+        
+        <div class="controls">
+            <button onclick="skipWord()">Pular / Próxima</button>
+        </div>
+
+        <div class="history-section">
+            <h4>Palavras que já apareceram:</h4>
+            <div id="historyList">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        let palavrasData = [];
+        let currentWord = "";
+
+        async function loadDados() {
+            try {
+                // Altere 'dados.json' para o nome do seu arquivo, se for diferente.
+                const response = await fetch('palavras.json');
+                palavrasData = await response.json();
+                updateHistoryUI(); // Carrega o histórico visual ao iniciar
+                loadNextWord();
+            } catch (error) {
+                document.getElementById('wordDisplay').innerText = "Erro ao carregar";
+                console.error("Erro ao ler o arquivo JSON.", error);
+            }
+        }
+
+        function isValidWord(word) {
+            const wordRegex = /^[a-zA-ZÀ-ÿ]{2,}$/;
+            return wordRegex.test(word.trim());
+        }
+
+        // --- GERENCIAMENTO DE SESSÃO (IDs e Palavras) ---
+        function getPlayedIds() {
+            return JSON.parse(sessionStorage.getItem('playedIds')) || [];
+        }
+
+        function setPlayedId(id) {
+            const played = getPlayedIds();
+            if (!played.includes(id)) {
+                played.push(id);
+                sessionStorage.setItem('playedIds', JSON.stringify(played));
+            }
+        }
+
+        function getPlayedWords() {
+            return JSON.parse(sessionStorage.getItem('playedWords')) || [];
+        }
+
+        function setPlayedWord(word) {
+            const played = getPlayedWords();
+            if (!played.includes(word)) {
+                played.push(word);
+                sessionStorage.setItem('playedWords', JSON.stringify(played));
+            }
+        }
+        // ----------------------------------------------------
+
+        function updateHistoryUI() {
+            const historyContainer = document.getElementById('historyList');
+            const words = getPlayedWords();
+            
+            if (words.length === 0) {
+                historyContainer.innerHTML = "<span style='color: #7f8c8d; font-size: 0.9rem;'>Nenhuma palavra exibida ainda.</span>";
+                return;
+            }
+
+            historyContainer.innerHTML = words.map(w => `<span class="word-badge">${w}</span>`).join('');
+        }
+
+        function loadNextWord() {
+            const playedIds = getPlayedIds();
+            
+            // Filtra os itens cujos IDs ainda não foram jogados
+            const availableItems = palavrasData.filter(item => !playedIds.includes(item.id));
+
+            if (availableItems.length === 0) {
+                document.getElementById('wordDisplay').innerText = "FIM DE JOGO!";
+                document.getElementById('wordDisplay').style.fontSize = "2rem";
+                return;
+            }
+
+            // Sorteia um item (id e palavra)
+            const randomIndex = Math.floor(Math.random() * availableItems.length);
+            const randomItem = availableItems[randomIndex];
+            
+            currentWord = randomItem.palavra;
+
+            // Se você ainda quiser validar a palavra (opcional), pode verificar aqui.
+            // Se a palavra for inválida por algum motivo, marcamos como jogada e pulamos:
+            if (!isValidWord(currentWord)) {
+                setPlayedId(randomItem.id);
+                loadNextWord();
+                return;
+            }
+            
+            // Atualiza a tela e salva na sessão
+            document.getElementById('wordDisplay').innerText = currentWord;
+            setPlayedId(randomItem.id);
+            setPlayedWord(currentWord);
+            
+            // Atualiza a lista visual inferior
+            updateHistoryUI();
+        }
+
+        function skipWord() {
+            loadNextWord();
+        }
+
+        function clearSession() {
+            if(confirm("Tem certeza que deseja apagar o progresso? O jogo será reiniciado.")) {
+                sessionStorage.removeItem('playedIds');
+                sessionStorage.removeItem('playedWords');
+                loadNextWord();
+                updateHistoryUI();
+            }
+        }
+
+        // Inicia a aplicação
+        loadDados();
+    </script>
+</body>
+</html>
