@@ -1,2402 +1,5050 @@
 [
   {
     "id": "1",
-    "palavra": "Abraço"
+    "palavra": "Abafado"
   },
   {
     "id": "2",
-    "palavra": "Abrir"
+    "palavra": "Abaixado"
   },
   {
     "id": "3",
-    "palavra": "Acabar"
+    "palavra": "Abaixar"
   },
   {
     "id": "4",
-    "palavra": "Acaso"
+    "palavra": "Abandona"
   },
   {
     "id": "5",
-    "palavra": "Achar"
+    "palavra": "Abandonado"
   },
   {
     "id": "6",
-    "palavra": "Acima"
+    "palavra": "Abandonar"
   },
   {
     "id": "7",
-    "palavra": "Acordo"
+    "palavra": "Abate"
   },
   {
     "id": "8",
-    "palavra": "Adeus"
+    "palavra": "Abençoar"
   },
   {
     "id": "9",
-    "palavra": "Agora"
+    "palavra": "Aborrecer"
   },
   {
     "id": "10",
-    "palavra": "Ainda"
+    "palavra": "Abraço"
   },
   {
     "id": "11",
-    "palavra": "Ajuda"
+    "palavra": "Abri"
   },
   {
     "id": "12",
-    "palavra": "Algum"
+    "palavra": "Abrigo"
   },
   {
     "id": "13",
-    "palavra": "Alma"
+    "palavra": "Abrir"
   },
   {
     "id": "14",
-    "palavra": "Alto"
+    "palavra": "Absoluto"
   },
   {
     "id": "15",
-    "palavra": "Alvo"
+    "palavra": "Absurdo"
   },
   {
     "id": "16",
-    "palavra": "Amigo"
+    "palavra": "Abusado"
   },
   {
     "id": "17",
-    "palavra": "Amor"
+    "palavra": "Abusar"
   },
   {
     "id": "18",
-    "palavra": "Andar"
+    "palavra": "Acabar"
   },
   {
     "id": "19",
-    "palavra": "Anel"
+    "palavra": "Acalmar"
   },
   {
     "id": "20",
-    "palavra": "Anjo"
+    "palavra": "Acaso"
   },
   {
     "id": "21",
-    "palavra": "Ano"
+    "palavra": "Aceitar"
   },
   {
     "id": "22",
-    "palavra": "Antes"
+    "palavra": "Acelerar"
   },
   {
     "id": "23",
-    "palavra": "Apoio"
+    "palavra": "Acenar"
   },
   {
     "id": "24",
-    "palavra": "Aqui"
+    "palavra": "Acesas"
   },
   {
     "id": "25",
-    "palavra": "Arma"
+    "palavra": "Acho"
   },
   {
     "id": "26",
-    "palavra": "Arroz"
+    "palavra": "Ações"
   },
   {
     "id": "27",
-    "palavra": "Arte"
+    "palavra": "Acordado"
   },
   {
     "id": "28",
-    "palavra": "Asa"
+    "palavra": "Acordar"
   },
   {
     "id": "29",
-    "palavra": "Atrás"
+    "palavra": "Acorde"
   },
   {
     "id": "30",
-    "palavra": "Aula"
+    "palavra": "Acordo"
   },
   {
     "id": "31",
-    "palavra": "Autor"
+    "palavra": "Adeus"
   },
   {
     "id": "32",
-    "palavra": "Avião"
+    "palavra": "Adicionar"
   },
   {
     "id": "33",
-    "palavra": "Aviso"
+    "palavra": "Adivinhar"
   },
   {
     "id": "34",
-    "palavra": "Azul"
+    "palavra": "Adjutório"
   },
   {
     "id": "35",
-    "palavra": "Baby"
+    "palavra": "Adoração"
   },
   {
     "id": "36",
-    "palavra": "Base"
+    "palavra": "Adorar"
   },
   {
     "id": "37",
-    "palavra": "Batom"
+    "palavra": "Adornar"
   },
   {
     "id": "38",
-    "palavra": "Beco"
+    "palavra": "Adulterado"
   },
   {
     "id": "39",
-    "palavra": "Beijo"
+    "palavra": "Adulto"
   },
   {
     "id": "40",
-    "palavra": "Bem"
+    "palavra": "Afastado"
   },
   {
     "id": "41",
-    "palavra": "Bicho"
+    "palavra": "Afastar"
   },
   {
     "id": "42",
-    "palavra": "Bloco"
+    "palavra": "Afeto"
   },
   {
     "id": "43",
-    "palavra": "Blusa"
+    "palavra": "Afirma"
   },
   {
     "id": "44",
-    "palavra": "Bobo"
+    "palavra": "Afivelado"
   },
   {
     "id": "45",
-    "palavra": "Boca"
+    "palavra": "Afogados"
   },
   {
     "id": "46",
-    "palavra": "Boi"
+    "palavra": "Afogamento"
   },
   {
     "id": "47",
-    "palavra": "Bola"
+    "palavra": "África"
   },
   {
     "id": "48",
-    "palavra": "Bolo"
+    "palavra": "Agarrar"
   },
   {
     "id": "49",
-    "palavra": "Bolso"
+    "palavra": "Age"
   },
   {
     "id": "50",
-    "palavra": "Bom"
+    "palavra": "Agir"
   },
   {
     "id": "51",
-    "palavra": "Bomba"
+    "palavra": "Agitar"
   },
   {
     "id": "52",
-    "palavra": "Boné"
+    "palavra": "Agora"
   },
   {
     "id": "53",
-    "palavra": "Bota"
+    "palavra": "Água"
   },
   {
     "id": "54",
-    "palavra": "Botão"
+    "palavra": "Aguar"
   },
   {
     "id": "55",
-    "palavra": "Brasa"
+    "palavra": "Aguentar"
   },
   {
     "id": "56",
-    "palavra": "Bravo"
+    "palavra": "Agulha"
   },
   {
     "id": "57",
-    "palavra": "Caber"
+    "palavra": "Ainda"
   },
   {
     "id": "58",
-    "palavra": "Cabo"
+    "palavra": "Álbum"
   },
   {
     "id": "59",
-    "palavra": "Cada"
+    "palavra": "Álcool"
   },
   {
     "id": "60",
-    "palavra": "Cair"
+    "palavra": "Alegria"
   },
   {
     "id": "61",
-    "palavra": "Caixa"
+    "palavra": "Aliança"
   },
   {
     "id": "62",
-    "palavra": "Calça"
+    "palavra": "Alinhamento"
   },
   {
     "id": "63",
-    "palavra": "Calma"
+    "palavra": "Aliviar"
   },
   {
     "id": "64",
-    "palavra": "Calmo"
+    "palavra": "Alma"
   },
   {
     "id": "65",
-    "palavra": "Calor"
+    "palavra": "Almoço"
   },
   {
     "id": "66",
-    "palavra": "Cama"
+    "palavra": "Altar"
   },
   {
     "id": "67",
-    "palavra": "Campo"
+    "palavra": "Alteração"
   },
   {
     "id": "68",
-    "palavra": "Canal"
+    "palavra": "Alterar"
   },
   {
     "id": "69",
-    "palavra": "Canto"
+    "palavra": "Alteza"
   },
   {
     "id": "70",
-    "palavra": "Cão"
+    "palavra": "Alto"
   },
   {
     "id": "71",
-    "palavra": "Caos"
+    "palavra": "Altura"
   },
   {
     "id": "72",
-    "palavra": "Capa"
+    "palavra": "Alucinar"
   },
   {
     "id": "73",
-    "palavra": "Capaz"
+    "palavra": "Alvejar"
   },
   {
     "id": "74",
-    "palavra": "Cara"
+    "palavra": "Amado"
   },
   {
     "id": "75",
-    "palavra": "Carga"
+    "palavra": "Amanhã"
   },
   {
     "id": "76",
-    "palavra": "Carne"
+    "palavra": "Amante"
   },
   {
     "id": "77",
-    "palavra": "Caro"
+    "palavra": "Amar"
   },
   {
     "id": "78",
-    "palavra": "Carro"
+    "palavra": "Amarelo"
   },
   {
     "id": "79",
-    "palavra": "Carta"
+    "palavra": "Amargo"
   },
   {
     "id": "80",
-    "palavra": "Casa"
+    "palavra": "Amarrado"
   },
   {
     "id": "81",
-    "palavra": "Casal"
+    "palavra": "Amêndoa"
   },
   {
     "id": "82",
-    "palavra": "Casar"
+    "palavra": "Amiga"
   },
   {
     "id": "83",
-    "palavra": "Casca"
+    "palavra": "Amigo"
   },
   {
     "id": "84",
-    "palavra": "Caso"
+    "palavra": "Amizade"
   },
   {
     "id": "85",
-    "palavra": "Causa"
+    "palavra": "Amor"
   },
   {
     "id": "86",
-    "palavra": "Cedo"
+    "palavra": "Amoroso"
   },
   {
     "id": "87",
-    "palavra": "Cego"
+    "palavra": "Amplificado"
   },
   {
     "id": "88",
-    "palavra": "Cem"
+    "palavra": "Ampulheta"
   },
   {
     "id": "89",
-    "palavra": "Cena"
+    "palavra": "Analisar"
   },
   {
     "id": "90",
-    "palavra": "Certo"
+    "palavra": "Análise"
   },
   {
     "id": "91",
-    "palavra": "Céu"
+    "palavra": "Ancestrais"
   },
   {
     "id": "92",
-    "palavra": "Chão"
+    "palavra": "Ancião"
   },
   {
     "id": "93",
-    "palavra": "Chapa"
+    "palavra": "Andamento"
   },
   {
     "id": "94",
-    "palavra": "Chato"
+    "palavra": "Andar"
   },
   {
     "id": "95",
-    "palavra": "Chave"
+    "palavra": "Anel"
   },
   {
     "id": "96",
-    "palavra": "Chefe"
+    "palavra": "Anêmico"
   },
   {
     "id": "97",
-    "palavra": "Cheio"
+    "palavra": "Anfetamina"
   },
   {
     "id": "98",
-    "palavra": "Choro"
+    "palavra": "Anfimário"
   },
   {
     "id": "99",
-    "palavra": "Chuva"
+    "palavra": "Anfratrião"
   },
   {
     "id": "100",
-    "palavra": "Cinza"
+    "palavra": "Angra"
   },
   {
     "id": "101",
-    "palavra": "Ciúme"
+    "palavra": "Angústia"
   },
   {
     "id": "102",
-    "palavra": "Clima"
+    "palavra": "Animação"
   },
   {
     "id": "103",
-    "palavra": "Cobre"
+    "palavra": "Animado"
   },
   {
     "id": "104",
-    "palavra": "Coisa"
+    "palavra": "Animais"
   },
   {
     "id": "105",
-    "palavra": "Cola"
+    "palavra": "Animal"
   },
   {
     "id": "106",
-    "palavra": "Colar"
+    "palavra": "Animar"
   },
   {
     "id": "107",
-    "palavra": "Colo"
+    "palavra": "Aninhamento"
   },
   {
     "id": "108",
-    "palavra": "Comer"
+    "palavra": "Aninho"
   },
   {
     "id": "109",
-    "palavra": "Como"
+    "palavra": "Aniversário"
   },
   {
     "id": "110",
-    "palavra": "Comum"
+    "palavra": "Anjo"
   },
   {
     "id": "111",
-    "palavra": "Dado"
+    "palavra": "Ano"
   },
   {
     "id": "112",
-    "palavra": "Dama"
+    "palavra": "Anos"
   },
   {
     "id": "113",
-    "palavra": "Dança"
+    "palavra": "Anotação"
   },
   {
     "id": "114",
-    "palavra": "Dançar"
+    "palavra": "Anotar"
   },
   {
     "id": "115",
-    "palavra": "Daqui"
+    "palavra": "Anseio"
   },
   {
     "id": "116",
-    "palavra": "Data"
+    "palavra": "Ansiar"
   },
   {
     "id": "117",
-    "palavra": "Dedo"
+    "palavra": "Ansioso"
   },
   {
     "id": "118",
-    "palavra": "Defesa"
+    "palavra": "Antenado"
   },
   {
     "id": "119",
-    "palavra": "Degrau"
+    "palavra": "Antenor"
   },
   {
     "id": "120",
-    "palavra": "Deitar"
+    "palavra": "Antigamente"
   },
   {
     "id": "121",
-    "palavra": "Deixar"
+    "palavra": "Antigo"
   },
   {
     "id": "122",
-    "palavra": "Dele"
+    "palavra": "Antílope"
   },
   {
     "id": "123",
-    "palavra": "Demais"
+    "palavra": "Antinatural"
   },
   {
     "id": "124",
-    "palavra": "Demora"
+    "palavra": "Anúncio"
   },
   {
     "id": "125",
-    "palavra": "Dente"
+    "palavra": "Apagado"
   },
   {
     "id": "126",
-    "palavra": "Dentro"
+    "palavra": "Apagar"
   },
   {
     "id": "127",
-    "palavra": "Depois"
+    "palavra": "Apaixonado"
   },
   {
     "id": "128",
-    "palavra": "Descer"
+    "palavra": "Apanhar"
   },
   {
     "id": "129",
-    "palavra": "Desde"
+    "palavra": "Aparar"
   },
   {
     "id": "130",
-    "palavra": "Desejo"
+    "palavra": "Aparecer"
   },
   {
     "id": "131",
-    "palavra": "Deus"
+    "palavra": "Aparelho"
   },
   {
     "id": "132",
-    "palavra": "Dever"
+    "palavra": "Aparição"
   },
   {
     "id": "133",
-    "palavra": "Dia"
+    "palavra": "Apavorado"
   },
   {
     "id": "134",
-    "palavra": "Diabo"
+    "palavra": "Apegar"
   },
   {
     "id": "135",
-    "palavra": "Dica"
+    "palavra": "Apego"
   },
   {
     "id": "136",
-    "palavra": "Disco"
+    "palavra": "Apelo"
   },
   {
     "id": "137",
-    "palavra": "Dizer"
+    "palavra": "Apetite"
   },
   {
     "id": "138",
-    "palavra": "Doce"
+    "palavra": "Aplaudir"
   },
   {
     "id": "139",
-    "palavra": "Doer"
+    "palavra": "Aplauso"
   },
   {
     "id": "140",
-    "palavra": "Dois"
+    "palavra": "Apodera"
   },
   {
     "id": "141",
-    "palavra": "Dono"
+    "palavra": "Apoiar"
   },
   {
     "id": "142",
-    "palavra": "Dor"
+    "palavra": "Apoio"
   },
   {
     "id": "143",
-    "palavra": "Dose"
+    "palavra": "Aposta"
   },
   {
     "id": "144",
-    "palavra": "Drama"
+    "palavra": "Apostar"
   },
   {
     "id": "145",
-    "palavra": "Droga"
+    "palavra": "Apreciação"
   },
   {
     "id": "146",
-    "palavra": "Duas"
+    "palavra": "Apreciar"
   },
   {
     "id": "147",
-    "palavra": "Dupla"
+    "palavra": "Aprender"
   },
   {
     "id": "148",
-    "palavra": "Duro"
+    "palavra": "Aproximação"
   },
   {
     "id": "149",
-    "palavra": "Eco"
+    "palavra": "Aproximar"
   },
   {
     "id": "150",
-    "palavra": "Efeito"
+    "palavra": "Apto"
   },
   {
     "id": "151",
-    "palavra": "Ego"
+    "palavra": "Aquecer"
   },
   {
     "id": "152",
-    "palavra": "Egoísta"
+    "palavra": "Aquecimento"
   },
   {
     "id": "153",
-    "palavra": "Elogio"
+    "palavra": "Aquiles"
   },
   {
     "id": "154",
-    "palavra": "Emoção"
+    "palavra": "Arame"
   },
   {
     "id": "155",
-    "palavra": "Emprego"
+    "palavra": "Aranha"
   },
   {
     "id": "156",
-    "palavra": "Empresa"
+    "palavra": "Arco"
   },
   {
     "id": "157",
-    "palavra": "Encanto"
+    "palavra": "Arco-íris"
   },
   {
     "id": "158",
-    "palavra": "Encher"
+    "palavra": "Areia"
   },
   {
     "id": "159",
-    "palavra": "Energia"
+    "palavra": "Arena"
   },
   {
     "id": "160",
-    "palavra": "Enfeite"
+    "palavra": "Arma"
   },
   {
     "id": "161",
-    "palavra": "Enganar"
+    "palavra": "Arquejar"
   },
   {
     "id": "162",
-    "palavra": "Engano"
+    "palavra": "Arrebitar"
   },
   {
     "id": "163",
-    "palavra": "Engolir"
+    "palavra": "Arrependido"
   },
   {
     "id": "164",
-    "palavra": "Enorme"
+    "palavra": "Arrependimento"
   },
   {
     "id": "165",
-    "palavra": "Ensaiar"
+    "palavra": "Arrepiar"
   },
   {
     "id": "166",
-    "palavra": "Ensaio"
+    "palavra": "Arrepio"
   },
   {
     "id": "167",
-    "palavra": "Ensinar"
+    "palavra": "Arrombar"
   },
   {
     "id": "168",
-    "palavra": "Ensino"
+    "palavra": "Arruinado"
   },
   {
     "id": "169",
-    "palavra": "Entrar"
+    "palavra": "Arrumação"
   },
   {
     "id": "170",
-    "palavra": "Entrega"
+    "palavra": "Arrumar"
   },
   {
     "id": "171",
-    "palavra": "Enxugar"
+    "palavra": "Arte"
   },
   {
     "id": "172",
-    "palavra": "Época"
+    "palavra": "Árvore"
   },
   {
     "id": "173",
-    "palavra": "Equipe"
+    "palavra": "Asas"
   },
   {
     "id": "174",
-    "palavra": "Errar"
+    "palavra": "Ascensão"
   },
   {
     "id": "175",
-    "palavra": "Erro"
+    "palavra": "Asfalto"
   },
   {
     "id": "176",
-    "palavra": "Escada"
+    "palavra": "Aspiração"
   },
   {
     "id": "177",
-    "palavra": "Escapar"
+    "palavra": "Aspirante"
   },
   {
     "id": "178",
-    "palavra": "Escolha"
+    "palavra": "Assalto"
   },
   {
     "id": "179",
-    "palavra": "Escova"
+    "palavra": "Assar"
   },
   {
     "id": "180",
-    "palavra": "Escravo"
+    "palavra": "Assento"
   },
   {
     "id": "181",
-    "palavra": "Escuro"
+    "palavra": "Assinado"
   },
   {
     "id": "182",
-    "palavra": "Espaço"
+    "palavra": "Assinar"
   },
   {
     "id": "183",
-    "palavra": "Espada"
+    "palavra": "Assis"
   },
   {
     "id": "184",
-    "palavra": "Espera"
+    "palavra": "Assombrado"
   },
   {
     "id": "185",
-    "palavra": "Esposa"
+    "palavra": "Assunto"
   },
   {
     "id": "186",
-    "palavra": "Espuma"
+    "palavra": "Atitude"
   },
   {
     "id": "187",
-    "palavra": "Estar"
+    "palavra": "Ator"
   },
   {
     "id": "188",
-    "palavra": "Estilo"
+    "palavra": "Atormentado"
   },
   {
     "id": "189",
-    "palavra": "Estudo"
+    "palavra": "Atração"
   },
   {
     "id": "190",
-    "palavra": "Eterno"
+    "palavra": "Atrapalhar"
   },
   {
     "id": "191",
-    "palavra": "Evitar"
+    "palavra": "Atrás"
   },
   {
     "id": "192",
-    "palavra": "Exame"
+    "palavra": "Atrasado"
   },
   {
     "id": "193",
-    "palavra": "Exato"
+    "palavra": "Atravessar"
   },
   {
     "id": "194",
-    "palavra": "Exibir"
+    "palavra": "Atrever"
   },
   {
     "id": "195",
-    "palavra": "Exigir"
+    "palavra": "Atum"
   },
   {
     "id": "196",
-    "palavra": "Extra"
+    "palavra": "Aumentar"
   },
   {
     "id": "197",
-    "palavra": "Faca"
+    "palavra": "Aumento"
   },
   {
     "id": "198",
-    "palavra": "Fada"
+    "palavra": "Ausência"
   },
   {
     "id": "199",
-    "palavra": "Falar"
+    "palavra": "Autoridade"
   },
   {
     "id": "200",
-    "palavra": "Falta"
+    "palavra": "Avançar"
   },
   {
     "id": "201",
-    "palavra": "Fama"
+    "palavra": "Avanço"
   },
   {
     "id": "202",
-    "palavra": "Farol"
+    "palavra": "Avenida"
   },
   {
     "id": "203",
-    "palavra": "Fase"
+    "palavra": "Aviação"
   },
   {
     "id": "204",
-    "palavra": "Fato"
+    "palavra": "Avião"
   },
   {
     "id": "205",
-    "palavra": "Favor"
+    "palavra": "Avisar"
   },
   {
     "id": "206",
-    "palavra": "Febre"
+    "palavra": "Aviso"
   },
   {
     "id": "207",
-    "palavra": "Feio"
+    "palavra": "Azedo"
   },
   {
     "id": "208",
-    "palavra": "Fera"
+    "palavra": "Azeite"
   },
   {
     "id": "209",
-    "palavra": "Fim"
+    "palavra": "Azul"
   },
   {
     "id": "210",
-    "palavra": "Fio"
+    "palavra": "Badalação"
   },
   {
     "id": "211",
-    "palavra": "Flor"
+    "palavra": "Badalada"
   },
   {
     "id": "212",
-    "palavra": "Fogo"
+    "palavra": "Bagagem"
   },
   {
     "id": "213",
-    "palavra": "Foto"
+    "palavra": "Bagunça"
   },
   {
     "id": "214",
-    "palavra": "Frio"
+    "palavra": "Baía"
   },
   {
     "id": "215",
-    "palavra": "Gado"
+    "palavra": "Baião"
   },
   {
     "id": "216",
-    "palavra": "Ganho"
+    "palavra": "Baixo"
   },
   {
     "id": "217",
-    "palavra": "Gás"
+    "palavra": "Bala"
   },
   {
     "id": "218",
-    "palavra": "Gasto"
+    "palavra": "Balada"
   },
   {
     "id": "219",
-    "palavra": "Gelo"
+    "palavra": "Balançar"
   },
   {
     "id": "220",
-    "palavra": "Gente"
+    "palavra": "Balanço"
   },
   {
     "id": "221",
-    "palavra": "Gesto"
+    "palavra": "Banco"
   },
   {
     "id": "222",
-    "palavra": "Giro"
+    "palavra": "Bandeira"
   },
   {
     "id": "223",
-    "palavra": "Globo"
+    "palavra": "Banhista"
   },
   {
     "id": "224",
-    "palavra": "Golpe"
+    "palavra": "Banho"
   },
   {
     "id": "225",
-    "palavra": "Gorda"
+    "palavra": "Banquete"
   },
   {
     "id": "226",
-    "palavra": "Gordo"
+    "palavra": "Baralho"
   },
   {
     "id": "227",
-    "palavra": "Gosto"
+    "palavra": "Barba"
   },
   {
     "id": "228",
-    "palavra": "Gota"
+    "palavra": "Barbara"
   },
   {
     "id": "229",
-    "palavra": "Grade"
+    "palavra": "Barco"
   },
   {
     "id": "230",
-    "palavra": "Grama"
+    "palavra": "Barriga"
   },
   {
     "id": "231",
-    "palavra": "Grave"
+    "palavra": "Barulho"
   },
   {
     "id": "232",
-    "palavra": "Greve"
+    "palavra": "Base"
   },
   {
     "id": "233",
-    "palavra": "Grife"
+    "palavra": "Básico"
   },
   {
     "id": "234",
-    "palavra": "Grito"
+    "palavra": "Bastar"
   },
   {
     "id": "235",
-    "palavra": "Gruda"
+    "palavra": "Batalha"
   },
   {
     "id": "236",
-    "palavra": "Guia"
+    "palavra": "Bater"
   },
   {
     "id": "237",
-    "palavra": "Hábito"
+    "palavra": "Bateria"
   },
   {
     "id": "238",
-    "palavra": "Herói"
+    "palavra": "Batida"
   },
   {
     "id": "239",
-    "palavra": "Hoje"
+    "palavra": "Batismo"
   },
   {
     "id": "240",
-    "palavra": "Homem"
+    "palavra": "Batizado"
   },
   {
     "id": "241",
-    "palavra": "Honra"
+    "palavra": "Batucada"
   },
   {
     "id": "242",
-    "palavra": "Hora"
+    "palavra": "Baú"
   },
   {
     "id": "243",
-    "palavra": "Hotel"
+    "palavra": "Bazar"
   },
   {
     "id": "244",
-    "palavra": "Humano"
+    "palavra": "Bebê"
   },
   {
     "id": "245",
-    "palavra": "Humor"
+    "palavra": "Beber"
   },
   {
     "id": "246",
-    "palavra": "Idade"
+    "palavra": "Bebida"
   },
   {
     "id": "247",
-    "palavra": "Ideal"
+    "palavra": "Beijar"
   },
   {
     "id": "248",
-    "palavra": "Idéia"
+    "palavra": "Beijo"
   },
   {
     "id": "249",
-    "palavra": "Igreja"
+    "palavra": "Beleza"
   },
   {
     "id": "250",
-    "palavra": "Igual"
+    "palavra": "Belo"
   },
   {
     "id": "251",
-    "palavra": "Ilha"
+    "palavra": "Benção"
   },
   {
     "id": "252",
-    "palavra": "Ilusão"
+    "palavra": "Bento"
   },
   {
     "id": "253",
-    "palavra": "Imagem"
+    "palavra": "Berço"
   },
   {
     "id": "254",
-    "palavra": "Imenso"
+    "palavra": "Berlim"
   },
   {
     "id": "255",
-    "palavra": "Imitar"
+    "palavra": "Bíblia"
   },
   {
     "id": "256",
-    "palavra": "Inseto"
+    "palavra": "Bicho"
   },
   {
     "id": "257",
-    "palavra": "Irmã"
+    "palavra": "Bicicleta"
   },
   {
     "id": "258",
-    "palavra": "Irmão"
+    "palavra": "Bilhete"
   },
   {
     "id": "259",
-    "palavra": "Jacaré"
+    "palavra": "Biografia"
   },
   {
     "id": "260",
-    "palavra": "Jato"
+    "palavra": "Biscoito"
   },
   {
     "id": "261",
-    "palavra": "Jeito"
+    "palavra": "Bloco"
   },
   {
     "id": "262",
-    "palavra": "Jogar"
+    "palavra": "Bloquear"
   },
   {
     "id": "263",
-    "palavra": "Jogo"
+    "palavra": "Bloqueio"
   },
   {
     "id": "264",
-    "palavra": "Jóia"
+    "palavra": "Boate"
   },
   {
     "id": "265",
-    "palavra": "Jovem"
+    "palavra": "Bobagem"
   },
   {
     "id": "266",
-    "palavra": "Juiz"
+    "palavra": "Bobo"
   },
   {
     "id": "267",
-    "palavra": "Junto"
+    "palavra": "Boca"
   },
   {
     "id": "268",
-    "palavra": "Jurar"
+    "palavra": "Boiadeira"
   },
   {
     "id": "269",
-    "palavra": "Juro"
+    "palavra": "Bola"
   },
   {
     "id": "270",
-    "palavra": "Justo"
+    "palavra": "Bolha"
   },
   {
     "id": "271",
-    "palavra": "Laço"
+    "palavra": "Bolsa"
   },
   {
     "id": "272",
-    "palavra": "Lado"
+    "palavra": "Bomba"
   },
   {
     "id": "273",
-    "palavra": "Lago"
+    "palavra": "Bombando"
   },
   {
     "id": "274",
-    "palavra": "Lagoa"
+    "palavra": "Bonito"
   },
   {
     "id": "275",
-    "palavra": "Lama"
+    "palavra": "Bordado"
   },
   {
     "id": "276",
-    "palavra": "Lance"
+    "palavra": "Bordo"
   },
   {
     "id": "277",
-    "palavra": "Largo"
+    "palavra": "Bota"
   },
   {
     "id": "278",
-    "palavra": "Lata"
+    "palavra": "Botão"
   },
   {
     "id": "279",
-    "palavra": "Latir"
+    "palavra": "Boteco"
   },
   {
     "id": "280",
-    "palavra": "Lavar"
+    "palavra": "Boulevard"
   },
   {
     "id": "281",
-    "palavra": "Leão"
+    "palavra": "Brabo"
   },
   {
     "id": "282",
-    "palavra": "Legal"
+    "palavra": "Braço"
   },
   {
     "id": "283",
-    "palavra": "Lei"
+    "palavra": "Branco"
   },
   {
     "id": "284",
-    "palavra": "Leite"
+    "palavra": "Brasa"
   },
   {
     "id": "285",
-    "palavra": "Leito"
+    "palavra": "Brasília"
   },
   {
     "id": "286",
-    "palavra": "Lenço"
+    "palavra": "Bravo"
   },
   {
     "id": "287",
-    "palavra": "Lenha"
+    "palavra": "Brecha"
   },
   {
     "id": "288",
-    "palavra": "Lento"
+    "palavra": "Brega"
   },
   {
     "id": "289",
-    "palavra": "Levar"
+    "palavra": "Briga"
   },
   {
     "id": "290",
-    "palavra": "Leve"
+    "palavra": "Brigar"
   },
   {
     "id": "291",
-    "palavra": "Liga"
+    "palavra": "Brilhante"
   },
   {
     "id": "292",
-    "palavra": "Ligar"
+    "palavra": "Brilhar"
   },
   {
     "id": "293",
-    "palavra": "Limão"
+    "palavra": "Brilho"
   },
   {
     "id": "294",
-    "palavra": "Limpo"
+    "palavra": "Brinquedo"
   },
   {
     "id": "295",
-    "palavra": "Lindo"
+    "palavra": "Brisa"
   },
   {
     "id": "296",
-    "palavra": "Linha"
+    "palavra": "Brotar"
   },
   {
     "id": "297",
-    "palavra": "Liso"
+    "palavra": "Bruxa"
   },
   {
     "id": "298",
-    "palavra": "Lista"
+    "palavra": "Bruxaria"
   },
   {
     "id": "299",
-    "palavra": "Lixo"
+    "palavra": "Bumbum"
   },
   {
     "id": "300",
-    "palavra": "Lobo"
+    "palavra": "Buraco"
   },
   {
     "id": "301",
-    "palavra": "Loja"
+    "palavra": "Burguesinha"
   },
   {
     "id": "302",
-    "palavra": "Luto"
+    "palavra": "Burro"
   },
   {
     "id": "303",
-    "palavra": "Luva"
+    "palavra": "Buscar"
   },
   {
     "id": "304",
-    "palavra": "Luz"
+    "palavra": "Busco"
   },
   {
     "id": "305",
-    "palavra": "Maçã"
+    "palavra": "Cabaça"
   },
   {
     "id": "306",
-    "palavra": "Macaco"
+    "palavra": "Cabana"
   },
   {
     "id": "307",
-    "palavra": "Macio"
+    "palavra": "Cabaré"
   },
   {
     "id": "308",
-    "palavra": "Mãe"
+    "palavra": "Cabeça"
   },
   {
     "id": "309",
-    "palavra": "Magia"
+    "palavra": "Cabeceira"
   },
   {
     "id": "310",
-    "palavra": "Mago"
+    "palavra": "Cabelo"
   },
   {
     "id": "311",
-    "palavra": "Magro"
+    "palavra": "Cabisbaixo"
   },
   {
     "id": "312",
-    "palavra": "Maio"
+    "palavra": "Cabo"
   },
   {
     "id": "313",
-    "palavra": "Maior"
+    "palavra": "Caça"
   },
   {
     "id": "314",
-    "palavra": "Mais"
+    "palavra": "Caçadora"
   },
   {
     "id": "315",
-    "palavra": "Mala"
+    "palavra": "Cachoeira"
   },
   {
     "id": "316",
-    "palavra": "Malas"
+    "palavra": "Cachorro"
   },
   {
     "id": "317",
-    "palavra": "Mamilo"
+    "palavra": "Cadeado"
   },
   {
     "id": "318",
-    "palavra": "Mana"
+    "palavra": "Cadeia"
   },
   {
     "id": "319",
-    "palavra": "Manada"
+    "palavra": "Cadeira"
   },
   {
     "id": "320",
-    "palavra": "Mancha"
+    "palavra": "Cadência"
   },
   {
     "id": "321",
-    "palavra": "Mandar"
+    "palavra": "Café"
   },
   {
     "id": "322",
-    "palavra": "Manga"
+    "palavra": "Cai"
   },
   {
     "id": "323",
-    "palavra": "Manhã"
+    "palavra": "Caipira"
   },
   {
     "id": "324",
-    "palavra": "Mania"
+    "palavra": "Cair"
   },
   {
     "id": "325",
-    "palavra": "Manter"
+    "palavra": "Caixa"
   },
   {
     "id": "326",
-    "palavra": "Mão"
+    "palavra": "Caixão"
   },
   {
     "id": "327",
-    "palavra": "Mapa"
+    "palavra": "Calça"
   },
   {
     "id": "328",
-    "palavra": "Mar"
+    "palavra": "Cálice"
   },
   {
     "id": "329",
-    "palavra": "Marca"
+    "palavra": "Calma"
   },
   {
     "id": "330",
-    "palavra": "Março"
+    "palavra": "Calmo"
   },
   {
     "id": "331",
-    "palavra": "Maré"
+    "palavra": "Calor"
   },
   {
     "id": "332",
-    "palavra": "Massa"
+    "palavra": "Cama"
   },
   {
     "id": "333",
-    "palavra": "Mata"
+    "palavra": "Camaleão"
   },
   {
     "id": "334",
-    "palavra": "Matar"
+    "palavra": "Caminhar"
   },
   {
     "id": "335",
-    "palavra": "Mate"
+    "palavra": "Caminho"
   },
   {
     "id": "336",
-    "palavra": "Mato"
+    "palavra": "Camionete"
   },
   {
     "id": "337",
-    "palavra": "Mau"
+    "palavra": "Camisa"
   },
   {
     "id": "338",
-    "palavra": "Média"
+    "palavra": "Campo"
   },
   {
     "id": "339",
-    "palavra": "Medir"
+    "palavra": "Canal"
   },
   {
     "id": "340",
-    "palavra": "Medo"
+    "palavra": "Canção"
   },
   {
     "id": "341",
-    "palavra": "Meia"
+    "palavra": "Candeeiro"
   },
   {
     "id": "342",
-    "palavra": "Meigo"
+    "palavra": "Candelabrário"
   },
   {
     "id": "343",
-    "palavra": "Meio"
+    "palavra": "Cangaceiro"
   },
   {
     "id": "344",
-    "palavra": "Mel"
+    "palavra": "Canhão"
   },
   {
     "id": "345",
-    "palavra": "Melo"
+    "palavra": "Canibal"
   },
   {
     "id": "346",
-    "palavra": "Menor"
+    "palavra": "Canoa"
   },
   {
     "id": "347",
-    "palavra": "Menos"
+    "palavra": "Cantar"
   },
   {
     "id": "348",
-    "palavra": "Menta"
+    "palavra": "Canto"
   },
   {
     "id": "349",
-    "palavra": "Mente"
+    "palavra": "Canto-chão"
   },
   {
     "id": "350",
-    "palavra": "Nação"
+    "palavra": "Cão"
   },
   {
     "id": "351",
-    "palavra": "Nada"
+    "palavra": "Capela"
   },
   {
     "id": "352",
-    "palavra": "Nadar"
+    "palavra": "Capitão"
   },
   {
     "id": "353",
-    "palavra": "Nana"
+    "palavra": "Capoeira"
   },
   {
     "id": "354",
-    "palavra": "Nanar"
+    "palavra": "Capricho"
   },
   {
     "id": "355",
-    "palavra": "Não"
+    "palavra": "Cara"
   },
   {
     "id": "356",
-    "palavra": "Nariz"
+    "palavra": "Caráter"
   },
   {
     "id": "357",
-    "palavra": "Natal"
+    "palavra": "Caravana"
   },
   {
     "id": "358",
-    "palavra": "Naval"
+    "palavra": "Carcaça"
   },
   {
     "id": "359",
-    "palavra": "Navio"
+    "palavra": "Cardápio"
   },
   {
     "id": "360",
-    "palavra": "Nega"
+    "palavra": "Carência"
   },
   {
     "id": "361",
-    "palavra": "Negar"
+    "palavra": "Carícia"
   },
   {
     "id": "362",
-    "palavra": "Negro"
+    "palavra": "Carinho"
   },
   {
     "id": "363",
-    "palavra": "Ninho"
+    "palavra": "Carnaval"
   },
   {
     "id": "364",
-    "palavra": "Noite"
+    "palavra": "Carne"
   },
   {
     "id": "365",
-    "palavra": "Noiva"
+    "palavra": "Caro"
   },
   {
     "id": "366",
-    "palavra": "Noivo"
+    "palavra": "Carona"
   },
   {
     "id": "367",
-    "palavra": "Nome"
+    "palavra": "Carregado"
   },
   {
     "id": "368",
-    "palavra": "Norte"
+    "palavra": "Carregar"
   },
   {
     "id": "369",
-    "palavra": "Nossa"
+    "palavra": "Carro"
   },
   {
     "id": "370",
-    "palavra": "Nosso"
+    "palavra": "Carroça"
   },
   {
     "id": "371",
-    "palavra": "Nota"
+    "palavra": "Cartas"
   },
   {
     "id": "372",
-    "palavra": "Notar"
+    "palavra": "Carteira"
   },
   {
     "id": "373",
-    "palavra": "Nova"
+    "palavra": "Cartomante"
   },
   {
     "id": "374",
-    "palavra": "Novas"
+    "palavra": "Carvalho"
   },
   {
     "id": "375",
-    "palavra": "Nove"
+    "palavra": "Casa"
   },
   {
     "id": "376",
-    "palavra": "Novo"
+    "palavra": "Casado"
   },
   {
     "id": "377",
-    "palavra": "Nua"
+    "palavra": "Casamento"
   },
   {
     "id": "378",
-    "palavra": "Nuca"
+    "palavra": "Casar"
   },
   {
     "id": "379",
-    "palavra": "Numa"
+    "palavra": "Casca"
   },
   {
     "id": "380",
-    "palavra": "Nunca"
+    "palavra": "Cascata"
   },
   {
     "id": "381",
-    "palavra": "Nuvem"
+    "palavra": "Caseiro"
   },
   {
     "id": "382",
-    "palavra": "Óleo"
+    "palavra": "Casinha"
   },
   {
     "id": "383",
-    "palavra": "Olhar"
+    "palavra": "Castanho"
   },
   {
     "id": "384",
-    "palavra": "Olho"
+    "palavra": "Castelo"
   },
   {
     "id": "385",
-    "palavra": "Ombro"
+    "palavra": "Castigo"
   },
   {
     "id": "386",
-    "palavra": "Onda"
+    "palavra": "Catástrofe"
   },
   {
     "id": "387",
-    "palavra": "Ouro"
+    "palavra": "Causa"
   },
   {
     "id": "388",
-    "palavra": "Ovo"
+    "palavra": "Causar"
   },
   {
     "id": "389",
-    "palavra": "Pacote"
+    "palavra": "Cavalaria"
   },
   {
     "id": "390",
-    "palavra": "Pagar"
+    "palavra": "Cavaleiro"
   },
   {
     "id": "391",
-    "palavra": "Pai"
+    "palavra": "Caxias"
   },
   {
     "id": "392",
-    "palavra": "País"
+    "palavra": "Caxumba"
   },
   {
     "id": "393",
-    "palavra": "Palco"
+    "palavra": "Cedo"
   },
   {
     "id": "394",
-    "palavra": "Palma"
+    "palavra": "Cego"
   },
   {
     "id": "395",
-    "palavra": "Palmo"
+    "palavra": "Celebração"
   },
   {
     "id": "396",
-    "palavra": "Pano"
+    "palavra": "Celebrar"
   },
   {
     "id": "397",
-    "palavra": "Pão"
+    "palavra": "Cem"
   },
   {
     "id": "398",
-    "palavra": "Papai"
+    "palavra": "Cena"
   },
   {
     "id": "399",
-    "palavra": "Papel"
+    "palavra": "Centavo"
   },
   {
     "id": "400",
-    "palavra": "Par"
+    "palavra": "Central"
   },
   {
     "id": "401",
-    "palavra": "Para"
+    "palavra": "Centro"
   },
   {
     "id": "402",
-    "palavra": "Raça"
+    "palavra": "Cepa"
   },
   {
     "id": "403",
-    "palavra": "Racha"
+    "palavra": "Cerimônia"
   },
   {
     "id": "404",
-    "palavra": "Rachar"
+    "palavra": "Certeza"
   },
   {
     "id": "405",
-    "palavra": "Radar"
+    "palavra": "Certo"
   },
   {
     "id": "406",
-    "palavra": "Rádio"
+    "palavra": "Cerveja"
   },
   {
     "id": "407",
-    "palavra": "Raio"
+    "palavra": "Cervo"
   },
   {
     "id": "408",
-    "palavra": "Raiva"
+    "palavra": "Céu"
   },
   {
     "id": "409",
-    "palavra": "Raiz"
+    "palavra": "Chácara"
   },
   {
     "id": "410",
-    "palavra": "Ralar"
+    "palavra": "Chaga"
   },
   {
     "id": "411",
-    "palavra": "Ralo"
+    "palavra": "Chama"
   },
   {
     "id": "412",
-    "palavra": "Rama"
+    "palavra": "Chamada"
   },
   {
     "id": "413",
-    "palavra": "Ramal"
+    "palavra": "Chamar"
   },
   {
     "id": "414",
-    "palavra": "Ramo"
+    "palavra": "Champagne"
   },
   {
     "id": "415",
-    "palavra": "Rampa"
+    "palavra": "Chance"
   },
   {
     "id": "416",
-    "palavra": "Raro"
+    "palavra": "Chão"
   },
   {
     "id": "417",
-    "palavra": "Rasgo"
+    "palavra": "Chapa"
   },
   {
     "id": "418",
-    "palavra": "Raso"
+    "palavra": "Chapado"
   },
   {
     "id": "419",
-    "palavra": "Rato"
+    "palavra": "Charme"
   },
   {
     "id": "420",
-    "palavra": "Razão"
+    "palavra": "Chave"
   },
   {
     "id": "421",
-    "palavra": "Real"
+    "palavra": "Chefa"
   },
   {
     "id": "422",
-    "palavra": "Sábado"
+    "palavra": "Chegada"
   },
   {
     "id": "423",
-    "palavra": "Sabão"
+    "palavra": "Chegar"
   },
   {
     "id": "424",
-    "palavra": "Saber"
+    "palavra": "Cheiro"
   },
   {
     "id": "425",
-    "palavra": "Sabiá"
+    "palavra": "Chique"
   },
   {
     "id": "426",
-    "palavra": "Sabor"
+    "palavra": "Chora"
   },
   {
     "id": "427",
-    "palavra": "Sabotar"
+    "palavra": "Chorar"
   },
   {
     "id": "428",
-    "palavra": "Saca"
+    "palavra": "Choro"
   },
   {
     "id": "429",
-    "palavra": "Sacar"
+    "palavra": "Chuchuzinho"
   },
   {
     "id": "430",
-    "palavra": "Sacola"
+    "palavra": "Chuva"
   },
   {
     "id": "431",
-    "palavra": "Sereia"
+    "palavra": "Cicatriz"
   },
   {
     "id": "432",
-    "palavra": "Seriar"
+    "palavra": "Cidade"
   },
   {
     "id": "433",
-    "palavra": "Série"
+    "palavra": "Ciência"
   },
   {
     "id": "434",
-    "palavra": "Sério"
+    "palavra": "Cigarro"
   },
   {
     "id": "435",
-    "palavra": "Sermão"
+    "palavra": "Cilada"
   },
   {
     "id": "436",
-    "palavra": "Serra"
+    "palavra": "Cima"
   },
   {
     "id": "437",
-    "palavra": "Serrar"
+    "palavra": "Cinema"
   },
   {
     "id": "438",
-    "palavra": "Sertão"
+    "palavra": "Cinza"
   },
   {
     "id": "439",
-    "palavra": "Seta"
+    "palavra": "Círculo"
   },
   {
     "id": "440",
-    "palavra": "Sete"
+    "palavra": "Ciúme"
   },
   {
     "id": "441",
-    "palavra": "Setor"
+    "palavra": "Claranã"
   },
   {
     "id": "442",
-    "palavra": "Seu"
+    "palavra": "Claridade"
   },
   {
     "id": "443",
-    "palavra": "Severo"
+    "palavra": "Claro"
   },
   {
     "id": "444",
-    "palavra": "Sexo"
+    "palavra": "Classe"
   },
   {
     "id": "445",
-    "palavra": "Sexta"
+    "palavra": "Clássico"
   },
   {
     "id": "446",
-    "palavra": "Sexto"
+    "palavra": "Clorofila"
   },
   {
     "id": "447",
-    "palavra": "Siga"
+    "palavra": "Cobertura"
   },
   {
     "id": "448",
-    "palavra": "Sigla"
+    "palavra": "Cobra"
   },
   {
     "id": "449",
-    "palavra": "Signo"
+    "palavra": "Cobrir"
   },
   {
     "id": "450",
-    "palavra": "Silva"
+    "palavra": "Coca"
   },
   {
     "id": "451",
-    "palavra": "Sinal"
+    "palavra": "Coceira"
   },
   {
     "id": "452",
-    "palavra": "Sineta"
+    "palavra": "Cocheira"
   },
   {
     "id": "453",
-    "palavra": "Sino"
+    "palavra": "Coco"
   },
   {
     "id": "454",
-    "palavra": "Taco"
+    "palavra": "Código"
   },
   {
     "id": "455",
-    "palavra": "Tampa"
+    "palavra": "Cofre"
   },
   {
     "id": "456",
-    "palavra": "Tarde"
+    "palavra": "Coisa"
   },
   {
     "id": "457",
-    "palavra": "Tela"
+    "palavra": "Coisas"
   },
   {
     "id": "458",
-    "palavra": "Tema"
+    "palavra": "Coisinha"
   },
   {
     "id": "459",
-    "palavra": "Tempo"
+    "palavra": "Cola"
   },
   {
     "id": "460",
-    "palavra": "Terno"
+    "palavra": "Colar"
   },
   {
     "id": "461",
-    "palavra": "Terra"
+    "palavra": "Colchão"
   },
   {
     "id": "462",
-    "palavra": "Teste"
+    "palavra": "Colheita"
   },
   {
     "id": "463",
-    "palavra": "Teto"
+    "palavra": "Colina"
   },
   {
     "id": "464",
-    "palavra": "Teu"
+    "palavra": "Colo"
   },
   {
     "id": "465",
-    "palavra": "Tigre"
+    "palavra": "Comandante"
   },
   {
     "id": "466",
-    "palavra": "Timão"
+    "palavra": "Comando"
   },
   {
     "id": "467",
-    "palavra": "Tinta"
+    "palavra": "Começar"
   },
   {
     "id": "468",
-    "palavra": "Tio"
+    "palavra": "Começo"
   },
   {
     "id": "469",
-    "palavra": "Tipo"
+    "palavra": "Comédia"
   },
   {
     "id": "470",
-    "palavra": "Tirar"
+    "palavra": "Comemoração"
   },
   {
     "id": "471",
-    "palavra": "Tiro"
+    "palavra": "Comemorar"
   },
   {
     "id": "472",
-    "palavra": "Toca"
+    "palavra": "Comer"
   },
   {
     "id": "473",
-    "palavra": "Tocar"
+    "palavra": "Cometa"
   },
   {
     "id": "474",
-    "palavra": "Tocha"
+    "palavra": "Comigo"
   },
   {
     "id": "475",
-    "palavra": "Todo"
+    "palavra": "Companheira"
   },
   {
     "id": "476",
-    "palavra": "Tom"
+    "palavra": "Companheiro"
   },
   {
     "id": "477",
-    "palavra": "Topo"
+    "palavra": "Companhia"
   },
   {
     "id": "478",
-    "palavra": "Toque"
+    "palavra": "Compara"
   },
   {
     "id": "479",
-    "palavra": "Torre"
+    "palavra": "Comparação"
   },
   {
     "id": "480",
-    "palavra": "Torto"
+    "palavra": "Comparar"
   },
   {
     "id": "481",
-    "palavra": "Total"
+    "palavra": "Compartilhar"
   },
   {
     "id": "482",
-    "palavra": "Touca"
+    "palavra": "Compassado"
   },
   {
     "id": "483",
-    "palavra": "Touro"
+    "palavra": "Compasso"
   },
   {
     "id": "484",
-    "palavra": "Traço"
+    "palavra": "Compensar"
   },
   {
     "id": "485",
-    "palavra": "Trair"
+    "palavra": "Competir"
   },
   {
     "id": "486",
-    "palavra": "Traje"
+    "palavra": "Complexidade"
   },
   {
     "id": "487",
-    "palavra": "Trame"
+    "palavra": "Complexo"
   },
   {
     "id": "488",
-    "palavra": "Trapo"
+    "palavra": "Complicação"
   },
   {
     "id": "489",
-    "palavra": "Trás"
+    "palavra": "Complicado"
   },
   {
     "id": "490",
-    "palavra": "Trato"
+    "palavra": "Complicar"
   },
   {
     "id": "491",
-    "palavra": "Trava"
+    "palavra": "Composto"
   },
   {
     "id": "492",
-    "palavra": "Trem"
+    "palavra": "Compreender"
   },
   {
     "id": "493",
-    "palavra": "Tremo"
+    "palavra": "Compreensão"
   },
   {
     "id": "494",
-    "palavra": "Três"
+    "palavra": "Comprimido"
   },
   {
     "id": "495",
-    "palavra": "Treva"
+    "palavra": "Comprimir"
   },
   {
     "id": "496",
-    "palavra": "Tribo"
+    "palavra": "Compromisso"
   },
   {
     "id": "497",
-    "palavra": "Trigo"
+    "palavra": "Comum"
   },
   {
     "id": "498",
-    "palavra": "Trio"
+    "palavra": "Concepção"
   },
   {
     "id": "499",
-    "palavra": "Troca"
+    "palavra": "Concluir"
   },
   {
     "id": "500",
-    "palavra": "Troco"
+    "palavra": "Conclusão"
   },
   {
     "id": "501",
-    "palavra": "Trono"
+    "palavra": "Concordar"
   },
   {
     "id": "502",
-    "palavra": "Tudo"
+    "palavra": "Concorrência"
   },
   {
     "id": "503",
-    "palavra": "Unha"
+    "palavra": "Condão"
   },
   {
     "id": "504",
-    "palavra": "Unir"
+    "palavra": "Condução"
   },
   {
     "id": "505",
-    "palavra": "Urso"
+    "palavra": "Conduzir"
   },
   {
     "id": "506",
-    "palavra": "Usar"
+    "palavra": "Confessar"
   },
   {
     "id": "507",
-    "palavra": "Uso"
+    "palavra": "Confiança"
   },
   {
     "id": "508",
-    "palavra": "Útil"
+    "palavra": "Confissão"
   },
   {
     "id": "509",
-    "palavra": "Uva"
+    "palavra": "Conforto"
   },
   {
     "id": "510",
-    "palavra": "Vaca"
+    "palavra": "Confusão"
   },
   {
     "id": "511",
-    "palavra": "Vaga"
+    "palavra": "Confuso"
   },
   {
     "id": "512",
-    "palavra": "Vagão"
+    "palavra": "Congelado"
   },
   {
     "id": "513",
-    "palavra": "Vagar"
+    "palavra": "Conhecer"
   },
   {
     "id": "514",
-    "palavra": "Vago"
+    "palavra": "Conhecido"
   },
   {
     "id": "515",
-    "palavra": "Vaia"
+    "palavra": "Conquista"
   },
   {
     "id": "516",
-    "palavra": "Vaiar"
+    "palavra": "Conquistar"
   },
   {
     "id": "517",
-    "palavra": "Vale"
+    "palavra": "Consciência"
   },
   {
     "id": "518",
-    "palavra": "Valer"
+    "palavra": "Consertar"
   },
   {
     "id": "519",
-    "palavra": "Valia"
+    "palavra": "Conserto"
   },
   {
     "id": "520",
-    "palavra": "Valor"
+    "palavra": "Considerar"
   },
   {
     "id": "521",
-    "palavra": "Valsa"
+    "palavra": "Consolação"
   },
   {
     "id": "522",
-    "palavra": "Vão"
+    "palavra": "Consolo"
   },
   {
     "id": "523",
-    "palavra": "Vapor"
+    "palavra": "Contabilidade"
   },
   {
     "id": "524",
-    "palavra": "Vara"
+    "palavra": "Contagem"
   },
   {
     "id": "525",
-    "palavra": "Varal"
+    "palavra": "Contaminar"
   },
   {
     "id": "526",
-    "palavra": "Varar"
+    "palavra": "Contar"
   },
   {
     "id": "527",
-    "palavra": "Vaso"
+    "palavra": "Contato"
   },
   {
     "id": "528",
-    "palavra": "Vasto"
+    "palavra": "Conteúdo"
   },
   {
     "id": "529",
-    "palavra": "Vazar"
+    "palavra": "Conto"
   },
   {
     "id": "530",
-    "palavra": "Vazio"
+    "palavra": "Contra"
   },
   {
     "id": "531",
-    "palavra": "Veado"
+    "palavra": "Contramão"
   },
   {
     "id": "532",
-    "palavra": "Veia"
+    "palavra": "Controle"
   },
   {
     "id": "533",
-    "palavra": "Vela"
+    "palavra": "Controverso"
   },
   {
     "id": "534",
-    "palavra": "Velar"
+    "palavra": "Conversa"
   },
   {
     "id": "535",
-    "palavra": "Velha"
+    "palavra": "Conversar"
   },
   {
     "id": "536",
-    "palavra": "Velho"
+    "palavra": "Copo"
   },
   {
     "id": "537",
-    "palavra": "Veloz"
+    "palavra": "Coquetel"
   },
   {
     "id": "538",
-    "palavra": "Vem"
+    "palavra": "Cor"
   },
   {
     "id": "539",
-    "palavra": "Venda"
+    "palavra": "Coração"
   },
   {
     "id": "540",
-    "palavra": "Vento"
+    "palavra": "Coragem"
   },
   {
     "id": "541",
-    "palavra": "Ver"
+    "palavra": "Corda"
   },
   {
     "id": "542",
-    "palavra": "Verão"
+    "palavra": "Cordoalha"
   },
   {
     "id": "543",
-    "palavra": "Verba"
+    "palavra": "Coro"
   },
   {
     "id": "544",
-    "palavra": "Verde"
+    "palavra": "Coroa"
   },
   {
     "id": "545",
-    "palavra": "Verme"
+    "palavra": "Corpo"
   },
   {
     "id": "546",
-    "palavra": "Verso"
+    "palavra": "Correção"
   },
   {
     "id": "547",
-    "palavra": "Vesta"
+    "palavra": "Correio"
   },
   {
     "id": "548",
-    "palavra": "Vetar"
+    "palavra": "Correnteza"
   },
   {
     "id": "549",
-    "palavra": "Veto"
+    "palavra": "Correr"
   },
   {
     "id": "550",
-    "palavra": "Vetor"
+    "palavra": "Corrida"
   },
   {
     "id": "551",
-    "palavra": "Véu"
+    "palavra": "Corromper"
   },
   {
     "id": "552",
-    "palavra": "Via"
+    "palavra": "Corrupção"
   },
   {
     "id": "553",
-    "palavra": "Vice"
+    "palavra": "Cortar"
   },
   {
     "id": "554",
-    "palavra": "Vida"
+    "palavra": "Corte"
   },
   {
     "id": "555",
-    "palavra": "Vidro"
+    "palavra": "Costas"
   },
   {
     "id": "556",
-    "palavra": "Viela"
+    "palavra": "Costume"
   },
   {
     "id": "557",
-    "palavra": "Viga"
+    "palavra": "Costura"
   },
   {
     "id": "558",
-    "palavra": "Vigor"
+    "palavra": "Costurar"
   },
   {
     "id": "559",
-    "palavra": "Vila"
+    "palavra": "Cotidiano"
   },
   {
     "id": "560",
-    "palavra": "Vilão"
+    "palavra": "Couro"
   },
   {
     "id": "561",
-    "palavra": "Vinco"
+    "palavra": "Covarde"
   },
   {
     "id": "562",
-    "palavra": "Vinha"
+    "palavra": "Coxa"
   },
   {
     "id": "563",
-    "palavra": "Vinho"
+    "palavra": "Cozinha"
   },
   {
     "id": "564",
-    "palavra": "Vinte"
+    "palavra": "Cratera"
   },
   {
     "id": "565",
-    "palavra": "Viola"
+    "palavra": "Cravar"
   },
   {
     "id": "566",
-    "palavra": "Vir"
+    "palavra": "Crédito"
   },
   {
     "id": "567",
-    "palavra": "Vira"
+    "palavra": "Crença"
   },
   {
     "id": "568",
-    "palavra": "Visão"
+    "palavra": "Crer"
   },
   {
     "id": "569",
-    "palavra": "Visar"
+    "palavra": "Crescer"
   },
   {
     "id": "570",
-    "palavra": "Visco"
+    "palavra": "Criação"
   },
   {
     "id": "571",
-    "palavra": "Visor"
+    "palavra": "Criador"
   },
   {
     "id": "572",
-    "palavra": "Vista"
+    "palavra": "Criança"
   },
   {
     "id": "573",
-    "palavra": "Visto"
+    "palavra": "Criar"
   },
   {
     "id": "574",
-    "palavra": "Vital"
+    "palavra": "Crime"
   },
   {
     "id": "575",
-    "palavra": "Viúva"
+    "palavra": "Crise"
   },
   {
     "id": "576",
-    "palavra": "Viúvo"
+    "palavra": "Cristal"
   },
   {
     "id": "577",
-    "palavra": "Viver"
+    "palavra": "Cristalino"
   },
   {
     "id": "578",
-    "palavra": "Vivo"
+    "palavra": "Crítico"
   },
   {
     "id": "579",
-    "palavra": "Voar"
+    "palavra": "Crocodilo"
   },
   {
     "id": "580",
-    "palavra": "Vocal"
+    "palavra": "Cruel"
   },
   {
     "id": "581",
-    "palavra": "Você"
+    "palavra": "Cruzados"
   },
   {
     "id": "582",
-    "palavra": "Volta"
+    "palavra": "Cruzar"
   },
   {
     "id": "583",
-    "palavra": "Volte"
+    "palavra": "Cruzeiro"
   },
   {
     "id": "584",
-    "palavra": "Voo"
+    "palavra": "Cuidado"
   },
   {
     "id": "585",
-    "palavra": "Voraz"
+    "palavra": "Culpa"
   },
   {
     "id": "586",
-    "palavra": "Vosso"
+    "palavra": "Culpado"
   },
   {
     "id": "587",
-    "palavra": "Voto"
+    "palavra": "Culpar"
   },
   {
     "id": "588",
-    "palavra": "Voz"
+    "palavra": "Culto"
   },
   {
     "id": "589",
-    "palavra": "Xale"
+    "palavra": "Cura"
   },
   {
     "id": "590",
-    "palavra": "Xampu"
+    "palavra": "Curar"
   },
   {
     "id": "591",
-    "palavra": "Xará"
+    "palavra": "Curva"
   },
   {
     "id": "592",
-    "palavra": "Xis"
+    "palavra": "Custódia"
   },
   {
     "id": "593",
-    "palavra": "Xodó"
+    "palavra": "Dá"
   },
   {
     "id": "594",
-    "palavra": "Xote"
+    "palavra": "Dado"
   },
   {
     "id": "595",
-    "palavra": "Zanga"
+    "palavra": "Dama"
   },
   {
     "id": "596",
-    "palavra": "Zelar"
+    "palavra": "Dança"
   },
   {
     "id": "597",
-    "palavra": "Zelo"
+    "palavra": "Dançar"
   },
   {
     "id": "598",
-    "palavra": "Zero"
+    "palavra": "Dançarina"
   },
   {
     "id": "599",
-    "palavra": "Zoar"
+    "palavra": "Dano"
   },
   {
     "id": "600",
+    "palavra": "Danoso"
+  },
+  {
+    "id": "601",
+    "palavra": "Daqui"
+  },
+  {
+    "id": "602",
+    "palavra": "De"
+  },
+  {
+    "id": "603",
+    "palavra": "Debaixo"
+  },
+  {
+    "id": "604",
+    "palavra": "Debater"
+  },
+  {
+    "id": "605",
+    "palavra": "Decadência"
+  },
+  {
+    "id": "606",
+    "palavra": "Decepção"
+  },
+  {
+    "id": "607",
+    "palavra": "Decepcionado"
+  },
+  {
+    "id": "608",
+    "palavra": "Decidir"
+  },
+  {
+    "id": "609",
+    "palavra": "Decisão"
+  },
+  {
+    "id": "610",
+    "palavra": "Declaração"
+  },
+  {
+    "id": "611",
+    "palavra": "Declarar"
+  },
+  {
+    "id": "612",
+    "palavra": "Declive"
+  },
+  {
+    "id": "613",
+    "palavra": "Deco"
+  },
+  {
+    "id": "614",
+    "palavra": "Decolar"
+  },
+  {
+    "id": "615",
+    "palavra": "Decoração"
+  },
+  {
+    "id": "616",
+    "palavra": "Dedicação"
+  },
+  {
+    "id": "617",
+    "palavra": "Dedicado"
+  },
+  {
+    "id": "618",
+    "palavra": "Dedicar"
+  },
+  {
+    "id": "619",
+    "palavra": "Dedo"
+  },
+  {
+    "id": "620",
+    "palavra": "Defender"
+  },
+  {
+    "id": "621",
+    "palavra": "Defesa"
+  },
+  {
+    "id": "622",
+    "palavra": "Definir"
+  },
+  {
+    "id": "623",
+    "palavra": "Deitadamente"
+  },
+  {
+    "id": "624",
+    "palavra": "Deitado"
+  },
+  {
+    "id": "625",
+    "palavra": "Deitar"
+  },
+  {
+    "id": "626",
+    "palavra": "Deixa"
+  },
+  {
+    "id": "627",
+    "palavra": "Deixar"
+  },
+  {
+    "id": "628",
+    "palavra": "Delícia"
+  },
+  {
+    "id": "629",
+    "palavra": "Delicioso"
+  },
+  {
+    "id": "630",
+    "palavra": "Demais"
+  },
+  {
+    "id": "631",
+    "palavra": "Demônio"
+  },
+  {
+    "id": "632",
+    "palavra": "Demora"
+  },
+  {
+    "id": "633",
+    "palavra": "Demorar"
+  },
+  {
+    "id": "634",
+    "palavra": "Denegar"
+  },
+  {
+    "id": "635",
+    "palavra": "Denunciar"
+  },
+  {
+    "id": "636",
+    "palavra": "Depara"
+  },
+  {
+    "id": "637",
+    "palavra": "Depender"
+  },
+  {
+    "id": "638",
+    "palavra": "Depoimento"
+  },
+  {
+    "id": "639",
+    "palavra": "Depois"
+  },
+  {
+    "id": "640",
+    "palavra": "Deprimido"
+  },
+  {
+    "id": "641",
+    "palavra": "Derrapar"
+  },
+  {
+    "id": "642",
+    "palavra": "Derreter"
+  },
+  {
+    "id": "643",
+    "palavra": "Derrota"
+  },
+  {
+    "id": "644",
+    "palavra": "Derrotado"
+  },
+  {
+    "id": "645",
+    "palavra": "Desabar"
+  },
+  {
+    "id": "646",
+    "palavra": "Desafiar"
+  },
+  {
+    "id": "647",
+    "palavra": "Desafio"
+  },
+  {
+    "id": "648",
+    "palavra": "Desamparado"
+  },
+  {
+    "id": "649",
+    "palavra": "Desanimador"
+  },
+  {
+    "id": "650",
+    "palavra": "Desaparecer"
+  },
+  {
+    "id": "651",
+    "palavra": "Desapontado"
+  },
+  {
+    "id": "652",
+    "palavra": "Desapontar"
+  },
+  {
+    "id": "653",
+    "palavra": "Desaprender"
+  },
+  {
+    "id": "654",
+    "palavra": "Desarmado"
+  },
+  {
+    "id": "655",
+    "palavra": "Desastre"
+  },
+  {
+    "id": "656",
+    "palavra": "Desejo"
+  },
+  {
+    "id": "657",
+    "palavra": "Desenho"
+  },
+  {
+    "id": "658",
+    "palavra": "Deserto"
+  },
+  {
+    "id": "659",
+    "palavra": "Destino"
+  },
+  {
+    "id": "660",
+    "palavra": "Dever"
+  },
+  {
+    "id": "661",
+    "palavra": "Devorador"
+  },
+  {
+    "id": "662",
+    "palavra": "Dezembro"
+  },
+  {
+    "id": "663",
+    "palavra": "Dia"
+  },
+  {
+    "id": "664",
+    "palavra": "Diamante"
+  },
+  {
+    "id": "665",
+    "palavra": "Dignidade"
+  },
+  {
+    "id": "666",
+    "palavra": "Dilema"
+  },
+  {
+    "id": "667",
+    "palavra": "Dinamite"
+  },
+  {
+    "id": "668",
+    "palavra": "Dinheiro"
+  },
+  {
+    "id": "669",
+    "palavra": "Direito"
+  },
+  {
+    "id": "670",
+    "palavra": "Distância"
+  },
+  {
+    "id": "671",
+    "palavra": "Doce"
+  },
+  {
+    "id": "672",
+    "palavra": "Dor"
+  },
+  {
+    "id": "673",
+    "palavra": "Drama"
+  },
+  {
+    "id": "674",
+    "palavra": "Ébano"
+  },
+  {
+    "id": "675",
+    "palavra": "Eclipse"
+  },
+  {
+    "id": "676",
+    "palavra": "Eco"
+  },
+  {
+    "id": "677",
+    "palavra": "Economia"
+  },
+  {
+    "id": "678",
+    "palavra": "Econômico"
+  },
+  {
+    "id": "679",
+    "palavra": "Educação"
+  },
+  {
+    "id": "680",
+    "palavra": "Efeito"
+  },
+  {
+    "id": "681",
+    "palavra": "Elástico"
+  },
+  {
+    "id": "682",
+    "palavra": "Eleitor"
+  },
+  {
+    "id": "683",
+    "palavra": "Elemento"
+  },
+  {
+    "id": "684",
+    "palavra": "Elevação"
+  },
+  {
+    "id": "685",
+    "palavra": "Elevar"
+  },
+  {
+    "id": "686",
+    "palavra": "Elixir"
+  },
+  {
+    "id": "687",
+    "palavra": "Embaçar"
+  },
+  {
+    "id": "688",
+    "palavra": "Embalar"
+  },
+  {
+    "id": "689",
+    "palavra": "Embalo"
+  },
+  {
+    "id": "690",
+    "palavra": "Embaraço"
+  },
+  {
+    "id": "691",
+    "palavra": "Embate"
+  },
+  {
+    "id": "692",
+    "palavra": "Embrulhar"
+  },
+  {
+    "id": "693",
+    "palavra": "Emissão"
+  },
+  {
+    "id": "694",
+    "palavra": "Emitir"
+  },
+  {
+    "id": "695",
+    "palavra": "Emoção"
+  },
+  {
+    "id": "696",
+    "palavra": "Emocional"
+  },
+  {
+    "id": "697",
+    "palavra": "Empenho"
+  },
+  {
+    "id": "698",
+    "palavra": "Empinar"
+  },
+  {
+    "id": "699",
+    "palavra": "Empresa"
+  },
+  {
+    "id": "700",
+    "palavra": "Empréstimo"
+  },
+  {
+    "id": "701",
+    "palavra": "Encaixar"
+  },
+  {
+    "id": "702",
+    "palavra": "Encaixe"
+  },
+  {
+    "id": "703",
+    "palavra": "Encantamento"
+  },
+  {
+    "id": "704",
+    "palavra": "Encanto"
+  },
+  {
+    "id": "705",
+    "palavra": "Encarar"
+  },
+  {
+    "id": "706",
+    "palavra": "Encenar"
+  },
+  {
+    "id": "707",
+    "palavra": "Enchente"
+  },
+  {
+    "id": "708",
+    "palavra": "Encher"
+  },
+  {
+    "id": "709",
+    "palavra": "Encoberto"
+  },
+  {
+    "id": "710",
+    "palavra": "Encobrir"
+  },
+  {
+    "id": "711",
+    "palavra": "Encomenda"
+  },
+  {
+    "id": "712",
+    "palavra": "Encontrar"
+  },
+  {
+    "id": "713",
+    "palavra": "Encontro"
+  },
+  {
+    "id": "714",
+    "palavra": "Encurralado"
+  },
+  {
+    "id": "715",
+    "palavra": "Endereço"
+  },
+  {
+    "id": "716",
+    "palavra": "Energia"
+  },
+  {
+    "id": "717",
+    "palavra": "Enfadado"
+  },
+  {
+    "id": "718",
+    "palavra": "Enfeite"
+  },
+  {
+    "id": "719",
+    "palavra": "Enforcado"
+  },
+  {
+    "id": "720",
+    "palavra": "Enforcar"
+  },
+  {
+    "id": "721",
+    "palavra": "Enfurnado"
+  },
+  {
+    "id": "722",
+    "palavra": "Engajamento"
+  },
+  {
+    "id": "723",
+    "palavra": "Enganado"
+  },
+  {
+    "id": "724",
+    "palavra": "Enganar"
+  },
+  {
+    "id": "725",
+    "palavra": "Engano"
+  },
+  {
+    "id": "726",
+    "palavra": "Engarrafamento"
+  },
+  {
+    "id": "727",
+    "palavra": "Engasgar"
+  },
+  {
+    "id": "728",
+    "palavra": "Engraxar"
+  },
+  {
+    "id": "729",
+    "palavra": "Engrenagem"
+  },
+  {
+    "id": "730",
+    "palavra": "Enigmático"
+  },
+  {
+    "id": "731",
+    "palavra": "Enjoar"
+  },
+  {
+    "id": "732",
+    "palavra": "Enjoo"
+  },
+  {
+    "id": "733",
+    "palavra": "Enlaçar"
+  },
+  {
+    "id": "734",
+    "palavra": "Enquadrado"
+  },
+  {
+    "id": "735",
+    "palavra": "Escala"
+  },
+  {
+    "id": "736",
+    "palavra": "Escola"
+  },
+  {
+    "id": "737",
+    "palavra": "Escudo"
+  },
+  {
+    "id": "738",
+    "palavra": "Escuridão"
+  },
+  {
+    "id": "739",
+    "palavra": "Espaço"
+  },
+  {
+    "id": "740",
+    "palavra": "Espada"
+  },
+  {
+    "id": "741",
+    "palavra": "Espelho"
+  },
+  {
+    "id": "742",
+    "palavra": "Esperança"
+  },
+  {
+    "id": "743",
+    "palavra": "Estilo"
+  },
+  {
+    "id": "744",
+    "palavra": "Estrada"
+  },
+  {
+    "id": "745",
+    "palavra": "Estrela"
+  },
+  {
+    "id": "746",
+    "palavra": "Estrelas"
+  },
+  {
+    "id": "747",
+    "palavra": "Exército"
+  },
+  {
+    "id": "748",
+    "palavra": "Extravasa"
+  },
+  {
+    "id": "749",
+    "palavra": "Fábrica"
+  },
+  {
+    "id": "750",
+    "palavra": "Fada"
+  },
+  {
+    "id": "751",
+    "palavra": "Fala"
+  },
+  {
+    "id": "752",
+    "palavra": "Fama"
+  },
+  {
+    "id": "753",
+    "palavra": "Família"
+  },
+  {
+    "id": "754",
+    "palavra": "Fantasia"
+  },
+  {
+    "id": "755",
+    "palavra": "Fantasma"
+  },
+  {
+    "id": "756",
+    "palavra": "Farol"
+  },
+  {
+    "id": "757",
+    "palavra": "Favela"
+  },
+  {
+    "id": "758",
+    "palavra": "Fé"
+  },
+  {
+    "id": "759",
+    "palavra": "Feitiço"
+  },
+  {
+    "id": "760",
+    "palavra": "Felicidade"
+  },
+  {
+    "id": "761",
+    "palavra": "Festa"
+  },
+  {
+    "id": "762",
+    "palavra": "Filho"
+  },
+  {
+    "id": "763",
+    "palavra": "Física"
+  },
+  {
+    "id": "764",
+    "palavra": "Flor"
+  },
+  {
+    "id": "765",
+    "palavra": "Flores"
+  },
+  {
+    "id": "766",
+    "palavra": "Floresta"
+  },
+  {
+    "id": "767",
+    "palavra": "Fogo"
+  },
+  {
+    "id": "768",
+    "palavra": "Foguete"
+  },
+  {
+    "id": "769",
+    "palavra": "Folhas"
+  },
+  {
+    "id": "770",
+    "palavra": "Fonte"
+  },
+  {
+    "id": "771",
+    "palavra": "Força"
+  },
+  {
+    "id": "772",
+    "palavra": "Forró"
+  },
+  {
+    "id": "773",
+    "palavra": "Foto"
+  },
+  {
+    "id": "774",
+    "palavra": "Frio"
+  },
+  {
+    "id": "775",
+    "palavra": "Fronteira"
+  },
+  {
+    "id": "776",
+    "palavra": "Fruto"
+  },
+  {
+    "id": "777",
+    "palavra": "Futuro"
+  },
+  {
+    "id": "778",
+    "palavra": "Gado"
+  },
+  {
+    "id": "779",
+    "palavra": "Gargalhada"
+  },
+  {
+    "id": "780",
+    "palavra": "Garota"
+  },
+  {
+    "id": "781",
+    "palavra": "Garra"
+  },
+  {
+    "id": "782",
+    "palavra": "Gasolina"
+  },
+  {
+    "id": "783",
+    "palavra": "Gaveta"
+  },
+  {
+    "id": "784",
+    "palavra": "Gelo"
+  },
+  {
+    "id": "785",
+    "palavra": "Gente"
+  },
+  {
+    "id": "786",
+    "palavra": "Ginga"
+  },
+  {
+    "id": "787",
+    "palavra": "Glamurosa"
+  },
+  {
+    "id": "788",
+    "palavra": "Granada"
+  },
+  {
+    "id": "789",
+    "palavra": "Graveto"
+  },
+  {
+    "id": "790",
+    "palavra": "Grito"
+  },
+  {
+    "id": "791",
+    "palavra": "Guerra"
+  },
+  {
+    "id": "792",
+    "palavra": "Guitarra"
+  },
+  {
+    "id": "793",
+    "palavra": "Herói"
+  },
+  {
+    "id": "794",
+    "palavra": "Hipnotizar"
+  },
+  {
+    "id": "795",
+    "palavra": "História"
+  },
+  {
+    "id": "796",
+    "palavra": "Homem"
+  },
+  {
+    "id": "797",
+    "palavra": "Hora"
+  },
+  {
+    "id": "798",
+    "palavra": "Horizonte"
+  },
+  {
+    "id": "799",
+    "palavra": "Humildade"
+  },
+  {
+    "id": "800",
+    "palavra": "Ideia"
+  },
+  {
+    "id": "801",
+    "palavra": "Identidade"
+  },
+  {
+    "id": "802",
+    "palavra": "Igreja"
+  },
+  {
+    "id": "803",
+    "palavra": "Ilhas"
+  },
+  {
+    "id": "804",
+    "palavra": "Ilusão"
+  },
+  {
+    "id": "805",
+    "palavra": "Imagem"
+  },
+  {
+    "id": "806",
+    "palavra": "Império"
+  },
+  {
+    "id": "807",
+    "palavra": "Inaraí"
+  },
+  {
+    "id": "808",
+    "palavra": "Infância"
+  },
+  {
+    "id": "809",
+    "palavra": "Infinito"
+  },
+  {
+    "id": "810",
+    "palavra": "Início"
+  },
+  {
+    "id": "811",
+    "palavra": "Inocente"
+  },
+  {
+    "id": "812",
+    "palavra": "Insanidade"
+  },
+  {
+    "id": "813",
+    "palavra": "Instante"
+  },
+  {
+    "id": "814",
+    "palavra": "Interior"
+  },
+  {
+    "id": "815",
+    "palavra": "Inverno"
+  },
+  {
+    "id": "816",
+    "palavra": "Irmão"
+  },
+  {
+    "id": "817",
+    "palavra": "Jardim"
+  },
+  {
+    "id": "818",
+    "palavra": "Jasmim"
+  },
+  {
+    "id": "819",
+    "palavra": "Jesus"
+  },
+  {
+    "id": "820",
+    "palavra": "Jogo"
+  },
+  {
+    "id": "821",
+    "palavra": "Joia"
+  },
+  {
+    "id": "822",
+    "palavra": "Jornada"
+  },
+  {
+    "id": "823",
+    "palavra": "Jovem"
+  },
+  {
+    "id": "824",
+    "palavra": "Justiça"
+  },
+  {
+    "id": "825",
+    "palavra": "Karma"
+  },
+  {
+    "id": "826",
+    "palavra": "Lágrimas"
+  },
+  {
+    "id": "827",
+    "palavra": "Lar"
+  },
+  {
+    "id": "828",
+    "palavra": "Leão"
+  },
+  {
+    "id": "829",
+    "palavra": "Legenda"
+  },
+  {
+    "id": "830",
+    "palavra": "Lei"
+  },
+  {
+    "id": "831",
+    "palavra": "Lembrança"
+  },
+  {
+    "id": "832",
+    "palavra": "Lenda"
+  },
+  {
+    "id": "833",
+    "palavra": "Liberdade"
+  },
+  {
+    "id": "834",
+    "palavra": "Língua"
+  },
+  {
+    "id": "835",
+    "palavra": "Linha"
+  },
+  {
+    "id": "836",
+    "palavra": "Livro"
+  },
+  {
+    "id": "837",
+    "palavra": "Lobo"
+  },
+  {
+    "id": "838",
+    "palavra": "Loucura"
+  },
+  {
+    "id": "839",
+    "palavra": "Lua"
+  },
+  {
+    "id": "840",
+    "palavra": "Luar"
+  },
+  {
+    "id": "841",
+    "palavra": "Luta"
+  },
+  {
+    "id": "842",
+    "palavra": "Luxo"
+  },
+  {
+    "id": "843",
+    "palavra": "Luz"
+  },
+  {
+    "id": "844",
+    "palavra": "Luzes"
+  },
+  {
+    "id": "845",
+    "palavra": "Maçã"
+  },
+  {
+    "id": "846",
+    "palavra": "Machado"
+  },
+  {
+    "id": "847",
+    "palavra": "Machucado"
+  },
+  {
+    "id": "848",
+    "palavra": "Machucar"
+  },
+  {
+    "id": "849",
+    "palavra": "Macio"
+  },
+  {
+    "id": "850",
+    "palavra": "Madeira"
+  },
+  {
+    "id": "851",
+    "palavra": "Madrinha"
+  },
+  {
+    "id": "852",
+    "palavra": "Madrugada"
+  },
+  {
+    "id": "853",
+    "palavra": "Maduro"
+  },
+  {
+    "id": "854",
+    "palavra": "Mãe"
+  },
+  {
+    "id": "855",
+    "palavra": "Magia"
+  },
+  {
+    "id": "856",
+    "palavra": "Magma"
+  },
+  {
+    "id": "857",
+    "palavra": "Mago"
+  },
+  {
+    "id": "858",
+    "palavra": "Magreza"
+  },
+  {
+    "id": "859",
+    "palavra": "Magro"
+  },
+  {
+    "id": "860",
+    "palavra": "Maio"
+  },
+  {
+    "id": "861",
+    "palavra": "Maior"
+  },
+  {
+    "id": "862",
+    "palavra": "Maioria"
+  },
+  {
+    "id": "863",
+    "palavra": "Mais"
+  },
+  {
+    "id": "864",
+    "palavra": "Mal"
+  },
+  {
+    "id": "865",
+    "palavra": "Mala"
+  },
+  {
+    "id": "866",
+    "palavra": "Malandro"
+  },
+  {
+    "id": "867",
+    "palavra": "Maldade"
+  },
+  {
+    "id": "868",
+    "palavra": "Maldição"
+  },
+  {
+    "id": "869",
+    "palavra": "Maleta"
+  },
+  {
+    "id": "870",
+    "palavra": "Malha"
+  },
+  {
+    "id": "871",
+    "palavra": "Malícia"
+  },
+  {
+    "id": "872",
+    "palavra": "Mamãe"
+  },
+  {
+    "id": "873",
+    "palavra": "Mamilo"
+  },
+  {
+    "id": "874",
+    "palavra": "Mana"
+  },
+  {
+    "id": "875",
+    "palavra": "Manancial"
+  },
+  {
+    "id": "876",
+    "palavra": "Mancha"
+  },
+  {
+    "id": "877",
+    "palavra": "Mandado"
+  },
+  {
+    "id": "878",
+    "palavra": "Mandamento"
+  },
+  {
+    "id": "879",
+    "palavra": "Mandar"
+  },
+  {
+    "id": "880",
+    "palavra": "Mandioca"
+  },
+  {
+    "id": "881",
+    "palavra": "Maneira"
+  },
+  {
+    "id": "882",
+    "palavra": "Manejo"
+  },
+  {
+    "id": "883",
+    "palavra": "Manga"
+  },
+  {
+    "id": "884",
+    "palavra": "Mangueira"
+  },
+  {
+    "id": "885",
+    "palavra": "Manias"
+  },
+  {
+    "id": "886",
+    "palavra": "Manifesto"
+  },
+  {
+    "id": "887",
+    "palavra": "Manivela"
+  },
+  {
+    "id": "888",
+    "palavra": "Manobra"
+  },
+  {
+    "id": "889",
+    "palavra": "Mansão"
+  },
+  {
+    "id": "890",
+    "palavra": "Manso"
+  },
+  {
+    "id": "891",
+    "palavra": "Manta"
+  },
+  {
+    "id": "892",
+    "palavra": "Manuscrito"
+  },
+  {
+    "id": "893",
+    "palavra": "Maquiagem"
+  },
+  {
+    "id": "894",
+    "palavra": "Máquina"
+  },
+  {
+    "id": "895",
+    "palavra": "Mar"
+  },
+  {
+    "id": "896",
+    "palavra": "Maravilhas"
+  },
+  {
+    "id": "897",
+    "palavra": "Marcha"
+  },
+  {
+    "id": "898",
+    "palavra": "Marfim"
+  },
+  {
+    "id": "899",
+    "palavra": "Mata"
+  },
+  {
+    "id": "900",
+    "palavra": "Matador"
+  },
+  {
+    "id": "901",
+    "palavra": "Medo"
+  },
+  {
+    "id": "902",
+    "palavra": "Meia-noite"
+  },
+  {
+    "id": "903",
+    "palavra": "Melancolia"
+  },
+  {
+    "id": "904",
+    "palavra": "Melodia"
+  },
+  {
+    "id": "905",
+    "palavra": "Memória"
+  },
+  {
+    "id": "906",
+    "palavra": "Mensagem"
+  },
+  {
+    "id": "907",
+    "palavra": "Mente"
+  },
+  {
+    "id": "908",
+    "palavra": "Mentira"
+  },
+  {
+    "id": "909",
+    "palavra": "Mês"
+  },
+  {
+    "id": "910",
+    "palavra": "Mesa"
+  },
+  {
+    "id": "911",
+    "palavra": "Mestre"
+  },
+  {
+    "id": "912",
+    "palavra": "Milhas"
+  },
+  {
+    "id": "913",
+    "palavra": "Mina"
+  },
+  {
+    "id": "914",
+    "palavra": "Minuto"
+  },
+  {
+    "id": "915",
+    "palavra": "Mistério"
+  },
+  {
+    "id": "916",
+    "palavra": "Mito"
+  },
+  {
+    "id": "917",
+    "palavra": "Momento"
+  },
+  {
+    "id": "918",
+    "palavra": "Monstro"
+  },
+  {
+    "id": "919",
+    "palavra": "Montanha"
+  },
+  {
+    "id": "920",
+    "palavra": "Mulher"
+  },
+  {
+    "id": "921",
+    "palavra": "Mulheres"
+  },
+  {
+    "id": "922",
+    "palavra": "Mundo"
+  },
+  {
+    "id": "923",
+    "palavra": "Muro"
+  },
+  {
+    "id": "924",
+    "palavra": "Museu"
+  },
+  {
+    "id": "925",
+    "palavra": "Nação"
+  },
+  {
+    "id": "926",
+    "palavra": "Nada"
+  },
+  {
+    "id": "927",
+    "palavra": "Namorada"
+  },
+  {
+    "id": "928",
+    "palavra": "Namorar"
+  },
+  {
+    "id": "929",
+    "palavra": "Natal"
+  },
+  {
+    "id": "930",
+    "palavra": "Navegação"
+  },
+  {
+    "id": "931",
+    "palavra": "Naves"
+  },
+  {
+    "id": "932",
+    "palavra": "Negação"
+  },
+  {
+    "id": "933",
+    "palavra": "Neve"
+  },
+  {
+    "id": "934",
+    "palavra": "Noite"
+  },
+  {
+    "id": "935",
+    "palavra": "Nome"
+  },
+  {
+    "id": "936",
+    "palavra": "Nuvem"
+  },
+  {
+    "id": "937",
+    "palavra": "Oásis"
+  },
+  {
+    "id": "938",
+    "palavra": "Objeto"
+  },
+  {
+    "id": "939",
+    "palavra": "Obra"
+  },
+  {
+    "id": "940",
+    "palavra": "Obscenas"
+  },
+  {
+    "id": "941",
+    "palavra": "Observação"
+  },
+  {
+    "id": "942",
+    "palavra": "Observar"
+  },
+  {
+    "id": "943",
+    "palavra": "Obstáculo"
+  },
+  {
+    "id": "944",
+    "palavra": "Obstar"
+  },
+  {
+    "id": "945",
+    "palavra": "Obtenção"
+  },
+  {
+    "id": "946",
+    "palavra": "Obter"
+  },
+  {
+    "id": "947",
+    "palavra": "Ocasião"
+  },
+  {
+    "id": "948",
+    "palavra": "Ocasional"
+  },
+  {
+    "id": "949",
+    "palavra": "Oceano"
+  },
+  {
+    "id": "950",
+    "palavra": "Ocidente"
+  },
+  {
+    "id": "951",
+    "palavra": "Ocorrência"
+  },
+  {
+    "id": "952",
+    "palavra": "Ocorrer"
+  },
+  {
+    "id": "953",
+    "palavra": "Óculos"
+  },
+  {
+    "id": "954",
+    "palavra": "Ocultar"
+  },
+  {
+    "id": "955",
+    "palavra": "Oculto"
+  },
+  {
+    "id": "956",
+    "palavra": "Ocupação"
+  },
+  {
+    "id": "957",
+    "palavra": "Ocupado"
+  },
+  {
+    "id": "958",
+    "palavra": "Ocupar"
+  },
+  {
+    "id": "959",
+    "palavra": "Odiar"
+  },
+  {
+    "id": "960",
+    "palavra": "Ódio"
+  },
+  {
+    "id": "961",
+    "palavra": "Odonto"
+  },
+  {
+    "id": "962",
+    "palavra": "Odor"
+  },
+  {
+    "id": "963",
+    "palavra": "Ofender"
+  },
+  {
+    "id": "964",
+    "palavra": "Ofensa"
+  },
+  {
+    "id": "965",
+    "palavra": "Oferecer"
+  },
+  {
+    "id": "966",
+    "palavra": "Oferta"
+  },
+  {
+    "id": "967",
+    "palavra": "Ofertado"
+  },
+  {
+    "id": "968",
+    "palavra": "Oficial"
+  },
+  {
+    "id": "969",
+    "palavra": "Oficina"
+  },
+  {
+    "id": "970",
+    "palavra": "Ofuscante"
+  },
+  {
+    "id": "971",
+    "palavra": "Ofuscar"
+  },
+  {
+    "id": "972",
+    "palavra": "Oitenta"
+  },
+  {
+    "id": "973",
+    "palavra": "Oito"
+  },
+  {
+    "id": "974",
+    "palavra": "Óleo"
+  },
+  {
+    "id": "975",
+    "palavra": "Olhada"
+  },
+  {
+    "id": "976",
+    "palavra": "Olhar"
+  },
+  {
+    "id": "977",
+    "palavra": "Olhos"
+  },
+  {
+    "id": "978",
+    "palavra": "Olimpíada"
+  },
+  {
+    "id": "979",
+    "palavra": "Olimpo"
+  },
+  {
+    "id": "980",
+    "palavra": "Oliveira"
+  },
+  {
+    "id": "981",
+    "palavra": "Ombro"
+  },
+  {
+    "id": "982",
+    "palavra": "Omissão"
+  },
+  {
+    "id": "983",
+    "palavra": "Omitir"
+  },
+  {
+    "id": "984",
+    "palavra": "Onda"
+  },
+  {
+    "id": "985",
+    "palavra": "Ondas"
+  },
+  {
+    "id": "986",
+    "palavra": "Ontem"
+  },
+  {
+    "id": "987",
+    "palavra": "Opaco"
+  },
+  {
+    "id": "988",
+    "palavra": "Opção"
+  },
+  {
+    "id": "989",
+    "palavra": "Ópera"
+  },
+  {
+    "id": "990",
+    "palavra": "Operação"
+  },
+  {
+    "id": "991",
+    "palavra": "Operar"
+  },
+  {
+    "id": "992",
+    "palavra": "Operário"
+  },
+  {
+    "id": "993",
+    "palavra": "Oportunidade"
+  },
+  {
+    "id": "994",
+    "palavra": "Oposição"
+  },
+  {
+    "id": "995",
+    "palavra": "Oração"
+  },
+  {
+    "id": "996",
+    "palavra": "Orelha"
+  },
+  {
+    "id": "997",
+    "palavra": "Orgulho"
+  },
+  {
+    "id": "998",
+    "palavra": "Otário"
+  },
+  {
+    "id": "999",
+    "palavra": "Otimista"
+  },
+  {
+    "id": "1000",
+    "palavra": "Ouro"
+  },
+  {
+    "id": "1001",
+    "palavra": "Outono"
+  },
+  {
+    "id": "1002",
+    "palavra": "Página"
+  },
+  {
+    "id": "1003",
+    "palavra": "Pai"
+  },
+  {
+    "id": "1004",
+    "palavra": "País"
+  },
+  {
+    "id": "1005",
+    "palavra": "Paixão"
+  },
+  {
+    "id": "1006",
+    "palavra": "Palácio"
+  },
+  {
+    "id": "1007",
+    "palavra": "Palavra"
+  },
+  {
+    "id": "1008",
+    "palavra": "Palco"
+  },
+  {
+    "id": "1009",
+    "palavra": "Papel"
+  },
+  {
+    "id": "1010",
+    "palavra": "Paraíso"
+  },
+  {
+    "id": "1011",
+    "palavra": "Parceria"
+  },
+  {
+    "id": "1012",
+    "palavra": "Passado"
+  },
+  {
+    "id": "1013",
+    "palavra": "Pássaro"
+  },
+  {
+    "id": "1014",
+    "palavra": "Passo"
+  },
+  {
+    "id": "1015",
+    "palavra": "Pátria"
+  },
+  {
+    "id": "1016",
+    "palavra": "Paz"
+  },
+  {
+    "id": "1017",
+    "palavra": "Pedra"
+  },
+  {
+    "id": "1018",
+    "palavra": "Pele"
+  },
+  {
+    "id": "1019",
+    "palavra": "Pensamento"
+  },
+  {
+    "id": "1020",
+    "palavra": "Perfume"
+  },
+  {
+    "id": "1021",
+    "palavra": "Perigo"
+  },
+  {
+    "id": "1022",
+    "palavra": "Pêssego"
+  },
+  {
+    "id": "1023",
+    "palavra": "Pincel"
+  },
+  {
+    "id": "1024",
+    "palavra": "Pintura"
+  },
+  {
+    "id": "1025",
+    "palavra": "Planeta"
+  },
+  {
+    "id": "1026",
+    "palavra": "Plantação"
+  },
+  {
+    "id": "1027",
+    "palavra": "Poder"
+  },
+  {
+    "id": "1028",
+    "palavra": "Poderosas"
+  },
+  {
+    "id": "1029",
+    "palavra": "Poeira"
+  },
+  {
+    "id": "1030",
+    "palavra": "Poesia"
+  },
+  {
+    "id": "1031",
+    "palavra": "Povo"
+  },
+  {
+    "id": "1032",
+    "palavra": "Praça"
+  },
+  {
+    "id": "1033",
+    "palavra": "Praia"
+  },
+  {
+    "id": "1034",
+    "palavra": "Prata"
+  },
+  {
+    "id": "1035",
+    "palavra": "Presente"
+  },
+  {
+    "id": "1036",
+    "palavra": "Pressão"
+  },
+  {
+    "id": "1037",
+    "palavra": "Primavera"
+  },
+  {
+    "id": "1038",
+    "palavra": "Prisão"
+  },
+  {
+    "id": "1039",
+    "palavra": "Profano"
+  },
+  {
+    "id": "1040",
+    "palavra": "Proibida"
+  },
+  {
+    "id": "1041",
+    "palavra": "Promessa"
+  },
+  {
+    "id": "1042",
+    "palavra": "Público"
+  },
+  {
+    "id": "1043",
+    "palavra": "Pulo"
+  },
+  {
+    "id": "1044",
+    "palavra": "Puro"
+  },
+  {
+    "id": "1045",
+    "palavra": "Quadro"
+  },
+  {
+    "id": "1046",
+    "palavra": "Quadros"
+  },
+  {
+    "id": "1047",
+    "palavra": "Quarto"
+  },
+  {
+    "id": "1048",
+    "palavra": "Quebra-cabeça"
+  },
+  {
+    "id": "1049",
+    "palavra": "Quebrada"
+  },
+  {
+    "id": "1050",
+    "palavra": "Queimar"
+  },
+  {
+    "id": "1051",
+    "palavra": "Quenga"
+  },
+  {
+    "id": "1052",
+    "palavra": "Quente"
+  },
+  {
+    "id": "1053",
+    "palavra": "Querido"
+  },
+  {
+    "id": "1054",
+    "palavra": "Quimera"
+  },
+  {
+    "id": "1055",
+    "palavra": "Quintal"
+  },
+  {
+    "id": "1056",
+    "palavra": "Raça"
+  },
+  {
+    "id": "1057",
+    "palavra": "Rádio"
+  },
+  {
+    "id": "1058",
+    "palavra": "Rainha"
+  },
+  {
+    "id": "1059",
+    "palavra": "Raio"
+  },
+  {
+    "id": "1060",
+    "palavra": "Raiva"
+  },
+  {
+    "id": "1061",
+    "palavra": "Raiz"
+  },
+  {
+    "id": "1062",
+    "palavra": "Recomeçar"
+  },
+  {
+    "id": "1063",
+    "palavra": "Rei"
+  },
+  {
+    "id": "1064",
+    "palavra": "Relógio"
+  },
+  {
+    "id": "1065",
+    "palavra": "Relógios"
+  },
+  {
+    "id": "1066",
+    "palavra": "Reputação"
+  },
+  {
+    "id": "1067",
+    "palavra": "Retorno"
+  },
+  {
+    "id": "1068",
+    "palavra": "Retrato"
+  },
+  {
+    "id": "1069",
+    "palavra": "Reza"
+  },
+  {
+    "id": "1070",
+    "palavra": "Rima"
+  },
+  {
+    "id": "1071",
+    "palavra": "Rio"
+  },
+  {
+    "id": "1072",
+    "palavra": "Riqueza"
+  },
+  {
+    "id": "1073",
+    "palavra": "Riso"
+  },
+  {
+    "id": "1074",
+    "palavra": "Ritmo"
+  },
+  {
+    "id": "1075",
+    "palavra": "Rocha"
+  },
+  {
+    "id": "1076",
+    "palavra": "Roda"
+  },
+  {
+    "id": "1077",
+    "palavra": "Romance"
+  },
+  {
+    "id": "1078",
+    "palavra": "Roupa"
+  },
+  {
+    "id": "1079",
+    "palavra": "Rua"
+  },
+  {
+    "id": "1080",
+    "palavra": "Sábado"
+  },
+  {
+    "id": "1081",
+    "palavra": "Sabedoria"
+  },
+  {
+    "id": "1082",
+    "palavra": "Sábio"
+  },
+  {
+    "id": "1083",
+    "palavra": "Sabor"
+  },
+  {
+    "id": "1084",
+    "palavra": "Saborear"
+  },
+  {
+    "id": "1085",
+    "palavra": "Sabotar"
+  },
+  {
+    "id": "1086",
+    "palavra": "Sacada"
+  },
+  {
+    "id": "1087",
+    "palavra": "Saciar"
+  },
+  {
+    "id": "1088",
+    "palavra": "Sacrificar"
+  },
+  {
+    "id": "1089",
+    "palavra": "Sacrifício"
+  },
+  {
+    "id": "1090",
+    "palavra": "Sacudir"
+  },
+  {
+    "id": "1091",
+    "palavra": "Sagrado"
+  },
+  {
+    "id": "1092",
+    "palavra": "Saia"
+  },
+  {
+    "id": "1093",
+    "palavra": "Saída"
+  },
+  {
+    "id": "1094",
+    "palavra": "Sair"
+  },
+  {
+    "id": "1095",
+    "palavra": "Sala"
+  },
+  {
+    "id": "1096",
+    "palavra": "Salário"
+  },
+  {
+    "id": "1097",
+    "palavra": "Salgado"
+  },
+  {
+    "id": "1098",
+    "palavra": "Salgar"
+  },
+  {
+    "id": "1099",
+    "palavra": "Salgueiro"
+  },
+  {
+    "id": "1100",
+    "palavra": "Saliva"
+  },
+  {
+    "id": "1101",
+    "palavra": "Salto"
+  },
+  {
+    "id": "1102",
+    "palavra": "Salutar"
+  },
+  {
+    "id": "1103",
+    "palavra": "Salvador"
+  },
+  {
+    "id": "1104",
+    "palavra": "Salvamento"
+  },
+  {
+    "id": "1105",
+    "palavra": "Salvar"
+  },
+  {
+    "id": "1106",
+    "palavra": "Samba"
+  },
+  {
+    "id": "1107",
+    "palavra": "Sanfona"
+  },
+  {
+    "id": "1108",
+    "palavra": "Sangrar"
+  },
+  {
+    "id": "1109",
+    "palavra": "Sangue"
+  },
+  {
+    "id": "1110",
+    "palavra": "Santo"
+  },
+  {
+    "id": "1111",
+    "palavra": "Sapato"
+  },
+  {
+    "id": "1112",
+    "palavra": "Saque"
+  },
+  {
+    "id": "1113",
+    "palavra": "Sarada"
+  },
+  {
+    "id": "1114",
+    "palavra": "Sarcasmo"
+  },
+  {
+    "id": "1115",
+    "palavra": "Sarna"
+  },
+  {
+    "id": "1116",
+    "palavra": "Satisfazer"
+  },
+  {
+    "id": "1117",
+    "palavra": "Saturação"
+  },
+  {
+    "id": "1118",
+    "palavra": "Saudade"
+  },
+  {
+    "id": "1119",
+    "palavra": "Saudável"
+  },
+  {
+    "id": "1120",
+    "palavra": "Saúde"
+  },
+  {
+    "id": "1121",
+    "palavra": "Séc"
+  },
+  {
+    "id": "1122",
+    "palavra": "Século"
+  },
+  {
+    "id": "1123",
+    "palavra": "Segredo"
+  },
+  {
+    "id": "1124",
+    "palavra": "Segundo"
+  },
+  {
+    "id": "1125",
+    "palavra": "Selva"
+  },
+  {
+    "id": "1126",
+    "palavra": "Semente"
+  },
+  {
+    "id": "1127",
+    "palavra": "Senhora"
+  },
+  {
+    "id": "1128",
+    "palavra": "Sensualidade"
+  },
+  {
+    "id": "1129",
+    "palavra": "Show"
+  },
+  {
+    "id": "1130",
+    "palavra": "Signo"
+  },
+  {
+    "id": "1131",
+    "palavra": "Silêncio"
+  },
+  {
+    "id": "1132",
+    "palavra": "Sobreviver"
+  },
+  {
+    "id": "1133",
+    "palavra": "Sol"
+  },
+  {
+    "id": "1134",
+    "palavra": "Soldado"
+  },
+  {
+    "id": "1135",
+    "palavra": "Solidão"
+  },
+  {
+    "id": "1136",
+    "palavra": "Som"
+  },
+  {
+    "id": "1137",
+    "palavra": "Sombra"
+  },
+  {
+    "id": "1138",
+    "palavra": "Sombras"
+  },
+  {
+    "id": "1139",
+    "palavra": "Sonho"
+  },
+  {
+    "id": "1140",
+    "palavra": "Sonhos"
+  },
+  {
+    "id": "1141",
+    "palavra": "Sorriso"
+  },
+  {
+    "id": "1142",
+    "palavra": "Sorte"
+  },
+  {
+    "id": "1143",
+    "palavra": "Sucesso"
+  },
+  {
+    "id": "1144",
+    "palavra": "Sul"
+  },
+  {
+    "id": "1145",
+    "palavra": "Suor"
+  },
+  {
+    "id": "1146",
+    "palavra": "Suruba"
+  },
+  {
+    "id": "1147",
+    "palavra": "Sussurro"
+  },
+  {
+    "id": "1148",
+    "palavra": "Taberna"
+  },
+  {
+    "id": "1149",
+    "palavra": "Tabu"
+  },
+  {
+    "id": "1150",
+    "palavra": "Taça"
+  },
+  {
+    "id": "1151",
+    "palavra": "Tách"
+  },
+  {
+    "id": "1152",
+    "palavra": "Tacho"
+  },
+  {
+    "id": "1153",
+    "palavra": "Taco"
+  },
+  {
+    "id": "1154",
+    "palavra": "Talco"
+  },
+  {
+    "id": "1155",
+    "palavra": "Talento"
+  },
+  {
+    "id": "1156",
+    "palavra": "Talismã"
+  },
+  {
+    "id": "1157",
+    "palavra": "Tamanho"
+  },
+  {
+    "id": "1158",
+    "palavra": "Tâmara"
+  },
+  {
+    "id": "1159",
+    "palavra": "Tambor"
+  },
+  {
+    "id": "1160",
+    "palavra": "Tamborim"
+  },
+  {
+    "id": "1161",
+    "palavra": "Tampa"
+  },
+  {
+    "id": "1162",
+    "palavra": "Tampão"
+  },
+  {
+    "id": "1163",
+    "palavra": "Tangente"
+  },
+  {
+    "id": "1164",
+    "palavra": "Tango"
+  },
+  {
+    "id": "1165",
+    "palavra": "Tanque"
+  },
+  {
+    "id": "1166",
+    "palavra": "Tanto"
+  },
+  {
+    "id": "1167",
+    "palavra": "Tão"
+  },
+  {
+    "id": "1168",
+    "palavra": "Tapa"
+  },
+  {
+    "id": "1169",
+    "palavra": "Tapete"
+  },
+  {
+    "id": "1170",
+    "palavra": "Tapume"
+  },
+  {
+    "id": "1171",
+    "palavra": "Tardança"
+  },
+  {
+    "id": "1172",
+    "palavra": "Tarde"
+  },
+  {
+    "id": "1173",
+    "palavra": "Tarefa"
+  },
+  {
+    "id": "1174",
+    "palavra": "Tarifa"
+  },
+  {
+    "id": "1175",
+    "palavra": "Tarja"
+  },
+  {
+    "id": "1176",
+    "palavra": "Tartaruga"
+  },
+  {
+    "id": "1177",
+    "palavra": "Tato"
+  },
+  {
+    "id": "1178",
+    "palavra": "Tatuagem"
+  },
+  {
+    "id": "1179",
+    "palavra": "Tchan"
+  },
+  {
+    "id": "1180",
+    "palavra": "Teatral"
+  },
+  {
+    "id": "1181",
+    "palavra": "Teatro"
+  },
+  {
+    "id": "1182",
+    "palavra": "Tecer"
+  },
+  {
+    "id": "1183",
+    "palavra": "Tecido"
+  },
+  {
+    "id": "1184",
+    "palavra": "Teclado"
+  },
+  {
+    "id": "1185",
+    "palavra": "Técnico"
+  },
+  {
+    "id": "1186",
+    "palavra": "Tecnologia"
+  },
+  {
+    "id": "1187",
+    "palavra": "Teia"
+  },
+  {
+    "id": "1188",
+    "palavra": "Teimar"
+  },
+  {
+    "id": "1189",
+    "palavra": "Teimosia"
+  },
+  {
+    "id": "1190",
+    "palavra": "Tela"
+  },
+  {
+    "id": "1191",
+    "palavra": "Telefone"
+  },
+  {
+    "id": "1192",
+    "palavra": "Tema"
+  },
+  {
+    "id": "1193",
+    "palavra": "Temer"
+  },
+  {
+    "id": "1194",
+    "palavra": "Temor"
+  },
+  {
+    "id": "1195",
+    "palavra": "Temperamento"
+  },
+  {
+    "id": "1196",
+    "palavra": "Temperar"
+  },
+  {
+    "id": "1197",
+    "palavra": "Temperatura"
+  },
+  {
+    "id": "1198",
+    "palavra": "Tempestade"
+  },
+  {
+    "id": "1199",
+    "palavra": "Tempestuoso"
+  },
+  {
+    "id": "1200",
+    "palavra": "Tempo"
+  },
+  {
+    "id": "1201",
+    "palavra": "Tenacidade"
+  },
+  {
+    "id": "1202",
+    "palavra": "Tenaz"
+  },
+  {
+    "id": "1203",
+    "palavra": "Tenda"
+  },
+  {
+    "id": "1204",
+    "palavra": "Tendência"
+  },
+  {
+    "id": "1205",
+    "palavra": "Tênis"
+  },
+  {
+    "id": "1206",
+    "palavra": "Terra"
+  },
+  {
+    "id": "1207",
+    "palavra": "Teto"
+  },
+  {
+    "id": "1208",
+    "palavra": "Texas"
+  },
+  {
+    "id": "1209",
+    "palavra": "Tigre"
+  },
+  {
+    "id": "1210",
+    "palavra": "Tijolo"
+  },
+  {
+    "id": "1211",
+    "palavra": "Tinta"
+  },
+  {
+    "id": "1212",
+    "palavra": "Título"
+  },
+  {
+    "id": "1213",
+    "palavra": "Toca"
+  },
+  {
+    "id": "1214",
+    "palavra": "Tocar"
+  },
+  {
+    "id": "1215",
+    "palavra": "Tonto"
+  },
+  {
+    "id": "1216",
+    "palavra": "Tóxico"
+  },
+  {
+    "id": "1217",
+    "palavra": "Trabalho"
+  },
+  {
+    "id": "1218",
+    "palavra": "Traição"
+  },
+  {
+    "id": "1219",
+    "palavra": "Trem"
+  },
+  {
+    "id": "1220",
+    "palavra": "Trevo"
+  },
+  {
+    "id": "1221",
+    "palavra": "Trilho"
+  },
+  {
+    "id": "1222",
+    "palavra": "Tristeza"
+  },
+  {
+    "id": "1223",
+    "palavra": "Trono"
+  },
+  {
+    "id": "1224",
+    "palavra": "Trovão"
+  },
+  {
+    "id": "1225",
+    "palavra": "Uivar"
+  },
+  {
+    "id": "1226",
+    "palavra": "Umidade"
+  },
+  {
+    "id": "1227",
+    "palavra": "Unha"
+  },
+  {
+    "id": "1228",
+    "palavra": "União"
+  },
+  {
+    "id": "1229",
+    "palavra": "Unidade"
+  },
+  {
+    "id": "1230",
+    "palavra": "Universo"
+  },
+  {
+    "id": "1231",
+    "palavra": "Usar"
+  },
+  {
+    "id": "1232",
+    "palavra": "Vaidade"
+  },
+  {
+    "id": "1233",
+    "palavra": "Velocidade"
+  },
+  {
+    "id": "1234",
+    "palavra": "Vento"
+  },
+  {
+    "id": "1235",
+    "palavra": "Verdade"
+  },
+  {
+    "id": "1236",
+    "palavra": "Verso"
+  },
+  {
+    "id": "1237",
+    "palavra": "Viagem"
+  },
+  {
+    "id": "1238",
+    "palavra": "Vício"
+  },
+  {
+    "id": "1239",
+    "palavra": "Vida"
+  },
+  {
+    "id": "1240",
+    "palavra": "Violão"
+  },
+  {
+    "id": "1241",
+    "palavra": "Violência"
+  },
+  {
+    "id": "1242",
+    "palavra": "Virgem"
+  },
+  {
+    "id": "1243",
+    "palavra": "Virtual"
+  },
+  {
+    "id": "1244",
+    "palavra": "Vítima"
+  },
+  {
+    "id": "1245",
+    "palavra": "Vitória"
+  },
+  {
+    "id": "1246",
+    "palavra": "Voo"
+  },
+  {
+    "id": "1247",
+    "palavra": "Vovô"
+  },
+  {
+    "id": "1248",
+    "palavra": "Voz"
+  },
+  {
+    "id": "1249",
+    "palavra": "Xale"
+  },
+  {
+    "id": "1250",
+    "palavra": "Xamã"
+  },
+  {
+    "id": "1251",
+    "palavra": "Xampu"
+  },
+  {
+    "id": "1252",
+    "palavra": "Xaveco"
+  },
+  {
+    "id": "1253",
+    "palavra": "Xingar"
+  },
+  {
+    "id": "1254",
+    "palavra": "Xote"
+  },
+  {
+    "id": "1255",
+    "palavra": "Zé"
+  },
+  {
+    "id": "1256",
+    "palavra": "Zelo"
+  },
+  {
+    "id": "1257",
+    "palavra": "Zero"
+  },
+  {
+    "id": "1258",
+    "palavra": "Zoar"
+  },
+  {
+    "id": "1259",
     "palavra": "Zona"
+  },
+  {
+    "id": "1260",
+    "palavra": "Zonzo"
+  },
+  {
+    "id": "1261",
+    "palavra": "Zumbi"
+  },
+  {
+    "id": "1262",
+    "palavra": "Zunido"
   }
 ]
