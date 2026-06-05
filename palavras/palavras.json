@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "1",
+    "palavra": "Abraço"
+  },
+  {
+    "id": "2",
+    "palavra": "Abrir"
+  },
+  {
+    "id": "3",
+    "palavra": "Acabar"
+  },
+  {
+    "id": "4",
+    "palavra": "Acaso"
+  },
+  {
+    "id": "5",
+    "palavra": "Achar"
+  },
+  {
+    "id": "6",
+    "palavra": "Acima"
+  },
+  {
+    "id": "7",
+    "palavra": "Acordo"
+  },
+  {
+    "id": "8",
+    "palavra": "Adeus"
+  },
+  {
+    "id": "9",
+    "palavra": "Agora"
+  },
+  {
+    "id": "10",
+    "palavra": "Ainda"
+  },
+  {
+    "id": "11",
+    "palavra": "Ajuda"
+  },
+  {
+    "id": "12",
+    "palavra": "Algum"
+  },
+  {
+    "id": "13",
+    "palavra": "Alma"
+  },
+  {
+    "id": "14",
+    "palavra": "Alto"
+  },
+  {
+    "id": "15",
+    "palavra": "Alvo"
+  },
+  {
+    "id": "16",
+    "palavra": "Amigo"
+  },
+  {
+    "id": "17",
+    "palavra": "Amor"
+  },
+  {
+    "id": "18",
+    "palavra": "Andar"
+  },
+  {
+    "id": "19",
+    "palavra": "Anel"
+  },
+  {
+    "id": "20",
+    "palavra": "Anjo"
+  },
+  {
+    "id": "21",
+    "palavra": "Ano"
+  },
+  {
+    "id": "22",
+    "palavra": "Antes"
+  },
+  {
+    "id": "23",
+    "palavra": "Apoio"
+  },
+  {
+    "id": "24",
+    "palavra": "Aqui"
+  },
+  {
+    "id": "25",
+    "palavra": "Arma"
+  },
+  {
+    "id": "26",
+    "palavra": "Arroz"
+  },
+  {
+    "id": "27",
+    "palavra": "Arte"
+  },
+  {
+    "id": "28",
+    "palavra": "Asa"
+  },
+  {
+    "id": "29",
+    "palavra": "Atrás"
+  },
+  {
+    "id": "30",
+    "palavra": "Aula"
+  },
+  {
+    "id": "31",
+    "palavra": "Autor"
+  },
+  {
+    "id": "32",
+    "palavra": "Avião"
+  },
+  {
+    "id": "33",
+    "palavra": "Aviso"
+  },
+  {
+    "id": "34",
+    "palavra": "Azul"
+  },
+  {
+    "id": "35",
+    "palavra": "Baby"
+  },
+  {
+    "id": "36",
+    "palavra": "Base"
+  },
+  {
+    "id": "37",
+    "palavra": "Batom"
+  },
+  {
+    "id": "38",
+    "palavra": "Beco"
+  },
+  {
+    "id": "39",
+    "palavra": "Beijo"
+  },
+  {
+    "id": "40",
+    "palavra": "Bem"
+  },
+  {
+    "id": "41",
+    "palavra": "Bicho"
+  },
+  {
+    "id": "42",
+    "palavra": "Bloco"
+  },
+  {
+    "id": "43",
+    "palavra": "Blusa"
+  },
+  {
+    "id": "44",
+    "palavra": "Bobo"
+  },
+  {
+    "id": "45",
+    "palavra": "Boca"
+  },
+  {
+    "id": "46",
+    "palavra": "Boi"
+  },
+  {
+    "id": "47",
+    "palavra": "Bola"
+  },
+  {
+    "id": "48",
+    "palavra": "Bolo"
+  },
+  {
+    "id": "49",
+    "palavra": "Bolso"
+  },
+  {
+    "id": "50",
+    "palavra": "Bom"
+  },
+  {
+    "id": "51",
+    "palavra": "Bomba"
+  },
+  {
+    "id": "52",
+    "palavra": "Boné"
+  },
+  {
+    "id": "53",
+    "palavra": "Bota"
+  },
+  {
+    "id": "54",
+    "palavra": "Botão"
+  },
+  {
+    "id": "55",
+    "palavra": "Brasa"
+  },
+  {
+    "id": "56",
+    "palavra": "Bravo"
+  },
+  {
+    "id": "57",
+    "palavra": "Caber"
+  },
+  {
+    "id": "58",
+    "palavra": "Cabo"
+  },
+  {
+    "id": "59",
+    "palavra": "Cada"
+  },
+  {
+    "id": "60",
+    "palavra": "Cair"
+  },
+  {
+    "id": "61",
+    "palavra": "Caixa"
+  },
+  {
+    "id": "62",
+    "palavra": "Calça"
+  },
+  {
+    "id": "63",
+    "palavra": "Calma"
+  },
+  {
+    "id": "64",
+    "palavra": "Calmo"
+  },
+  {
+    "id": "65",
+    "palavra": "Calor"
+  },
+  {
+    "id": "66",
+    "palavra": "Cama"
+  },
+  {
+    "id": "67",
+    "palavra": "Campo"
+  },
+  {
+    "id": "68",
+    "palavra": "Canal"
+  },
+  {
+    "id": "69",
+    "palavra": "Canto"
+  },
+  {
+    "id": "70",
+    "palavra": "Cão"
+  },
+  {
+    "id": "71",
+    "palavra": "Caos"
+  },
+  {
+    "id": "72",
+    "palavra": "Capa"
+  },
+  {
+    "id": "73",
+    "palavra": "Capaz"
+  },
+  {
+    "id": "74",
+    "palavra": "Cara"
+  },
+  {
+    "id": "75",
+    "palavra": "Carga"
+  },
+  {
+    "id": "76",
+    "palavra": "Carne"
+  },
+  {
+    "id": "77",
+    "palavra": "Caro"
+  },
+  {
+    "id": "78",
+    "palavra": "Carro"
+  },
+  {
+    "id": "79",
+    "palavra": "Carta"
+  },
+  {
+    "id": "80",
+    "palavra": "Casa"
+  },
+  {
+    "id": "81",
+    "palavra": "Casal"
+  },
+  {
+    "id": "82",
+    "palavra": "Casar"
+  },
+  {
+    "id": "83",
+    "palavra": "Casca"
+  },
+  {
+    "id": "84",
+    "palavra": "Caso"
+  },
+  {
+    "id": "85",
+    "palavra": "Causa"
+  },
+  {
+    "id": "86",
+    "palavra": "Cedo"
+  },
+  {
+    "id": "87",
+    "palavra": "Cego"
+  },
+  {
+    "id": "88",
+    "palavra": "Cem"
+  },
+  {
+    "id": "89",
+    "palavra": "Cena"
+  },
+  {
+    "id": "90",
+    "palavra": "Certo"
+  },
+  {
+    "id": "91",
+    "palavra": "Céu"
+  },
+  {
+    "id": "92",
+    "palavra": "Chão"
+  },
+  {
+    "id": "93",
+    "palavra": "Chapa"
+  },
+  {
+    "id": "94",
+    "palavra": "Chato"
+  },
+  {
+    "id": "95",
+    "palavra": "Chave"
+  },
+  {
+    "id": "96",
+    "palavra": "Chefe"
+  },
+  {
+    "id": "97",
+    "palavra": "Cheio"
+  },
+  {
+    "id": "98",
+    "palavra": "Choro"
+  },
+  {
+    "id": "99",
+    "palavra": "Chuva"
+  },
+  {
+    "id": "100",
+    "palavra": "Cinza"
+  },
+  {
+    "id": "101",
+    "palavra": "Ciúme"
+  },
+  {
+    "id": "102",
+    "palavra": "Clima"
+  },
+  {
+    "id": "103",
+    "palavra": "Cobre"
+  },
+  {
+    "id": "104",
+    "palavra": "Coisa"
+  },
+  {
+    "id": "105",
+    "palavra": "Cola"
+  },
+  {
+    "id": "106",
+    "palavra": "Colar"
+  },
+  {
+    "id": "107",
+    "palavra": "Colo"
+  },
+  {
+    "id": "108",
+    "palavra": "Comer"
+  },
+  {
+    "id": "109",
+    "palavra": "Como"
+  },
+  {
+    "id": "110",
+    "palavra": "Comum"
+  },
+  {
+    "id": "111",
+    "palavra": "Dado"
+  },
+  {
+    "id": "112",
+    "palavra": "Dama"
+  },
+  {
+    "id": "113",
+    "palavra": "Dança"
+  },
+  {
+    "id": "114",
+    "palavra": "Dançar"
+  },
+  {
+    "id": "115",
+    "palavra": "Daqui"
+  },
+  {
+    "id": "116",
+    "palavra": "Data"
+  },
+  {
+    "id": "117",
+    "palavra": "Dedo"
+  },
+  {
+    "id": "118",
+    "palavra": "Defesa"
+  },
+  {
+    "id": "119",
+    "palavra": "Degrau"
+  },
+  {
+    "id": "120",
+    "palavra": "Deitar"
+  },
+  {
+    "id": "121",
+    "palavra": "Deixar"
+  },
+  {
+    "id": "122",
+    "palavra": "Dele"
+  },
+  {
+    "id": "123",
+    "palavra": "Demais"
+  },
+  {
+    "id": "124",
+    "palavra": "Demora"
+  },
+  {
+    "id": "125",
+    "palavra": "Dente"
+  },
+  {
+    "id": "126",
+    "palavra": "Dentro"
+  },
+  {
+    "id": "127",
+    "palavra": "Depois"
+  },
+  {
+    "id": "128",
+    "palavra": "Descer"
+  },
+  {
+    "id": "129",
+    "palavra": "Desde"
+  },
+  {
+    "id": "130",
+    "palavra": "Desejo"
+  },
+  {
+    "id": "131",
+    "palavra": "Deus"
+  },
+  {
+    "id": "132",
+    "palavra": "Dever"
+  },
+  {
+    "id": "133",
+    "palavra": "Dia"
+  },
+  {
+    "id": "134",
+    "palavra": "Diabo"
+  },
+  {
+    "id": "135",
+    "palavra": "Dica"
+  },
+  {
+    "id": "136",
+    "palavra": "Disco"
+  },
+  {
+    "id": "137",
+    "palavra": "Dizer"
+  },
+  {
+    "id": "138",
+    "palavra": "Doce"
+  },
+  {
+    "id": "139",
+    "palavra": "Doer"
+  },
+  {
+    "id": "140",
+    "palavra": "Dois"
+  },
+  {
+    "id": "141",
+    "palavra": "Dono"
+  },
+  {
+    "id": "142",
+    "palavra": "Dor"
+  },
+  {
+    "id": "143",
+    "palavra": "Dose"
+  },
+  {
+    "id": "144",
+    "palavra": "Drama"
+  },
+  {
+    "id": "145",
+    "palavra": "Droga"
+  },
+  {
+    "id": "146",
+    "palavra": "Duas"
+  },
+  {
+    "id": "147",
+    "palavra": "Dupla"
+  },
+  {
+    "id": "148",
+    "palavra": "Duro"
+  },
+  {
+    "id": "149",
+    "palavra": "Eco"
+  },
+  {
+    "id": "150",
+    "palavra": "Efeito"
+  },
+  {
+    "id": "151",
+    "palavra": "Ego"
+  },
+  {
+    "id": "152",
+    "palavra": "Egoísta"
+  },
+  {
+    "id": "153",
+    "palavra": "Elogio"
+  },
+  {
+    "id": "154",
+    "palavra": "Emoção"
+  },
+  {
+    "id": "155",
+    "palavra": "Emprego"
+  },
+  {
+    "id": "156",
+    "palavra": "Empresa"
+  },
+  {
+    "id": "157",
+    "palavra": "Encanto"
+  },
+  {
+    "id": "158",
+    "palavra": "Encher"
+  },
+  {
+    "id": "159",
+    "palavra": "Energia"
+  },
+  {
+    "id": "160",
+    "palavra": "Enfeite"
+  },
+  {
+    "id": "161",
+    "palavra": "Enganar"
+  },
+  {
+    "id": "162",
+    "palavra": "Engano"
+  },
+  {
+    "id": "163",
+    "palavra": "Engolir"
+  },
+  {
+    "id": "164",
+    "palavra": "Enorme"
+  },
+  {
+    "id": "165",
+    "palavra": "Ensaiar"
+  },
+  {
+    "id": "166",
+    "palavra": "Ensaio"
+  },
+  {
+    "id": "167",
+    "palavra": "Ensinar"
+  },
+  {
+    "id": "168",
+    "palavra": "Ensino"
+  },
+  {
+    "id": "169",
+    "palavra": "Entrar"
+  },
+  {
+    "id": "170",
+    "palavra": "Entrega"
+  },
+  {
+    "id": "171",
+    "palavra": "Enxugar"
+  },
+  {
+    "id": "172",
+    "palavra": "Época"
+  },
+  {
+    "id": "173",
+    "palavra": "Equipe"
+  },
+  {
+    "id": "174",
+    "palavra": "Errar"
+  },
+  {
+    "id": "175",
+    "palavra": "Erro"
+  },
+  {
+    "id": "176",
+    "palavra": "Escada"
+  },
+  {
+    "id": "177",
+    "palavra": "Escapar"
+  },
+  {
+    "id": "178",
+    "palavra": "Escolha"
+  },
+  {
+    "id": "179",
+    "palavra": "Escova"
+  },
+  {
+    "id": "180",
+    "palavra": "Escravo"
+  },
+  {
+    "id": "181",
+    "palavra": "Escuro"
+  },
+  {
+    "id": "182",
+    "palavra": "Espaço"
+  },
+  {
+    "id": "183",
+    "palavra": "Espada"
+  },
+  {
+    "id": "184",
+    "palavra": "Espera"
+  },
+  {
+    "id": "185",
+    "palavra": "Esposa"
+  },
+  {
+    "id": "186",
+    "palavra": "Espuma"
+  },
+  {
+    "id": "187",
+    "palavra": "Estar"
+  },
+  {
+    "id": "188",
+    "palavra": "Estilo"
+  },
+  {
+    "id": "189",
+    "palavra": "Estudo"
+  },
+  {
+    "id": "190",
+    "palavra": "Eterno"
+  },
+  {
+    "id": "191",
+    "palavra": "Evitar"
+  },
+  {
+    "id": "192",
+    "palavra": "Exame"
+  },
+  {
+    "id": "193",
+    "palavra": "Exato"
+  },
+  {
+    "id": "194",
+    "palavra": "Exibir"
+  },
+  {
+    "id": "195",
+    "palavra": "Exigir"
+  },
+  {
+    "id": "196",
+    "palavra": "Extra"
+  },
+  {
+    "id": "197",
+    "palavra": "Faca"
+  },
+  {
+    "id": "198",
+    "palavra": "Fada"
+  },
+  {
+    "id": "199",
+    "palavra": "Falar"
+  },
+  {
+    "id": "200",
+    "palavra": "Falta"
+  },
+  {
+    "id": "201",
+    "palavra": "Fama"
+  },
+  {
+    "id": "202",
+    "palavra": "Farol"
+  },
+  {
+    "id": "203",
+    "palavra": "Fase"
+  },
+  {
+    "id": "204",
+    "palavra": "Fato"
+  },
+  {
+    "id": "205",
+    "palavra": "Favor"
+  },
+  {
+    "id": "206",
+    "palavra": "Febre"
+  },
+  {
+    "id": "207",
+    "palavra": "Feio"
+  },
+  {
+    "id": "208",
+    "palavra": "Fera"
+  },
+  {
+    "id": "209",
+    "palavra": "Fim"
+  },
+  {
+    "id": "210",
+    "palavra": "Fio"
+  },
+  {
+    "id": "211",
+    "palavra": "Flor"
+  },
+  {
+    "id": "212",
+    "palavra": "Fogo"
+  },
+  {
+    "id": "213",
+    "palavra": "Foto"
+  },
+  {
+    "id": "214",
+    "palavra": "Frio"
+  },
+  {
+    "id": "215",
+    "palavra": "Gado"
+  },
+  {
+    "id": "216",
+    "palavra": "Ganho"
+  },
+  {
+    "id": "217",
+    "palavra": "Gás"
+  },
+  {
+    "id": "218",
+    "palavra": "Gasto"
+  },
+  {
+    "id": "219",
+    "palavra": "Gelo"
+  },
+  {
+    "id": "220",
+    "palavra": "Gente"
+  },
+  {
+    "id": "221",
+    "palavra": "Gesto"
+  },
+  {
+    "id": "222",
+    "palavra": "Giro"
+  },
+  {
+    "id": "223",
+    "palavra": "Globo"
+  },
+  {
+    "id": "224",
+    "palavra": "Golpe"
+  },
+  {
+    "id": "225",
+    "palavra": "Gorda"
+  },
+  {
+    "id": "226",
+    "palavra": "Gordo"
+  },
+  {
+    "id": "227",
+    "palavra": "Gosto"
+  },
+  {
+    "id": "228",
+    "palavra": "Gota"
+  },
+  {
+    "id": "229",
+    "palavra": "Grade"
+  },
+  {
+    "id": "230",
+    "palavra": "Grama"
+  },
+  {
+    "id": "231",
+    "palavra": "Grave"
+  },
+  {
+    "id": "232",
+    "palavra": "Greve"
+  },
+  {
+    "id": "233",
+    "palavra": "Grife"
+  },
+  {
+    "id": "234",
+    "palavra": "Grito"
+  },
+  {
+    "id": "235",
+    "palavra": "Gruda"
+  },
+  {
+    "id": "236",
+    "palavra": "Guia"
+  },
+  {
+    "id": "237",
+    "palavra": "Hábito"
+  },
+  {
+    "id": "238",
+    "palavra": "Herói"
+  },
+  {
+    "id": "239",
+    "palavra": "Hoje"
+  },
+  {
+    "id": "240",
+    "palavra": "Homem"
+  },
+  {
+    "id": "241",
+    "palavra": "Honra"
+  },
+  {
+    "id": "242",
+    "palavra": "Hora"
+  },
+  {
+    "id": "243",
+    "palavra": "Hotel"
+  },
+  {
+    "id": "244",
+    "palavra": "Humano"
+  },
+  {
+    "id": "245",
+    "palavra": "Humor"
+  },
+  {
+    "id": "246",
+    "palavra": "Idade"
+  },
+  {
+    "id": "247",
+    "palavra": "Ideal"
+  },
+  {
+    "id": "248",
+    "palavra": "Idéia"
+  },
+  {
+    "id": "249",
+    "palavra": "Igreja"
+  },
+  {
+    "id": "250",
+    "palavra": "Igual"
+  },
+  {
+    "id": "251",
+    "palavra": "Ilha"
+  },
+  {
+    "id": "252",
+    "palavra": "Ilusão"
+  },
+  {
+    "id": "253",
+    "palavra": "Imagem"
+  },
+  {
+    "id": "254",
+    "palavra": "Imenso"
+  },
+  {
+    "id": "255",
+    "palavra": "Imitar"
+  },
+  {
+    "id": "256",
+    "palavra": "Inseto"
+  },
+  {
+    "id": "257",
+    "palavra": "Irmã"
+  },
+  {
+    "id": "258",
+    "palavra": "Irmão"
+  },
+  {
+    "id": "259",
+    "palavra": "Jacaré"
+  },
+  {
+    "id": "260",
+    "palavra": "Jato"
+  },
+  {
+    "id": "261",
+    "palavra": "Jeito"
+  },
+  {
+    "id": "262",
+    "palavra": "Jogar"
+  },
+  {
+    "id": "263",
+    "palavra": "Jogo"
+  },
+  {
+    "id": "264",
+    "palavra": "Jóia"
+  },
+  {
+    "id": "265",
+    "palavra": "Jovem"
+  },
+  {
+    "id": "266",
+    "palavra": "Juiz"
+  },
+  {
+    "id": "267",
+    "palavra": "Junto"
+  },
+  {
+    "id": "268",
+    "palavra": "Jurar"
+  },
+  {
+    "id": "269",
+    "palavra": "Juro"
+  },
+  {
+    "id": "270",
+    "palavra": "Justo"
+  },
+  {
+    "id": "271",
+    "palavra": "Laço"
+  },
+  {
+    "id": "272",
+    "palavra": "Lado"
+  },
+  {
+    "id": "273",
+    "palavra": "Lago"
+  },
+  {
+    "id": "274",
+    "palavra": "Lagoa"
+  },
+  {
+    "id": "275",
+    "palavra": "Lama"
+  },
+  {
+    "id": "276",
+    "palavra": "Lance"
+  },
+  {
+    "id": "277",
+    "palavra": "Largo"
+  },
+  {
+    "id": "278",
+    "palavra": "Lata"
+  },
+  {
+    "id": "279",
+    "palavra": "Latir"
+  },
+  {
+    "id": "280",
+    "palavra": "Lavar"
+  },
+  {
+    "id": "281",
+    "palavra": "Leão"
+  },
+  {
+    "id": "282",
+    "palavra": "Legal"
+  },
+  {
+    "id": "283",
+    "palavra": "Lei"
+  },
+  {
+    "id": "284",
+    "palavra": "Leite"
+  },
+  {
+    "id": "285",
+    "palavra": "Leito"
+  },
+  {
+    "id": "286",
+    "palavra": "Lenço"
+  },
+  {
+    "id": "287",
+    "palavra": "Lenha"
+  },
+  {
+    "id": "288",
+    "palavra": "Lento"
+  },
+  {
+    "id": "289",
+    "palavra": "Levar"
+  },
+  {
+    "id": "290",
+    "palavra": "Leve"
+  },
+  {
+    "id": "291",
+    "palavra": "Liga"
+  },
+  {
+    "id": "292",
+    "palavra": "Ligar"
+  },
+  {
+    "id": "293",
+    "palavra": "Limão"
+  },
+  {
+    "id": "294",
+    "palavra": "Limpo"
+  },
+  {
+    "id": "295",
+    "palavra": "Lindo"
+  },
+  {
+    "id": "296",
+    "palavra": "Linha"
+  },
+  {
+    "id": "297",
+    "palavra": "Liso"
+  },
+  {
+    "id": "298",
+    "palavra": "Lista"
+  },
+  {
+    "id": "299",
+    "palavra": "Lixo"
+  },
+  {
+    "id": "300",
+    "palavra": "Lobo"
+  },
+  {
+    "id": "301",
+    "palavra": "Loja"
+  },
+  {
+    "id": "302",
+    "palavra": "Luto"
+  },
+  {
+    "id": "303",
+    "palavra": "Luva"
+  },
+  {
+    "id": "304",
+    "palavra": "Luz"
+  },
+  {
+    "id": "305",
+    "palavra": "Maçã"
+  },
+  {
+    "id": "306",
+    "palavra": "Macaco"
+  },
+  {
+    "id": "307",
+    "palavra": "Macio"
+  },
+  {
+    "id": "308",
+    "palavra": "Mãe"
+  },
+  {
+    "id": "309",
+    "palavra": "Magia"
+  },
+  {
+    "id": "310",
+    "palavra": "Mago"
+  },
+  {
+    "id": "311",
+    "palavra": "Magro"
+  },
+  {
+    "id": "312",
+    "palavra": "Maio"
+  },
+  {
+    "id": "313",
+    "palavra": "Maior"
+  },
+  {
+    "id": "314",
+    "palavra": "Mais"
+  },
+  {
+    "id": "315",
+    "palavra": "Mala"
+  },
+  {
+    "id": "316",
+    "palavra": "Malas"
+  },
+  {
+    "id": "317",
+    "palavra": "Mamilo"
+  },
+  {
+    "id": "318",
+    "palavra": "Mana"
+  },
+  {
+    "id": "319",
+    "palavra": "Manada"
+  },
+  {
+    "id": "320",
+    "palavra": "Mancha"
+  },
+  {
+    "id": "321",
+    "palavra": "Mandar"
+  },
+  {
+    "id": "322",
+    "palavra": "Manga"
+  },
+  {
+    "id": "323",
+    "palavra": "Manhã"
+  },
+  {
+    "id": "324",
+    "palavra": "Mania"
+  },
+  {
+    "id": "325",
+    "palavra": "Manter"
+  },
+  {
+    "id": "326",
+    "palavra": "Mão"
+  },
+  {
+    "id": "327",
+    "palavra": "Mapa"
+  },
+  {
+    "id": "328",
+    "palavra": "Mar"
+  },
+  {
+    "id": "329",
+    "palavra": "Marca"
+  },
+  {
+    "id": "330",
+    "palavra": "Março"
+  },
+  {
+    "id": "331",
+    "palavra": "Maré"
+  },
+  {
+    "id": "332",
+    "palavra": "Massa"
+  },
+  {
+    "id": "333",
+    "palavra": "Mata"
+  },
+  {
+    "id": "334",
+    "palavra": "Matar"
+  },
+  {
+    "id": "335",
+    "palavra": "Mate"
+  },
+  {
+    "id": "336",
+    "palavra": "Mato"
+  },
+  {
+    "id": "337",
+    "palavra": "Mau"
+  },
+  {
+    "id": "338",
+    "palavra": "Média"
+  },
+  {
+    "id": "339",
+    "palavra": "Medir"
+  },
+  {
+    "id": "340",
+    "palavra": "Medo"
+  },
+  {
+    "id": "341",
+    "palavra": "Meia"
+  },
+  {
+    "id": "342",
+    "palavra": "Meigo"
+  },
+  {
+    "id": "343",
+    "palavra": "Meio"
+  },
+  {
+    "id": "344",
+    "palavra": "Mel"
+  },
+  {
+    "id": "345",
+    "palavra": "Melo"
+  },
+  {
+    "id": "346",
+    "palavra": "Menor"
+  },
+  {
+    "id": "347",
+    "palavra": "Menos"
+  },
+  {
+    "id": "348",
+    "palavra": "Menta"
+  },
+  {
+    "id": "349",
+    "palavra": "Mente"
+  },
+  {
+    "id": "350",
+    "palavra": "Nação"
+  },
+  {
+    "id": "351",
+    "palavra": "Nada"
+  },
+  {
+    "id": "352",
+    "palavra": "Nadar"
+  },
+  {
+    "id": "353",
+    "palavra": "Nana"
+  },
+  {
+    "id": "354",
+    "palavra": "Nanar"
+  },
+  {
+    "id": "355",
+    "palavra": "Não"
+  },
+  {
+    "id": "356",
+    "palavra": "Nariz"
+  },
+  {
+    "id": "357",
+    "palavra": "Natal"
+  },
+  {
+    "id": "358",
+    "palavra": "Naval"
+  },
+  {
+    "id": "359",
+    "palavra": "Navio"
+  },
+  {
+    "id": "360",
+    "palavra": "Nega"
+  },
+  {
+    "id": "361",
+    "palavra": "Negar"
+  },
+  {
+    "id": "362",
+    "palavra": "Negro"
+  },
+  {
+    "id": "363",
+    "palavra": "Ninho"
+  },
+  {
+    "id": "364",
+    "palavra": "Noite"
+  },
+  {
+    "id": "365",
+    "palavra": "Noiva"
+  },
+  {
+    "id": "366",
+    "palavra": "Noivo"
+  },
+  {
+    "id": "367",
+    "palavra": "Nome"
+  },
+  {
+    "id": "368",
+    "palavra": "Norte"
+  },
+  {
+    "id": "369",
+    "palavra": "Nossa"
+  },
+  {
+    "id": "370",
+    "palavra": "Nosso"
+  },
+  {
+    "id": "371",
+    "palavra": "Nota"
+  },
+  {
+    "id": "372",
+    "palavra": "Notar"
+  },
+  {
+    "id": "373",
+    "palavra": "Nova"
+  },
+  {
+    "id": "374",
+    "palavra": "Novas"
+  },
+  {
+    "id": "375",
+    "palavra": "Nove"
+  },
+  {
+    "id": "376",
+    "palavra": "Novo"
+  },
+  {
+    "id": "377",
+    "palavra": "Nua"
+  },
+  {
+    "id": "378",
+    "palavra": "Nuca"
+  },
+  {
+    "id": "379",
+    "palavra": "Numa"
+  },
+  {
+    "id": "380",
+    "palavra": "Nunca"
+  },
+  {
+    "id": "381",
+    "palavra": "Nuvem"
+  },
+  {
+    "id": "382",
+    "palavra": "Óleo"
+  },
+  {
+    "id": "383",
+    "palavra": "Olhar"
+  },
+  {
+    "id": "384",
+    "palavra": "Olho"
+  },
+  {
+    "id": "385",
+    "palavra": "Ombro"
+  },
+  {
+    "id": "386",
+    "palavra": "Onda"
+  },
+  {
+    "id": "387",
+    "palavra": "Ouro"
+  },
+  {
+    "id": "388",
+    "palavra": "Ovo"
+  },
+  {
+    "id": "389",
+    "palavra": "Pacote"
+  },
+  {
+    "id": "390",
+    "palavra": "Pagar"
+  },
+  {
+    "id": "391",
+    "palavra": "Pai"
+  },
+  {
+    "id": "392",
+    "palavra": "País"
+  },
+  {
+    "id": "393",
+    "palavra": "Palco"
+  },
+  {
+    "id": "394",
+    "palavra": "Palma"
+  },
+  {
+    "id": "395",
+    "palavra": "Palmo"
+  },
+  {
+    "id": "396",
+    "palavra": "Pano"
+  },
+  {
+    "id": "397",
+    "palavra": "Pão"
+  },
+  {
+    "id": "398",
+    "palavra": "Papai"
+  },
+  {
+    "id": "399",
+    "palavra": "Papel"
+  },
+  {
+    "id": "400",
+    "palavra": "Par"
+  },
+  {
+    "id": "401",
+    "palavra": "Para"
+  },
+  {
+    "id": "402",
+    "palavra": "Raça"
+  },
+  {
+    "id": "403",
+    "palavra": "Racha"
+  },
+  {
+    "id": "404",
+    "palavra": "Rachar"
+  },
+  {
+    "id": "405",
+    "palavra": "Radar"
+  },
+  {
+    "id": "406",
+    "palavra": "Rádio"
+  },
+  {
+    "id": "407",
+    "palavra": "Raio"
+  },
+  {
+    "id": "408",
+    "palavra": "Raiva"
+  },
+  {
+    "id": "409",
+    "palavra": "Raiz"
+  },
+  {
+    "id": "410",
+    "palavra": "Ralar"
+  },
+  {
+    "id": "411",
+    "palavra": "Ralo"
+  },
+  {
+    "id": "412",
+    "palavra": "Rama"
+  },
+  {
+    "id": "413",
+    "palavra": "Ramal"
+  },
+  {
+    "id": "414",
+    "palavra": "Ramo"
+  },
+  {
+    "id": "415",
+    "palavra": "Rampa"
+  },
+  {
+    "id": "416",
+    "palavra": "Raro"
+  },
+  {
+    "id": "417",
+    "palavra": "Rasgo"
+  },
+  {
+    "id": "418",
+    "palavra": "Raso"
+  },
+  {
+    "id": "419",
+    "palavra": "Rato"
+  },
+  {
+    "id": "420",
+    "palavra": "Razão"
+  },
+  {
+    "id": "421",
+    "palavra": "Real"
+  },
+  {
+    "id": "422",
+    "palavra": "Sábado"
+  },
+  {
+    "id": "423",
+    "palavra": "Sabão"
+  },
+  {
+    "id": "424",
+    "palavra": "Saber"
+  },
+  {
+    "id": "425",
+    "palavra": "Sabiá"
+  },
+  {
+    "id": "426",
+    "palavra": "Sabor"
+  },
+  {
+    "id": "427",
+    "palavra": "Sabotar"
+  },
+  {
+    "id": "428",
+    "palavra": "Saca"
+  },
+  {
+    "id": "429",
+    "palavra": "Sacar"
+  },
+  {
+    "id": "430",
+    "palavra": "Sacola"
+  },
+  {
+    "id": "431",
+    "palavra": "Sereia"
+  },
+  {
+    "id": "432",
+    "palavra": "Seriar"
+  },
+  {
+    "id": "433",
+    "palavra": "Série"
+  },
+  {
+    "id": "434",
+    "palavra": "Sério"
+  },
+  {
+    "id": "435",
+    "palavra": "Sermão"
+  },
+  {
+    "id": "436",
+    "palavra": "Serra"
+  },
+  {
+    "id": "437",
+    "palavra": "Serrar"
+  },
+  {
+    "id": "438",
+    "palavra": "Sertão"
+  },
+  {
+    "id": "439",
+    "palavra": "Seta"
+  },
+  {
+    "id": "440",
+    "palavra": "Sete"
+  },
+  {
+    "id": "441",
+    "palavra": "Setor"
+  },
+  {
+    "id": "442",
+    "palavra": "Seu"
+  },
+  {
+    "id": "443",
+    "palavra": "Severo"
+  },
+  {
+    "id": "444",
+    "palavra": "Sexo"
+  },
+  {
+    "id": "445",
+    "palavra": "Sexta"
+  },
+  {
+    "id": "446",
+    "palavra": "Sexto"
+  },
+  {
+    "id": "447",
+    "palavra": "Siga"
+  },
+  {
+    "id": "448",
+    "palavra": "Sigla"
+  },
+  {
+    "id": "449",
+    "palavra": "Signo"
+  },
+  {
+    "id": "450",
+    "palavra": "Silva"
+  },
+  {
+    "id": "451",
+    "palavra": "Sinal"
+  },
+  {
+    "id": "452",
+    "palavra": "Sineta"
+  },
+  {
+    "id": "453",
+    "palavra": "Sino"
+  },
+  {
+    "id": "454",
+    "palavra": "Taco"
+  },
+  {
+    "id": "455",
+    "palavra": "Tampa"
+  },
+  {
+    "id": "456",
+    "palavra": "Tarde"
+  },
+  {
+    "id": "457",
+    "palavra": "Tela"
+  },
+  {
+    "id": "458",
+    "palavra": "Tema"
+  },
+  {
+    "id": "459",
+    "palavra": "Tempo"
+  },
+  {
+    "id": "460",
+    "palavra": "Terno"
+  },
+  {
+    "id": "461",
+    "palavra": "Terra"
+  },
+  {
+    "id": "462",
+    "palavra": "Teste"
+  },
+  {
+    "id": "463",
+    "palavra": "Teto"
+  },
+  {
+    "id": "464",
+    "palavra": "Teu"
+  },
+  {
+    "id": "465",
+    "palavra": "Tigre"
+  },
+  {
+    "id": "466",
+    "palavra": "Timão"
+  },
+  {
+    "id": "467",
+    "palavra": "Tinta"
+  },
+  {
+    "id": "468",
+    "palavra": "Tio"
+  },
+  {
+    "id": "469",
+    "palavra": "Tipo"
+  },
+  {
+    "id": "470",
+    "palavra": "Tirar"
+  },
+  {
+    "id": "471",
+    "palavra": "Tiro"
+  },
+  {
+    "id": "472",
+    "palavra": "Toca"
+  },
+  {
+    "id": "473",
+    "palavra": "Tocar"
+  },
+  {
+    "id": "474",
+    "palavra": "Tocha"
+  },
+  {
+    "id": "475",
+    "palavra": "Todo"
+  },
+  {
+    "id": "476",
+    "palavra": "Tom"
+  },
+  {
+    "id": "477",
+    "palavra": "Topo"
+  },
+  {
+    "id": "478",
+    "palavra": "Toque"
+  },
+  {
+    "id": "479",
+    "palavra": "Torre"
+  },
+  {
+    "id": "480",
+    "palavra": "Torto"
+  },
+  {
+    "id": "481",
+    "palavra": "Total"
+  },
+  {
+    "id": "482",
+    "palavra": "Touca"
+  },
+  {
+    "id": "483",
+    "palavra": "Touro"
+  },
+  {
+    "id": "484",
+    "palavra": "Traço"
+  },
+  {
+    "id": "485",
+    "palavra": "Trair"
+  },
+  {
+    "id": "486",
+    "palavra": "Traje"
+  },
+  {
+    "id": "487",
+    "palavra": "Trame"
+  },
+  {
+    "id": "488",
+    "palavra": "Trapo"
+  },
+  {
+    "id": "489",
+    "palavra": "Trás"
+  },
+  {
+    "id": "490",
+    "palavra": "Trato"
+  },
+  {
+    "id": "491",
+    "palavra": "Trava"
+  },
+  {
+    "id": "492",
+    "palavra": "Trem"
+  },
+  {
+    "id": "493",
+    "palavra": "Tremo"
+  },
+  {
+    "id": "494",
+    "palavra": "Três"
+  },
+  {
+    "id": "495",
+    "palavra": "Treva"
+  },
+  {
+    "id": "496",
+    "palavra": "Tribo"
+  },
+  {
+    "id": "497",
+    "palavra": "Trigo"
+  },
+  {
+    "id": "498",
+    "palavra": "Trio"
+  },
+  {
+    "id": "499",
+    "palavra": "Troca"
+  },
+  {
+    "id": "500",
+    "palavra": "Troco"
+  },
+  {
+    "id": "501",
+    "palavra": "Trono"
+  },
+  {
+    "id": "502",
+    "palavra": "Tudo"
+  },
+  {
+    "id": "503",
+    "palavra": "Unha"
+  },
+  {
+    "id": "504",
+    "palavra": "Unir"
+  },
+  {
+    "id": "505",
+    "palavra": "Urso"
+  },
+  {
+    "id": "506",
+    "palavra": "Usar"
+  },
+  {
+    "id": "507",
+    "palavra": "Uso"
+  },
+  {
+    "id": "508",
+    "palavra": "Útil"
+  },
+  {
+    "id": "509",
+    "palavra": "Uva"
+  },
+  {
+    "id": "510",
+    "palavra": "Vaca"
+  },
+  {
+    "id": "511",
+    "palavra": "Vaga"
+  },
+  {
+    "id": "512",
+    "palavra": "Vagão"
+  },
+  {
+    "id": "513",
+    "palavra": "Vagar"
+  },
+  {
+    "id": "514",
+    "palavra": "Vago"
+  },
+  {
+    "id": "515",
+    "palavra": "Vaia"
+  },
+  {
+    "id": "516",
+    "palavra": "Vaiar"
+  },
+  {
+    "id": "517",
+    "palavra": "Vale"
+  },
+  {
+    "id": "518",
+    "palavra": "Valer"
+  },
+  {
+    "id": "519",
+    "palavra": "Valia"
+  },
+  {
+    "id": "520",
+    "palavra": "Valor"
+  },
+  {
+    "id": "521",
+    "palavra": "Valsa"
+  },
+  {
+    "id": "522",
+    "palavra": "Vão"
+  },
+  {
+    "id": "523",
+    "palavra": "Vapor"
+  },
+  {
+    "id": "524",
+    "palavra": "Vara"
+  },
+  {
+    "id": "525",
+    "palavra": "Varal"
+  },
+  {
+    "id": "526",
+    "palavra": "Varar"
+  },
+  {
+    "id": "527",
+    "palavra": "Vaso"
+  },
+  {
+    "id": "528",
+    "palavra": "Vasto"
+  },
+  {
+    "id": "529",
+    "palavra": "Vazar"
+  },
+  {
+    "id": "530",
+    "palavra": "Vazio"
+  },
+  {
+    "id": "531",
+    "palavra": "Veado"
+  },
+  {
+    "id": "532",
+    "palavra": "Veia"
+  },
+  {
+    "id": "533",
+    "palavra": "Vela"
+  },
+  {
+    "id": "534",
+    "palavra": "Velar"
+  },
+  {
+    "id": "535",
+    "palavra": "Velha"
+  },
+  {
+    "id": "536",
+    "palavra": "Velho"
+  },
+  {
+    "id": "537",
+    "palavra": "Veloz"
+  },
+  {
+    "id": "538",
+    "palavra": "Vem"
+  },
+  {
+    "id": "539",
+    "palavra": "Venda"
+  },
+  {
+    "id": "540",
+    "palavra": "Vento"
+  },
+  {
+    "id": "541",
+    "palavra": "Ver"
+  },
+  {
+    "id": "542",
+    "palavra": "Verão"
+  },
+  {
+    "id": "543",
+    "palavra": "Verba"
+  },
+  {
+    "id": "544",
+    "palavra": "Verde"
+  },
+  {
+    "id": "545",
+    "palavra": "Verme"
+  },
+  {
+    "id": "546",
+    "palavra": "Verso"
+  },
+  {
+    "id": "547",
+    "palavra": "Vesta"
+  },
+  {
+    "id": "548",
+    "palavra": "Vetar"
+  },
+  {
+    "id": "549",
+    "palavra": "Veto"
+  },
+  {
+    "id": "550",
+    "palavra": "Vetor"
+  },
+  {
+    "id": "551",
+    "palavra": "Véu"
+  },
+  {
+    "id": "552",
+    "palavra": "Via"
+  },
+  {
+    "id": "553",
+    "palavra": "Vice"
+  },
+  {
+    "id": "554",
+    "palavra": "Vida"
+  },
+  {
+    "id": "555",
+    "palavra": "Vidro"
+  },
+  {
+    "id": "556",
+    "palavra": "Viela"
+  },
+  {
+    "id": "557",
+    "palavra": "Viga"
+  },
+  {
+    "id": "558",
+    "palavra": "Vigor"
+  },
+  {
+    "id": "559",
+    "palavra": "Vila"
+  },
+  {
+    "id": "560",
+    "palavra": "Vilão"
+  },
+  {
+    "id": "561",
+    "palavra": "Vinco"
+  },
+  {
+    "id": "562",
+    "palavra": "Vinha"
+  },
+  {
+    "id": "563",
+    "palavra": "Vinho"
+  },
+  {
+    "id": "564",
+    "palavra": "Vinte"
+  },
+  {
+    "id": "565",
+    "palavra": "Viola"
+  },
+  {
+    "id": "566",
+    "palavra": "Vir"
+  },
+  {
+    "id": "567",
+    "palavra": "Vira"
+  },
+  {
+    "id": "568",
+    "palavra": "Visão"
+  },
+  {
+    "id": "569",
+    "palavra": "Visar"
+  },
+  {
+    "id": "570",
+    "palavra": "Visco"
+  },
+  {
+    "id": "571",
+    "palavra": "Visor"
+  },
+  {
+    "id": "572",
+    "palavra": "Vista"
+  },
+  {
+    "id": "573",
+    "palavra": "Visto"
+  },
+  {
+    "id": "574",
+    "palavra": "Vital"
+  },
+  {
+    "id": "575",
+    "palavra": "Viúva"
+  },
+  {
+    "id": "576",
+    "palavra": "Viúvo"
+  },
+  {
+    "id": "577",
+    "palavra": "Viver"
+  },
+  {
+    "id": "578",
+    "palavra": "Vivo"
+  },
+  {
+    "id": "579",
+    "palavra": "Voar"
+  },
+  {
+    "id": "580",
+    "palavra": "Vocal"
+  },
+  {
+    "id": "581",
+    "palavra": "Você"
+  },
+  {
+    "id": "582",
+    "palavra": "Volta"
+  },
+  {
+    "id": "583",
+    "palavra": "Volte"
+  },
+  {
+    "id": "584",
+    "palavra": "Voo"
+  },
+  {
+    "id": "585",
+    "palavra": "Voraz"
+  },
+  {
+    "id": "586",
+    "palavra": "Vosso"
+  },
+  {
+    "id": "587",
+    "palavra": "Voto"
+  },
+  {
+    "id": "588",
+    "palavra": "Voz"
+  },
+  {
+    "id": "589",
+    "palavra": "Xale"
+  },
+  {
+    "id": "590",
+    "palavra": "Xampu"
+  },
+  {
+    "id": "591",
+    "palavra": "Xará"
+  },
+  {
+    "id": "592",
+    "palavra": "Xis"
+  },
+  {
+    "id": "593",
+    "palavra": "Xodó"
+  },
+  {
+    "id": "594",
+    "palavra": "Xote"
+  },
+  {
+    "id": "595",
+    "palavra": "Zanga"
+  },
+  {
+    "id": "596",
+    "palavra": "Zelar"
+  },
+  {
+    "id": "597",
+    "palavra": "Zelo"
+  },
+  {
+    "id": "598",
+    "palavra": "Zero"
+  },
+  {
+    "id": "599",
+    "palavra": "Zoar"
+  },
+  {
+    "id": "600",
+    "palavra": "Zona"
+  }
+]
